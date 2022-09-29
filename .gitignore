@@ -13,6 +13,7 @@
 # Example code in package build process
 *-Ex.R
 *write-test*
+docs/.*
 
 # Output files from R CMD build
 /*.tar.gz

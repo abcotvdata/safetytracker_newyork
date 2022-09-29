@@ -301,13 +301,21 @@ murderpal2 <- colorBin(c("#99a0a5",
 # Create labels for murders map
 murderlabel <- paste(sep="",
                      "<popuptitle>",
-                     murders_beat$last12mos,
-                     " homicides </popuptitle><br>",
-                     " in the last 12 months in the area including <b>",
-                     murders_beat$placename,
-                     "</b>, home to an estimated ",
+                     murders_beat$yeartodate2022,
+                     ifelse(murders_beat$yeartodate2022==1,
+                            " homicide", " homicides"),
+                     "</popuptitle><br>so far this year in <b>Precinct ",
+                     murders_beat$precinct,
+                     "</b>, home to about ",
                      prettyNum(murders_beat$population, big.mark=","),
-                     " people.
+                     " people. That's ",
+                     case_when(murders_beat$yeartodate2022>
+                              murders_beat$yeartodate2021 ~ "up from ",
+                     murders_beat$yeartodate2022<
+                              murders_beat$yeartodate2021 ~ "down from ",
+                     TRUE ~ "the same as the "),
+                     murders_beat$yeartodate2021,
+                     " at this point in 2021. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
 <br>
 <table>      
       <tr>

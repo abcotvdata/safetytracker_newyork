@@ -202,10 +202,6 @@ nyc_population <- 8804190
 ```{r crimedata, include=FALSE}
 # Source data pre-processed separately at 
 # process_newyork_crime_data.R
-deaths <- readRDS("scripts/rds/death_rates.rds")
-deaths <- deaths %>% filter(state=="NY")
-deaths$Homicide <- murders_city$rate_last12
-write_csv(deaths,"data/source/health/death_rates.csv")
 ```
 
 <h2>Eyewitness News is tracking crime and safety across New York City and in your neighborhood. 
@@ -259,7 +255,7 @@ During the pandemic, a person's chance of being murdered in New York rose to alm
 OPEN WORK TO REPLACE THIS CHART 
 fatal crash rate is 2.9 per 100K in NYC in 2021 -->
 
-<iframe title="" aria-label="Dot Plot" id="datawrapper-chart-9SHHa" src="https://datawrapper.dwcdn.net/9SHHa/15/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="146" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+<iframe title="Risk of homicide in New York City vs. other causes of death" aria-label="Dot Plot" id="datawrapper-chart-lTZDS" src="https://datawrapper.dwcdn.net/lTZDS/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="342" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
 <br>
 

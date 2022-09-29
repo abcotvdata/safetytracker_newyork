@@ -21,9 +21,9 @@ library(sf)
 ```{css, echo=FALSE}
 
 h1.title {
-  background-image: url('https://abcotvdata.github.io/safetytracker_houston/skyline1.png');
+  background-image: url('https://abcotvdata.github.io/safetytracker_newyork/skyline2.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 110%;
 }
 
 div {

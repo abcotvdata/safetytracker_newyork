@@ -22,7 +22,7 @@ library(sf)
 
 
 h1.title {
-  background-image: url('https://abcotvdata.github.io/safetytracker_newyork/skyline2.png');
+  background-image: url('https://abcotvdata.github.io/safetytracker_newyork/skyline1.png');
   background-repeat: no-repeat;
   background-size: 110%;
 }
@@ -202,6 +202,10 @@ nyc_population <- 8804190
 ```{r crimedata, include=FALSE}
 # Source data pre-processed separately at 
 # process_newyork_crime_data.R
+deaths <- readRDS("scripts/rds/death_rates.rds")
+deaths <- deaths %>% filter(state=="NY")
+deaths$Homicide <- murders_city$rate_last12
+write_csv(deaths,"data/source/health/death_rates.csv")
 ```
 
 <h2>Eyewitness News is tracking crime and safety across New York City and in your neighborhood. 

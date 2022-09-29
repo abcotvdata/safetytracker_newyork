@@ -294,13 +294,13 @@ citywide_crime$rate_prior3years <-
 
 # Now make individual crime files for trackers
 # filter precinct versions - using beat for code consistency
-murders_beat <- precinct_crime %>% filter(crime=="Murder")
-sexassaults_beat <- precinct_crime %>% filter(crime=="Rape")
-robberies_beat <- precinct_crime %>% filter(crime=="Robbery")
-assaults_beat <- precinct_crime %>% filter(crime=="Felony Assault")
-burglaries_beat <- precinct_crime %>% filter(crime=="Burglary")
-larcenies_beat <- precinct_crime %>% filter(crime=="Grand Larceny")
-autothefts_beat <- precinct_crime %>% filter(crime=="Motor Vehicle Theft")
+murders_beat <- precinct_crime %>% filter(crime=="Murder" & precinct!="DOC")
+sexassaults_beat <- precinct_crime %>% filter(crime=="Rape" & precinct!="DOC")
+robberies_beat <- precinct_crime %>% filter(crime=="Robbery" & precinct!="DOC")
+assaults_beat <- precinct_crime %>% filter(crime=="Felony Assault" & precinct!="DOC")
+burglaries_beat <- precinct_crime %>% filter(crime=="Burglary" & precinct!="DOC")
+larcenies_beat <- precinct_crime %>% filter(crime=="Grand Larceny" & precinct!="DOC")
+autothefts_beat <- precinct_crime %>% filter(crime=="Motor Vehicle Theft" & precinct!="DOC")
 # filter citywide versions
 murders_city <- citywide_crime %>% filter(crime=="Murder")
 sexassaults_city <- citywide_crime %>% filter(crime=="Rape")
@@ -309,6 +309,12 @@ assaults_city <- citywide_crime %>% filter(crime=="Felony Assault")
 burglaries_city <- citywide_crime %>% filter(crime=="Burglary")
 larcenies_city <- citywide_crime %>% filter(crime=="Grand Larceny")
 autothefts_city <- citywide_crime %>% filter(crime=="Motor Vehicle Theft")
+
+# make the death rate comparables file unique to this state
+deaths <- read_excel("data/source/health/deaths.xlsx") 
+deaths <- deaths %>% filter(state=="NY")
+deaths$Homicide <- murders_city$rate_last12
+write_csv(deaths,"data/source/health/death_rates.csv")
 
 #### 
 # Archive latest files as csv and rds store for use in trackers

@@ -338,4 +338,11 @@ saveRDS(burglaries_city,"scripts/rds/burglaries_city.rds")
 saveRDS(larcenies_city,"scripts/rds/larcenies_city.rds")
 saveRDS(autothefts_city,"scripts/rds/autothefts_city.rds")
 
-
+### Some tables for charts for our pages
+murders_beat %>% st_drop_geometry() %>% select(1,6:27,35) %>% write_csv("data/output/yearly/murders_beat.csv")
+sexassaults_beat %>% st_drop_geometry() %>% select(1,6:27,35) %>%  write_csv("data/output/yearly/sexassaults_beat.csv")
+autothefts_beat %>% st_drop_geometry() %>% select(1,6:27,35) %>%  write_csv("data/output/yearly/autothefts_beat.csv")
+larcenies_beat %>% st_drop_geometry() %>% select(1,6:27,35) %>%  write_csv("data/output/yearly/larcenies_beat.csv")
+burglaries_beat %>% st_drop_geometry() %>% select(1,6:27,35) %>%  write_csv("data/output/yearly/burglaries_beat.csv")
+robberies_beat %>% st_drop_geometry() %>% select(1,6:27,35) %>%  write_csv("data/output/yearly/robberies_beat.csv")
+assaults_beat %>% st_drop_geometry() %>% select(1,6:27,35) %>%  write_csv("data/output/yearly/assaults_beat.csv")

@@ -214,7 +214,7 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker.html">Homicides</option>
 <option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_Robberies.html">Robberies</option>
 <option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_SexualAssaults.html">Sexual Assaults</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_Thefts.html">Thefts</option>
+<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_Larcenies.html">Grand Larcenies</option>
 </select></h2>
 
 <div class="cardContainer">
@@ -278,9 +278,9 @@ You can click any neighborhood to see detailed numbers or the buttons at the bot
 # Set bins for numbers of crimes for murders map
 murderbins1 <- c(0,
                 2,
-                3,
                 5,
                 10,
+                20,
                 50)
 murderbins2 <- c(0,
                 1,

@@ -1,0 +1,432 @@
+---
+title: "Neighborhood<br>Safety Tracker"
+# author: "John Kelly"
+date: "Updated `r format(Sys.time(), '%B %d, %Y')` by the ABC7 Data Team"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE)
+library(tidyverse)
+library(leaflet)
+library(leaflet.extras)
+library(leaflet.providers)
+library(htmlwidgets)
+library(htmltools)
+library(sf)
+
+```
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+```{css, echo=FALSE}
+
+
+h1.title {
+  background-image: url('https://abcotvdata.github.io/safetytracker_newyork/skyline1.png');
+  background-repeat: no-repeat;
+  background-size: 110%;
+}
+
+div {
+  padding: 0.25em;
+}
+
+h1.title {
+  font-family: roboto;
+  color: white;
+  font-weight: 700;
+  text-align: left;
+  font-size: 36px;
+  padding: 10px;
+}
+
+.date {
+  font-family: roboto;
+  color: black;
+  font-weight: 300;
+  text-align: left;
+  font-size: 10px;
+    padding: 5px;
+}
+
+select {
+  margin: 0px;
+  width: 180px;
+  color: #00318b;
+  padding: 5px 35px 5px 5px;
+    font-family: roboto;
+  font-size: 18px;
+  font-weight: 900;
+  border: 0px;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Arrow-down.svg) 96% / 15% no-repeat #f2f2f2;
+}
+
+h1 {
+  font-family: roboto;
+  color: black;
+  font-weight: bolder;
+  text-align: left;
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: roboto;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 2;
+}
+
+bignumber {
+  font-family: roboto;
+  color: #00318b;
+  font-weight: 900;
+  text-align: center;
+  font-size: 60px;
+    line-height: 65px;
+  height: 65px;
+    margin-top: 0;
+  margin-bottom: 0;
+}
+
+subhead {
+  font-family: roboto;
+  color: black;
+  font-weight: 700;
+  text-align: left;
+  font-size: 20px;
+    padding: 0px;
+}
+
+body {
+  color: black;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+popuptitle {
+  color: #00318b;
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: left;
+}
+
+popupchatter {
+  font-family: roboto;
+  color: black;
+  font-weight: 300;
+  text-align: left;
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 2;
+}
+
+h8 {
+  color: #00318b;
+  font-family: roboto;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+table {
+  font-family: roboto;
+  width: 100%;
+}
+
+tr {
+  border-bottom: thin solid #99a0a5;
+}
+  
+td {
+  text-align: right;
+  padding: 1px;
+}
+
+th {
+  text-align: right;
+  padding: 1px;
+}
+  
+   * {
+      box-sizing: border-box;
+   }
+   .card {
+      color: white;
+      float: left;
+      width: calc(25% - 10px);
+      padding: 5px;
+      border-radius: 10px;
+      margin-left: 3px;
+      margin-right: 3px;
+      margin-top: 3px;
+      margin-bottom: 3px;
+      height: 100%;
+   }
+   .card p {
+   font-family: roboto;
+   text-align: center;
+   font-size: 14px;
+  margin-bottom: 0;
+   }
+   .cardContainer:after {
+      content: "";
+      display: table;
+      clear: both;
+   }
+   @media screen and (max-width: 650px) {
+      .card {
+         width: 100%;
+      }
+      h1.title {
+        font-size: 22px;
+      }
+   }
+```
+
+```{r beats, include=FALSE}
+# set value of nyc_population
+nyc_population <- 8804190
+```
+
+
+```{r crimedata, include=FALSE}
+# Source data pre-processed separately at 
+# process_newyork_crime_data.R
+```
+
+<h2>Eyewitness News is tracking crime and safety across New York City and in your neighborhood. 
+
+You can choose which crime to explore: <select onchange="window.location=this.value">
+<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_Larcenies.html">Grand Larcenies</option>
+<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_Assaults.html">Assaults</option>
+<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_AutoThefts.html">Auto Thefts</option>
+<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_Burglaries.html">Burglaries</option>
+<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker.html">Homicides</option>
+<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_Robberies.html">Robberies</option>
+<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_SexualAssaults.html">Sexual Assaults</option>
+
+</select></h2>
+
+<div class="cardContainer">
+<div class="card" style="background-color:#99a0a5;">
+<p>Grand Larcenies<br>
+<bignumber>`r prettyNum(larcenies_city$yeartodate2022, big.mark=",")`<br></bignumber>
+<p>Year To Date<br>Through `r format((Sys.Date() - 4), "%B %d")`</p>
+</div>
+<div class="card" style="background-color:#99a0a5;">
+<p>Average Grand Larcenies<br>
+<bignumber>`r larcenies_city$yeartodate2021`<br></bignumber>
+<p>Year To Date<br>Same Period in 2021</p>
+</div>
+<div class="card" style="background-color:#99a0a5;">
+<p>Grand Larceny Rate<br>
+<bignumber>`r larcenies_city$rate_last12`<br></bignumber><p>
+Per 100,000 people<br>Last 12 months</p>
+</div>
+<div class="card" style="background-color:#99a0a5;">
+<p>Average Grand Larceny Rate<br>
+<bignumber>`r larcenies_city$rate_prior3years`<br></bignumber><p>
+Per 100,000 people<br>2019 to 2021</p>
+</div>
+</div>
+<br>
+Grand larcenies so far this year are trending <h8>`r ifelse(larcenies_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(larcenies_city$yeartodate_pct_change>=0,larcenies_city$yeartodate_pct_change,substring(larcenies_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2021.
+
+However, the larceny rate over the last 12 months is<h8>`r ifelse((larcenies_city$last12mos-larcenies_city$avg_prior3years)>=0," up"," down")`</h8> compared to the annual average over the last three years.
+
+The city is averaging <h8>`r round(larcenies_city$last12mos/52,0)`</h8> larcenies a week over the last 12 months. In 2019, that number was <h8>`r round(larcenies_city$total19/52,0)`</h8> a week.
+
+The risk is not the same neighborhood to neighborhood.
+
+ABC7's data team looked at the New York Police Department's data by neighborhood from 2019 through `r format((Sys.Date() - 4), "%B %d")`.
+
+<subhead>A closer look at grand larceny by neighborhood</subhead>
+
+The map color-codes each neighborhood by the grand larceny rate over the last 12 months. Darker blue areas are neighborhoods where the larceny rate is higher than the citywide rate.
+
+You can click any neighborhood to see detailed numbers or the buttons at the bottom of the map to switch between numbers and rates. You can search for a street, place, landmark or zip code to zoom to that location.
+
+<br>
+```{r cars, echo=FALSE,out.width='100%',out.height='800'}
+# LARCENIES MAP
+
+# Set bins for numbers of crimes for larcenies map
+larceniesbins1 <- c(0,
+                250,
+                500,
+                1000,
+                2000,
+                10000)
+larceniesbins2 <- c(0,
+                250,
+                500,
+                750,
+                1000,
+                3000)
+larceniespal1 <- colorBin(c("#99a0a5",
+                             "#2787d6",
+                             "#0058f6",
+                             "#003ca6",
+                             "#00215c"), larcenies_beat$rate_last12, bins = larceniesbins1,na.color = "#51585f")
+
+larceniespal2 <- colorBin(c("#99a0a5",
+                             "#2787d6",
+                             "#0058f6",
+                             "#003ca6",
+                             "#00215c"), larcenies_beat$last12mos, bins = larceniesbins2,na.color = "#51585f")
+
+                            
+# Create labels for larcenies map
+larcenieslabel <- paste(sep="",
+                     "<popuptitle>",
+                     larcenies_beat$yeartodate2022,
+                     ifelse(larcenies_beat$yeartodate2022==1,
+                            " grand larceny", " grand larcenies"),
+                     "</popuptitle><br>so far this year in <b>Precinct ",
+                     larcenies_beat$precinct,
+                     "</b>, home to about ",
+                     prettyNum(larcenies_beat$population, big.mark=","),
+                     " people. That's ",
+                     case_when(larcenies_beat$yeartodate2022>
+                              larcenies_beat$yeartodate2021 ~ "up from ",
+                     larcenies_beat$yeartodate2022<
+                              larcenies_beat$yeartodate2021 ~ "down from ",
+                     TRUE ~ "the same as the "),
+                     larcenies_beat$yeartodate2021,
+                     " at this point in 2021. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
+<br>
+<table>      
+      <tr>
+				<th></th>
+				<th>Total</th>
+				<th>Rate</th>
+			</tr>
+			<tr>
+				<td>2019</td>
+				<td>",
+larcenies_beat$total19,
+"</td>
+				<td>",
+larcenies_beat$rate19,
+"</td>
+			</tr>
+			<tr>
+				<td>2020</td>
+				<td>",
+larcenies_beat$total20,
+"</td>
+				<td>",
+larcenies_beat$rate20,
+"</td>
+			</tr>
+						<tr>
+				<td>2021</td>
+				<td>",
+larcenies_beat$total21,
+"</td>
+				<td>",
+larcenies_beat$rate21,
+"</td>
+			</tr>
+						<tr>
+				<td>Last 12 months</td>
+				<td>",
+larcenies_beat$last12mos,
+"</td>
+				<td>",
+larcenies_beat$rate_last12,
+"</td>
+			</tr>
+						<tr>
+				<td>3-year Average</td>
+				<td>",
+larcenies_beat$avg_prior3years,
+"</td>
+				<td>",
+larcenies_beat$rate_prior3years,
+"</td>
+			</tr>
+</table>")
+
+
+# Creating police beats map for types of crimes
+newyork_larcenies_map <- leaflet(larcenies_beat, options = leafletOptions(zoomControl = FALSE, zoomSnap = 0.5, zoomDelta=0.5)) %>%
+  htmlwidgets::onRender("function(el, x) {
+L.control.zoom({ position: 'topright' }).addTo(this)
+}") %>%
+  setView(-73.9, 40.75, zoom = 11) %>% 
+  addProviderTiles(provider = "CartoDB.Positron") %>%
+  addPolygons(color = "white", 
+              popup = larcenieslabel,
+              popupOptions = popupOptions(maxWidth ="200", 
+                                          minWidth ="200"),
+              weight = 2, 
+              smoothFactor = 0.5,
+              opacity = 0.6, 
+              fillOpacity = 0.6,
+              fillColor = ~larceniespal1(rate_last12),
+              group="Rate") %>% 
+    addPolygons(color = "white", 
+              popup = larcenieslabel,
+              popupOptions = popupOptions(maxWidth ="200", 
+                                          minWidth ="200"),
+              weight = 2, 
+              smoothFactor = 0.5,
+              opacity = 0.6, 
+              fillOpacity = 0.6,
+              fillColor = ~larceniespal2(last12mos),
+              group="Number") %>% 
+  addSearchOSM(options = searchOptions(autoCollapse=FALSE, minLength = 3,zoom=13, position="topleft")) %>%
+    onRender("function(el, x) {
+        $('input.search-input')[0].placeholder = 'Search street, place or zip code'
+        }") %>%
+  addLegend(opacity = 0.6,
+            values = larcenies_beat$rate_last12, 
+            pal = larceniespal1,
+            position = "bottomleft", 
+            title = paste(sep="","<popuptitle>Grand Larceny Rate<br><popupchatter>Grand Larcenies/100K people<br>Citywide: ",larcenies_city$rate_last12),
+            group = "Rate",
+            className = "info legend Rate") %>%
+  addLegend(opacity = 0.6,
+            values = larcenies_beat$last12mos, 
+            pal = larceniespal2,
+            position = "bottomleft", 
+            title = paste(sep="","<popuptitle>Grand Larcenies<br><popupchatter>Total Citywide: ",larcenies_city$last12mos),
+            group = "Number",
+            className = "info legend Number") %>%
+  addLayersControl(
+    baseGroups = c("Rate","Number"),
+    options = layersControlOptions(collapsed = FALSE),
+    position = 'bottomright') %>% hideGroup(c("Number")) %>%
+   htmlwidgets::onRender("
+      function(el, x) {
+         var updateLegend = function () {
+            var selectedGroup = document.querySelectorAll('input:checked')[0].nextSibling.innerText.substr(1);
+
+            document.querySelectorAll('.legend').forEach(a => a.hidden=true);
+            document.querySelectorAll('.legend').forEach(l => {
+               if (l.classList.contains(selectedGroup)) l.hidden=false;
+            });
+         };
+         updateLegend();
+         this.on('baselayerchange', el => updateLegend());
+      }"
+   )
+newyork_larcenies_map
+```
+<br>
+<br>
+<!-- <subhead>Larcenies by year since 2019</subhead>  -->
+
+<iframe title="Grand larcenies year by year in New York" aria-label="Column Chart" id="datawrapper-chart-imsTV" src="https://datawrapper.dwcdn.net/imsTV/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>

@@ -24,12 +24,12 @@ rmarkdown::render('scripts/New_York_Safety_Tracker_Burglaries.Rmd',
 
 # THEFTS
 # Load RDS
-thefts_beat <- readRDS("scripts/rds/thefts_beat.rds")
-thefts_city <- readRDS("scripts/rds/thefts_city.rds")
+larcenies_beat <- readRDS("scripts/rds/larcenies_beat.rds")
+larcenies_city <- readRDS("scripts/rds/larcenies_city.rds")
 # Render page
-rmarkdown::render('scripts/New_York_Safety_Tracker_Thefts.Rmd', 
+rmarkdown::render('scripts/New_York_Safety_Tracker_Larcenies.Rmd', 
                   output_dir = "docs",
-                  output_file = 'New_York_Safety_Tracker_Thefts.html')
+                  output_file = 'New_York_Safety_Tracker_Larcenies.html')
 
 # AUTO THEFTS
 # Load RDS
@@ -66,13 +66,4 @@ sexassaults_city <- readRDS("scripts/rds/sexassaults_city.rds")
 rmarkdown::render('scripts/New_York_Safety_Tracker_SexualAssaults.Rmd', 
                   output_dir = "docs",
                   output_file = 'New_York_Safety_Tracker_SexualAssaults.html')
-
-# DRUG CRIMES
-# Load RDS
-drugs_beat <- readRDS("scripts/rds/drugs_beat.rds")
-drugs_city <- readRDS("scripts/rds/drugs_city.rds")
-# Render page
-rmarkdown::render('scripts/New_York_Safety_Tracker_DrugCrimes.Rmd',
-                  output_dir = "docs",
-                  output_file = 'New_York_Safety_Tracker_DrugCrimes.html')
 

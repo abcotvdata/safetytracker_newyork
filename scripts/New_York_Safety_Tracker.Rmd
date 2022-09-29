@@ -246,9 +246,9 @@ However, the murder rate over the last 12 months is<h8>`r ifelse((murders_city$l
 
 The city is averaging <h8>`r round(murders_city$last12mos/52,0)`</h8> homicides a week over the last 12 months. In 2019, that number was <h8>`r round(murders_city$total19/52,0)`</h8> a week.
 
-One way to think about the danger: three years ago, the murder rate was <h8>`r murders_city$rate19`</h8> per 100,000 residents. That's only slightly higher than the risk of dying in a vehicle crash in New York City: about 2.9 per 100,000 residents in 2021.
+One way to think about the danger: three years ago, the murder rate was <h8>`r murders_city$rate19`</h8> per 100,000 residents. That's only slightly more than half of the risk of dying in a vehicle crash: about 6.2 per 100,000 residents in 2020.
 
-During the pandemic, a person's chance of being murdered in New York rose to almost twice the likelihood of dying in a vehicle crash and is only now starting to fall. 
+During the pandemic, a person's chance of being murdered in New York rose to almost the same likelihood of dying in a vehicle crash and is only now starting to subside. 
 <br>
 <br>
 <!-- <subhead>Risk of being murdered in New York vs. other causes of death in Harris County</subhead> 

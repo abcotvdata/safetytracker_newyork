@@ -1,7 +1,7 @@
 ---
-title: "Neighborhood<br>Safety Tracker"
+title: "ABC7 New York City Neighborhood Safety Tracker"
 # author: "John Kelly"
-date: "Updated `r format(Sys.time(), '%B %d, %Y')` by the ABC7 Data Team"
+# date: "Updated `r format(Sys.time(), '%B %d, %Y')` by the ABC7 Data Team"
 output: html_document
 ---
 

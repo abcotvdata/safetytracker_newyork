@@ -18,26 +18,17 @@ library(sf)
 ```
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
+![<popupchatter>Updated `r format(Sys.time(), '%B %d, %Y')` by the Eyewitness News Data Team</popupchatter>](https://github.com/abcotvdata/safetytracker_newyork/raw/main/docs/banner_placeholder.png)
+
 ```{css, echo=FALSE}
-
-
-h1.title {
-  background-image: url('https://abcotvdata.github.io/safetytracker_newyork/skyline1.png');
-  background-repeat: no-repeat;
-  background-size: 110%;
-}
-
-div {
-  padding: 0.25em;
-}
 
 h1.title {
   font-family: roboto;
-  color: white;
+  color: transparent;
   font-weight: 700;
   text-align: left;
-  font-size: 36px;
-  padding: 10px;
+  font-size: 12px;
+  padding: 0px;
 }
 
 .date {
@@ -267,7 +258,7 @@ ABC7's data team looked at the New York Police Department's data by neighborhood
 
 <subhead>A closer look at homicides by neighborhood</subhead>
 
-The map color-codes each neighborhood by the homicide rate over the last 12 months. Darker blue areas are neighborhoods where the murder rate is higher than the citywide rate.
+The map color-codes each neighborhood by the homicide rate over the last 12 months. The three darker blues highlight neighborhoods where the murder rate is higher than the citywide rate.
 
 You can click any neighborhood to see detailed numbers or the buttons at the bottom of the map to switch between numbers and rates. You can search for a street, place, landmark or zip code to zoom to that location.
 

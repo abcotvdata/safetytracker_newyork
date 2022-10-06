@@ -18,26 +18,18 @@ library(sf)
 ```
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
+![<popupchatter>Updated `r format(Sys.time(), '%B %d, %Y')` by the Eyewitness News Data Team</popupchatter>](https://github.com/abcotvdata/safetytracker_newyork/raw/main/docs/banner_placeholder.png)
+
+
 ```{css, echo=FALSE}
-
-
-h1.title {
-  background-image: url('https://abcotvdata.github.io/safetytracker_newyork/skyline1.png');
-  background-repeat: no-repeat;
-  background-size: 110%;
-}
-
-div {
-  padding: 0.25em;
-}
 
 h1.title {
   font-family: roboto;
-  color: white;
+  color: transparent;
   font-weight: 700;
   text-align: left;
-  font-size: 36px;
-  padding: 10px;
+  font-size: 12px;
+  padding: 0px;
 }
 
 .date {

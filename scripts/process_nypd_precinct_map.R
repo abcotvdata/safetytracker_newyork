@@ -56,6 +56,7 @@ precincts_geo <- precincts_geo %>% st_transform(4326)
 precincts_geo <- st_make_valid(precincts_geo)
 
 # saving a clean geojson and separate RDS for use in tracker
+file.remove("data/source/geo/precincts.geojson")
 st_write(precincts_geo,"data/source/geo/precincts.geojson")
 saveRDS(precincts_geo,"scripts/rds/precincts.rds")
 # add line  below when uploading data for pages

@@ -25,6 +25,7 @@ docs/._*
 *-Ex.R
 *write-test*
 docs/.*
+*/oldcode/*
 
 # Output files from R CMD build
 /*.tar.gz

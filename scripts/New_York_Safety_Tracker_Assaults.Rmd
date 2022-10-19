@@ -214,7 +214,7 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <p>Year To Date<br>Through `r update_date`</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
-<p>Average Assaults<br>
+<p>Assaults<br>
 <bignumber>`r assaults_city$yeartodate2021`<br></bignumber>
 <p>Year To Date<br>Same Period in 2021</p>
 </div>

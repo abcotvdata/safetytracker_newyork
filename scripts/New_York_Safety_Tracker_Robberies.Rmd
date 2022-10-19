@@ -212,7 +212,7 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="card" style="background-color:#99a0a5;">
 <p>Robberies<br>
 <bignumber>`r prettyNum(robberies_city$yeartodate2022, big.mark=",")`<br></bignumber>
-<p>Year To Date<br>Through `r format((Sys.Date() - 4), "%B %d")`</p>
+<p>Year To Date<br>Through `r update_date`</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Robberies<br>
@@ -239,7 +239,7 @@ The city is averaging <h8>`r round(robberies_city$last12mos/52,0)`</h8> robberie
 
 The risk is not the same neighborhood to neighborhood.
 
-ABC7's data team looked at the New York Police Department's data by neighborhood from 2019 through `r format((Sys.Date() - 4), "%B %d")`.
+ABC7's data team looked at the New York Police Department's data by neighborhood from 2019 through `r update_date`.
 
 <subhead>A closer look at robberies by neighborhood</subhead>
 

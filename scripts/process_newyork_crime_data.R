@@ -46,6 +46,7 @@ for (link in links) {
 grabdatedf <- read_excel("data/source/weekly/cs-en-us-040pct.xlsx")[c(8),c(3)]
 update_week <- as.character(grabdatedf[1,1])
 update_date <- sub(".*\\s", "", trimws(update_week))
+update_date <- format(as.Date.character(update_date, "%m/%d/%Y"), "%B %d")
 rm(grabdatedf)
 # extract from that string two values: text noting week NUMBER of the report out of 52 weeks
 # for potential multiplier in projecting annualized 2022 rates and multiyear averaged rates

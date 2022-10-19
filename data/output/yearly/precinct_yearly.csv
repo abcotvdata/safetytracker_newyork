@@ -303,14 +303,14 @@ precinct,placename,crime,total00,total01,total02,total03,total04,total05,total06
 52,"Kingsbridge, Norwood and University Heights",Grand Larceny,505,547,548,474,612,600,571,609,641,547,556,635,634,737,706,668,636,640,679,726,611,727,511
 52,"Kingsbridge, Norwood and University Heights",Motor Vehicle Theft,645,560,497,496,472,454,310,272,271,223,188,146,139,120,103,111,109,104,106,78,186,216,209
 52,"Kingsbridge, Norwood and University Heights",Total Major Felonies,3659,3121,3062,2877,2906,2697,2438,2425,2365,2219,2181,2174,2162,2206,2194,2109,2095,1794,1917,1957,1903,2092,1741
-60,"Coney Island, Brighton Beach and Sea Gate",Murder,8,11,5,10,18,8,5,4,8,9,10,6,4,8,10,4,3,8,0,6,10,10,NA
-60,"Coney Island, Brighton Beach and Sea Gate",Rape,26,28,29,14,12,26,13,8,15,10,18,12,23,18,21,25,16,16,20,18,22,11,NA
-60,"Coney Island, Brighton Beach and Sea Gate",Robbery,536,458,431,446,350,366,365,316,328,240,263,251,299,309,267,273,155,142,138,121,123,106,NA
-60,"Coney Island, Brighton Beach and Sea Gate",Felony Assault,400,319,298,263,231,264,257,266,253,213,211,281,211,283,314,315,254,235,232,252,219,350,NA
-60,"Coney Island, Brighton Beach and Sea Gate",Burglary,445,299,294,278,279,277,231,198,174,149,163,200,257,214,193,165,104,61,89,85,140,169,NA
-60,"Coney Island, Brighton Beach and Sea Gate",Grand Larceny,575,434,497,443,443,574,605,567,568,533,542,483,562,523,592,535,361,382,422,425,322,443,NA
-60,"Coney Island, Brighton Beach and Sea Gate",Motor Vehicle Theft,393,262,277,256,175,171,148,133,107,96,116,89,79,66,68,87,56,49,46,39,68,72,NA
-60,"Coney Island, Brighton Beach and Sea Gate",Total Major Felonies,2383,1811,1831,1710,1508,1686,1624,1492,1453,1250,1323,1322,1435,1421,1465,1404,949,893,947,946,904,1161,NA
+60,"Coney Island, Brighton Beach and Sea Gate",Murder,8,11,5,10,18,8,5,4,8,9,10,6,4,8,10,4,3,8,0,6,10,10,5
+60,"Coney Island, Brighton Beach and Sea Gate",Rape,26,28,29,14,12,26,13,8,15,10,18,12,23,18,21,25,16,16,20,18,22,11,10
+60,"Coney Island, Brighton Beach and Sea Gate",Robbery,536,458,431,446,350,366,365,316,328,240,263,251,299,309,267,273,155,142,138,121,123,106,148
+60,"Coney Island, Brighton Beach and Sea Gate",Felony Assault,400,319,298,263,231,264,257,266,253,213,211,281,211,283,314,315,254,235,232,252,219,350,303
+60,"Coney Island, Brighton Beach and Sea Gate",Burglary,445,299,294,278,279,277,231,198,174,149,163,200,257,214,193,165,104,61,89,85,140,169,127
+60,"Coney Island, Brighton Beach and Sea Gate",Grand Larceny,575,434,497,443,443,574,605,567,568,533,542,483,562,523,592,535,361,382,422,425,322,443,421
+60,"Coney Island, Brighton Beach and Sea Gate",Motor Vehicle Theft,393,262,277,256,175,171,148,133,107,96,116,89,79,66,68,87,56,49,46,39,68,72,104
+60,"Coney Island, Brighton Beach and Sea Gate",Total Major Felonies,2383,1811,1831,1710,1508,1686,1624,1492,1453,1250,1323,1322,1435,1421,1465,1404,949,893,947,946,904,1161,1118
 61,"Kings Bay, Gravesend and Sheepshead Bay",Murder,6,4,9,10,2,7,6,4,6,3,6,14,3,2,2,5,2,2,1,3,3,1,2
 61,"Kings Bay, Gravesend and Sheepshead Bay",Rape,19,17,24,19,9,20,12,10,5,10,5,11,10,19,12,12,11,11,17,19,16,8,7
 61,"Kings Bay, Gravesend and Sheepshead Bay",Robbery,521,363,356,365,289,279,264,241,290,191,152,190,259,248,227,214,133,152,150,141,138,114,162

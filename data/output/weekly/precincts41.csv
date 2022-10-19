@@ -577,6 +577,23 @@ precinct,crime,lastweek2022,lastweek2021,week_pct_change,lastmonth2022,lastmonth
 52,Shooting Victims,0,0,NA,2,4,-50,32,33,-3,68.4,-3,-53.6,2022-10-16,Other/Mixed Category
 52,Shooting Incidents,0,0,NA,2,4,-50,27,27,0,42.1,8,-57.1,2022-10-16,Other/Mixed Category
 52,Hate Crimes,0,1,-100,0,1,-100,4,2,100,300,NA,NA,2022-10-16,Other/Mixed Category
+60,Murder,0,1,-100,0,2,-100,5,8,-37.5,-44.4,-16.7,-72.2,2022-10-16,Violent
+60,Rape,0,0,NA,1,0,NA,10,8,25,-41.2,-16.7,-63,2022-10-16,Violent
+60,Robbery,6,0,NA,12,9,33.3,148,79,87.3,51,-34.8,-83.1,2022-10-16,Property
+60,Felony Assault,7,10,-30,24,35,-31.4,303,288,5.2,62,75.1,-51.1,2022-10-16,Violent
+60,Burglary,3,1,200,13,15,-13.3,127,140,-9.3,1.6,0,-83.8,2022-10-16,Property
+60,Grand Larceny,10,6,66.7,45,35,28.6,421,316,33.2,55.9,-10.4,-22.6,2022-10-16,Property
+60,Motor Vehicle Theft,2,2,0,12,8,50,104,59,76.3,92.6,14.3,-88.9,2022-10-16,Property
+60,Total Major Felonies,28,20,40,107,104,2.9,1118,898,24.5,47.1,1.1,-70.6,2022-10-16,Combined Total
+60,Transit System Crimes,1,0,NA,4,1,300,23,11,109.1,-8,-14.8,NA,2022-10-16,Other/Mixed Category
+60,Housing System Crimes,6,4,50,21,21,0,137,155,-11.6,44.2,38.4,NA,2022-10-16,Other/Mixed Category
+60,Petty Theft,21,23,-8.7,95,81,17.3,988,678,45.7,20.5,0.6,NA,2022-10-16,Property
+60,Misdemeanor Assault,8,7,14.3,36,40,-10,457,361,26.6,28.7,5.1,NA,2022-10-16,Violent
+60,Rape (FBI/UCR Definition),0,0,NA,3,1,200,20,18,11.1,-16.7,NA,NA,2022-10-16,Violent
+60,Other Sex Crimes,7,1,600,9,3,200,46,29,58.6,76.9,NA,NA,2022-10-16,Other/Mixed Category
+60,Shooting Victims,0,1,-100,0,1,-100,26,11,136.4,73.3,62.5,-54.4,2022-10-16,Other/Mixed Category
+60,Shooting Incidents,0,1,-100,0,1,-100,17,11,54.5,70,30.8,-60.5,2022-10-16,Other/Mixed Category
+60,Hate Crimes,0,0,NA,0,1,-100,6,4,50,-14.3,NA,NA,2022-10-16,Other/Mixed Category
 61,Murder,0,0,NA,0,0,NA,2,0,NA,0,-50,-60,2022-10-16,Violent
 61,Rape,0,1,-100,0,2,-100,7,7,0,-36.4,133.3,-65,2022-10-16,Violent
 61,Robbery,8,2,300,28,7,300,162,82,97.6,48.6,33.9,-76.8,2022-10-16,Property
@@ -1325,6 +1342,23 @@ pbbn,Other Sex Crimes,10,9,11.1,40,53,-24.5,488,547,-10.8,1.2,NA,NA,2022-10-16,O
 pbbn,Shooting Victims,11,5,120,34,33,3,291,347,-16.1,-30.5,-32.5,-81.4,2022-10-16,Other/Mixed Category
 pbbn,Shooting Incidents,11,5,120,29,30,-3.3,244,279,-12.5,-29.5,-30.3,-82.7,2022-10-16,Other/Mixed Category
 pbbn,Hate Crimes,0,1,-100,8,2,300,64,50,28,100,NA,NA,2022-10-16,Other/Mixed Category
+pbbs,Murder,2,4,-50,6,9,-33.3,53,45,17.8,0,-22.1,-73.6,2022-10-16,Violent
+pbbs,Rape,8,7,14.3,21,20,5,172,176,-2.3,-13.1,21.1,-61.3,2022-10-16,Violent
+pbbs,Robbery,45,40,12.5,157,136,15.4,1557,1077,44.6,21,-32.3,-85.8,2022-10-16,Property
+pbbs,Felony Assault,67,89,-24.7,230,310,-25.8,2742,2469,11.1,22.2,39.5,-49.6,2022-10-16,Violent
+pbbs,Burglary,31,39,-20.5,171,183,-6.6,1665,1381,20.6,6.9,-39.9,-88.6,2022-10-16,Property
+pbbs,Grand Larceny,117,102,14.7,575,455,26.4,5704,3915,45.7,52.7,31.5,-18.8,2022-10-16,Property
+pbbs,Motor Vehicle Theft,43,33,30.3,151,133,13.5,1467,1019,44,28.3,-5.6,-92.1,2022-10-16,Property
+pbbs,Total Major Felonies,313,314,-0.3,1311,1246,5.2,13360,10082,32.5,30.8,1.7,-76.6,2022-10-16,Combined Total
+pbbs,Transit System Crimes,7,3,133.3,17,12,41.7,153,115,33,0.7,-33.8,NA,2022-10-16,Other/Mixed Category
+pbbs,Housing System Crimes,13,14,-7.1,48,46,4.3,444,390,13.8,41.4,59.1,NA,2022-10-16,Other/Mixed Category
+pbbs,Petty Theft,332,274,21.2,1385,1081,28.1,12915,9237,39.8,35.8,30.8,NA,2022-10-16,Property
+pbbs,Misdemeanor Assault,104,112,-7.1,391,464,-15.7,4444,3872,14.8,24.7,-17.8,NA,2022-10-16,Violent
+pbbs,Rape (FBI/UCR Definition),11,7,57.1,35,26,34.6,272,272,0,-6.5,NA,NA,2022-10-16,Violent
+pbbs,Other Sex Crimes,23,20,15,59,67,-11.9,562,502,12,34.8,NA,NA,2022-10-16,Other/Mixed Category
+pbbs,Shooting Victims,6,8,-25,16,16,0,182,165,10.3,-22.6,-18,-71.7,2022-10-16,Other/Mixed Category
+pbbs,Shooting Incidents,6,7,-14.3,14,15,-6.7,141,146,-3.4,-21.7,-23.4,-74.9,2022-10-16,Other/Mixed Category
+pbbs,Hate Crimes,1,2,-50,1,6,-83.3,94,54,74.1,154.1,NA,NA,2022-10-16,Other/Mixed Category
 pbbx,Murder,1,0,NA,7,6,16.7,103,122,-15.6,17,2,-74.5,2022-10-16,Violent
 pbbx,Rape,7,7,0,24,36,-33.3,310,291,6.5,19.2,30.3,-46.5,2022-10-16,Violent
 pbbx,Robbery,105,109,-3.7,375,371,1.1,4043,2990,35.2,51,14.1,-68.5,2022-10-16,Property

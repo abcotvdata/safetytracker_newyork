@@ -198,14 +198,14 @@ nyc_population <- 8804190
 <h2>Eyewitness News is tracking crime and safety across New York City and in your neighborhood. 
 
 You can choose which crime to explore: <select onchange="window.location=this.value">
-<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_Robberies.html">Robberies</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_Assaults.html">Assaults</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_AutoThefts.html">Auto Thefts</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_Burglaries.html">Burglaries</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker.html">Homicides</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_Robberies.html">Robberies</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_SexualAssaults.html">Sexual Assaults</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/New_York_Safety_Tracker_Larcenies.html">Grand Larcenies</option>
+<option value="https://abcotvdata.github.io/safetytracker_newyork/New_York_Safety_Tracker_Robberies.html">Robberies</option>
+<option value="https://abcotvdata.github.io/safetytracker_newyork/New_York_Safety_Tracker_Assaults.html">Assaults</option>
+<option value="https://abcotvdata.github.io/safetytracker_newyork/New_York_Safety_Tracker_AutoThefts.html">Auto Thefts</option>
+<option value="https://abcotvdata.github.io/safetytracker_newyork/New_York_Safety_Tracker_Burglaries.html">Burglaries</option>
+<option value="https://abcotvdata.github.io/safetytracker_newyork/New_York_Safety_Tracker.html">Homicides</option>
+<option value="https://abcotvdata.github.io/safetytracker_newyork/New_York_Safety_Tracker_Robberies.html">Robberies</option>
+<option value="https://abcotvdata.github.io/safetytracker_newyork/New_York_Safety_Tracker_SexualAssaults.html">Sexual Assaults</option>
+<option value="https://abcotvdata.github.io/safetytracker_newyork/New_York_Safety_Tracker_Larcenies.html">Grand Larcenies</option>
 </select></h2>
 
 <div class="cardContainer">

@@ -327,7 +327,7 @@ citywide_crime$rate_prior3years <-
 ### OPEN WORK STOP POINT #####
 
 # create a quick long-term annual table
-citywide_yearly <- citywide_crime %>% select(2:24,32:33)
+citywide_yearly <- citywide_crime %>% select(2:24,32)
 write_csv(citywide_yearly,"data/output/yearly/citywide_yearly.csv")
 
 # add a series of csv tables for annual tracking of each crime with a tracker page

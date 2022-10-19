@@ -212,7 +212,7 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="card" style="background-color:#99a0a5;">
 <p>Larcenies This Year<br>
 <bignumber>`r prettyNum(larcenies_city$yeartodate2022, big.mark=",")`<br></bignumber>
-<p>Year To Date<br>Through `r update_date`</p>
+<p>Year To Date<br>Through `r format(larcenies_city$lastdate, "%B %d")`</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Larcenies Last Year<br>
@@ -239,7 +239,7 @@ The city is averaging <h8>`r round(larcenies_city$last12mos/52,0)`</h8> larcenie
 
 The risk is not the same neighborhood to neighborhood.
 
-ABC7's data team looked at the New York Police Department's data by neighborhood from 2019 through `r update_date`.
+ABC7's data team looked at the New York Police Department's data by neighborhood from 2019 through `r format(larcenies_city$lastdate, "%B %d")`.
 
 <subhead>A closer look at grand larceny by neighborhood</subhead>
 
@@ -285,9 +285,11 @@ larcenieslabel <- paste(sep="",
                             " grand larceny", " grand larcenies"),
                      "</popuptitle><br>so far this year in <b>Precinct ",
                      larcenies_beat$precinct,
+                     "</b>, which includes <b>",
+                     larcenies_beat$placename,
                      "</b>, home to about ",
                      prettyNum(larcenies_beat$population, big.mark=","),
-                     " people. That's ",
+                     " residents. That's ",
                      case_when(larcenies_beat$yeartodate2022>
                               larcenies_beat$yeartodate2021 ~ "up from ",
                      larcenies_beat$yeartodate2022<

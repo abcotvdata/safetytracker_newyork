@@ -211,7 +211,7 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="card" style="background-color:#99a0a5;">
 <p>Burglaries<br>
 <bignumber>`r prettyNum(burglaries_city$yeartodate2022, big.mark=",")`<br></bignumber>
-<p>Year To Date<br>Through `r update_date`</p>
+<p>Year To Date<br>Through `r format(burglaries_city$lastdate, "%B %d")`</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Burglaries<br>
@@ -238,7 +238,7 @@ The city is averaging <h8>`r round(burglaries_city$last12mos/52,0)`</h8> burglar
 
 The risk is not the same neighborhood to neighborhood.
 
-ABC7's data team looked at the New York Police Department's data by neighborhood from 2019 through `r update_date`.
+ABC7's data team looked at the New York Police Department's data by neighborhood from 2019 through `r format(burglaries_city$lastdate, "%B %d")`.
 
 <subhead>A closer look at burglaries by neighborhood</subhead>
 
@@ -284,9 +284,11 @@ burglarieslabel <- paste(sep="",
                             " burglary", " burglaries"),
                      "</popuptitle><br>so far this year in <b>Precinct ",
                      burglaries_beat$precinct,
+                     "</b>, which includes <b>",
+                     burglaries_beat$placename,
                      "</b>, home to about ",
                      prettyNum(burglaries_beat$population, big.mark=","),
-                     " people. That's ",
+                     " residents. That's ",
                      case_when(burglaries_beat$yeartodate2022>
                               burglaries_beat$yeartodate2021 ~ "up from ",
                      burglaries_beat$yeartodate2022<

@@ -14,7 +14,6 @@ data/source/weekly/._*
 data/output/weekly/._*
 scripts/rds/._*
 scripts/._*
-precinctdata/._*
 docs/._*
 
 # User-specific files

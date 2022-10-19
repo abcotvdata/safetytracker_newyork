@@ -287,11 +287,11 @@ precinct_crime$rate_prior3years <-
   round((precinct_crime$avg_prior3years/precinct_crime$population)*100000,1)
 
 # create a quick long-term annual table
-precinct_yearly <- precinct_crime %>% select(1,5:27,35) %>% st_drop_geometry()
+precinct_yearly <- precinct_crime %>% select(1,5:28,36) %>% st_drop_geometry()
 write_csv(precinct_yearly,"data/output/yearly/precinct_yearly.csv")
 
 # Now reduce the precinct down to just the columns we likely need for the tracker pages
-precinct_crime <- precinct_crime %>% select(1,4,5,25:27,35:39,43:54,28,41)
+precinct_crime <- precinct_crime %>% select(1,4,5,6,26:28,36:40,44:55,29,42)
 # for map/table making purposes, changing Inf and NaN in calc fields to NA
 precinct_crime <- precinct_crime %>%
   mutate(across(where(is.numeric), ~na_if(., Inf)))
@@ -339,6 +339,11 @@ citywide_yearly %>% filter(crime=="Burglary") %>% write_csv("data/output/yearly/
 citywide_yearly %>% filter(crime=="Felony Assault") %>% write_csv("data/output/yearly/assault_yearly.csv")
 citywide_yearly %>% filter(crime=="Grand Larceny") %>% write_csv("data/output/yearly/larceny_yearly.csv")
 citywide_yearly %>% filter(crime=="Motor Vehicle Theft") %>% write_csv("data/output/yearly/autotheft_yearly.csv")
+
+
+
+
+# WORK FROM HERE
 
 # Now make individual crime/beat geo files for each of the trackers' landing pages
 # filter precinct versions - using beat instead of precinct just for code consistency

@@ -284,9 +284,11 @@ assaultlabel <- paste(sep="",
                             " assault", " assaults"),
                      "</popuptitle><br>so far this year in <b>Precinct ",
                      assaults_beat$precinct,
+                     "</b>, which includes <b>",
+                     assaults_beat$placename,
                      "</b>, home to about ",
                      prettyNum(assaults_beat$population, big.mark=","),
-                     " people. That's ",
+                     " residents. That's ",
                      case_when(assaults_beat$yeartodate2022>
                               assaults_beat$yeartodate2021 ~ "up from ",
                      assaults_beat$yeartodate2022<

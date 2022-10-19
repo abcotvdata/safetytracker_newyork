@@ -20,12 +20,10 @@ docs/._*
 # User-specific files
 .Ruserdata
 
-
 # Example code in package build process
 *-Ex.R
 *write-test*
 docs/.*
-*/oldcode/*
 
 # Output files from R CMD build
 /*.tar.gz

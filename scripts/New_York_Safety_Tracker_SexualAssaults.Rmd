@@ -206,7 +206,7 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <option value="https://abcotvdata.github.io/safetytracker_newyork/New_York_Safety_Tracker.html">Homicides</option>
 <option value="https://abcotvdata.github.io/safetytracker_newyork/New_York_Safety_Tracker_Robberies.html">Robberies</option>
 <option value="https://abcotvdata.github.io/safetytracker_newyork/New_York_Safety_Tracker_SexualAssaults.html">Sexual Assaults</option>
-<option value="https://abcotvdata.github.io/safetytracker_newyork/New_York_Safety_Tracker_Larcenies.html">Thefts</option>
+<option value="https://abcotvdata.github.io/safetytracker_newyork/New_York_Safety_Tracker_Larcenies.html">Grand Larcenies</option>
 </select></h2>
 
 <div class="cardContainer">

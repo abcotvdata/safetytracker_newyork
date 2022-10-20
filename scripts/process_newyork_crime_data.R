@@ -298,8 +298,6 @@ precinct_crime <- precinct_crime %>%
 precinct_crime <- precinct_crime %>%
   mutate(across(where(is.numeric), ~na_if(., "NaN")))
 
-
-
 # set value of nyc_population
 nyc_population <- 8804190
 # add last 12 mos calculations to citywide data to do comparable annualized rates
@@ -340,10 +338,9 @@ citywide_yearly %>% filter(crime=="Felony Assault") %>% write_csv("data/output/y
 citywide_yearly %>% filter(crime=="Grand Larceny") %>% write_csv("data/output/yearly/larceny_yearly.csv")
 citywide_yearly %>% filter(crime=="Motor Vehicle Theft") %>% write_csv("data/output/yearly/autotheft_yearly.csv")
 
-
-
-
-# WORK FROM HERE
+# just for saving tallies of broad crime categories for charts
+citywide_type <- citywide_crime %>% group_by(type) %>%
+  summarise(total21=sum(total21))
 
 # Now make individual crime/beat geo files for each of the trackers' landing pages
 # filter precinct versions - using beat instead of precinct just for code consistency

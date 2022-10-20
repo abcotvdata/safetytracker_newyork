@@ -22,7 +22,7 @@ rmarkdown::render('scripts/New_York_Safety_Tracker_Burglaries.Rmd',
                   output_dir = "docs",
                   output_file = "New_York_Safety_Tracker_Burglaries.html")
 
-# THEFTS
+# LARCENIES
 # Load RDS
 larcenies_beat <- readRDS("scripts/rds/larcenies_beat.rds")
 larcenies_city <- readRDS("scripts/rds/larcenies_city.rds")

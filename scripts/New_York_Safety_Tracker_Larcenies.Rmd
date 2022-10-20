@@ -309,46 +309,46 @@ larcenieslabel <- paste(sep="",
 			<tr>
 				<td>2019</td>
 				<td>",
-larcenies_beat$total19,
+prettyNum(larcenies_beat$total19, big.mark=","),
 "</td>
 				<td>",
-larcenies_beat$rate19,
+prettyNum(larcenies_beat$rate19, big.mark=","),
 "</td>
 			</tr>
 			<tr>
 				<td>2020</td>
 				<td>",
-larcenies_beat$total20,
+prettyNum(larcenies_beat$total20, big.mark=","),
 "</td>
 				<td>",
-larcenies_beat$rate20,
+prettyNum(larcenies_beat$rate20, big.mark=","),
 "</td>
 			</tr>
 						<tr>
 				<td>2021</td>
 				<td>",
-larcenies_beat$total21,
+prettyNum(larcenies_beat$total21, big.mark=","),
 "</td>
 				<td>",
-larcenies_beat$rate21,
+prettyNum(larcenies_beat$rate21, big.mark=","),
 "</td>
 			</tr>
 						<tr>
 				<td>Last 12 months</td>
 				<td>",
-larcenies_beat$last12mos,
+prettyNum(larcenies_beat$last12mos, big.mark=","),
 "</td>
 				<td>",
-larcenies_beat$rate_last12,
+prettyNum(larcenies_beat$rate_last12, big.mark=","),
 "</td>
 			</tr>
 						<tr>
 				<td>3-year Average</td>
 				<td>",
-larcenies_beat$avg_prior3years,
+prettyNum(larcenies_beat$avg_prior3years, big.mark=","),
 "</td>
 				<td>",
-larcenies_beat$rate_prior3years,
+prettyNum(larcenies_beat$rate_prior3years, big.mark=","),
 "</td>
 			</tr>
 </table>")

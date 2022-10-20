@@ -233,7 +233,9 @@ Per 100,000 people<br>2019 to 2021</p>
 <br>
 Robberies so far this year are trending <h8>`r ifelse(robberies_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(robberies_city$yeartodate_pct_change>=0,robberies_city$yeartodate_pct_change,substring(robberies_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2021.
 
-However, the robbery rate over the last 12 months is<h8>`r ifelse((robberies_city$last12mos-robberies_city$avg_prior3years)>=0," up"," down")`</h8> compared to the annual average over the last three years, and the frequency of robberies remains higher than it was before the pandemic.
+However, the robbery rate over the last 12 months is <h8>`r case_when((robberies_city$rate_last12-robberies_city$rate_prior3years)>=0.25 ~ "up",
+          (robberies_city$rate_last12-robberies_city$rate_prior3years)<=-0.25 ~ "down",
+          TRUE ~ "about the same ")`</h8> when compared to the annual average over the last three years, and the frequency of robberies remains higher than it was before the pandemic.
 
 The city is averaging <h8>`r round(robberies_city$last12mos/52,0)`</h8> robberies a week over the last 12 months. In 2019, that number was <h8>`r round(robberies_city$total19/52,0)`</h8> a week.
 

@@ -233,7 +233,9 @@ Per 100,000 people<br>2019 to 2021</p>
 <br>
 Grand larcenies so far this year are trending <h8>`r ifelse(larcenies_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(larcenies_city$yeartodate_pct_change>=0,larcenies_city$yeartodate_pct_change,substring(larcenies_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2021.
 
-However, the larceny rate over the last 12 months is<h8>`r ifelse((larcenies_city$last12mos-larcenies_city$avg_prior3years)>=0," up"," down")`</h8> compared to the annual average over the last three years.
+However, the larceny rate over the last 12 months is <h8>`r case_when((larcenies_city$rate_last12-larcenies_city$rate_prior3years)>=0.25 ~ "up",
+          (larcenies_city$rate_last12-larcenies_city$rate_prior3years)<=-0.25 ~ "down",
+          TRUE ~ "about the same ")`</h8> when compared to the annual average over the last three years.
 
 The city is averaging <h8>`r round(larcenies_city$last12mos/52,0)`</h8> larcenies a week over the last 12 months. In 2019, that number was <h8>`r round(larcenies_city$total19/52,0)`</h8> a week.
 

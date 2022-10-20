@@ -209,22 +209,22 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 
 <div class="cardContainer">
 <div class="card" style="background-color:#99a0a5;">
-<p>Vehicle Thefts<br>
+<p>Auto Thefts This Year<br>
 <bignumber>`r prettyNum(autothefts_city$yeartodate2022, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Through `r format(autothefts_city$lastdate, "%B %d")`</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
-<p>Vehicle Thefts<br>
-<bignumber>`r autothefts_city$yeartodate2021`<br></bignumber>
+<p>Auto Thefts Last Year<br>
+<bignumber>`r prettyNum(autothefts_city$yeartodate2021, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Same Period in 2021</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
-<p>Vehicle Theft Rate<br>
+<p>Auto Theft Rate<br>
 <bignumber>`r autothefts_city$rate_last12`<br></bignumber><p>
 Per 100,000 people<br>Last 12 months</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
-<p>Average Vehicle Theft Rate<br>
+<p>Average Auto Theft Rate<br>
 <bignumber>`r autothefts_city$rate_prior3years`<br></bignumber><p>
 Per 100,000 people<br>2019 to 2021</p>
 </div>
@@ -264,7 +264,7 @@ autotheftsbins2 <- c(0,
                 100,
                 150,
                 300,
-                450)
+                600)
 autotheftspal1 <- colorBin(c("#99a0a5",
                              "#2787d6",
                              "#0058f6",

@@ -12,6 +12,7 @@ data/source/annual/._*
 data/source/health/._*
 data/source/weekly/._*
 data/output/weekly/._*
+data/source/reference/._city_crime*
 scripts/rds/._*
 scripts/._*
 docs/._*

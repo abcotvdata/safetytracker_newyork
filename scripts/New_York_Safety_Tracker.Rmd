@@ -380,8 +380,8 @@ L.control.zoom({ position: 'topright' }).addTo(this)
                                           minWidth ="200"),
               weight = 2, 
               smoothFactor = 0.5,
-              opacity = 0.6, 
-              fillOpacity = 0.6,
+              opacity = 0.5, 
+              fillOpacity = 0.5,
               fillColor = ~murderpal1(rate_last12),
               group="Rate") %>% 
     addPolygons(color = "white", 
@@ -390,22 +390,22 @@ L.control.zoom({ position: 'topright' }).addTo(this)
                                           minWidth ="200"),
               weight = 2, 
               smoothFactor = 0.5,
-              opacity = 0.6, 
-              fillOpacity = 0.6,
+              opacity = 0.5, 
+              fillOpacity = 0.5,
               fillColor = ~murderpal2(last12mos),
               group="Number") %>% 
   addSearchOSM(options = searchOptions(autoCollapse=FALSE, minLength = 3,zoom=13, position="topleft")) %>%
     onRender("function(el, x) {
         $('input.search-input')[0].placeholder = 'Search street, place or zip code'
         }") %>%
-  addLegend(opacity = 0.6,
+  addLegend(opacity = 0.5,
             values = murders_beat$rate_last12, 
             pal = murderpal1,
             position = "bottomleft", 
             title = paste(sep="","<popuptitle>Murder Rate<br><popupchatter>Murders/100K people<br>Citywide: ",murders_city$rate_last12),
             group = "Rate",
             className = "info legend Rate") %>%
-  addLegend(opacity = 0.6,
+  addLegend(opacity = 0.5,
             values = murders_beat$last12mos, 
             pal = murderpal2,
             position = "bottomleft", 

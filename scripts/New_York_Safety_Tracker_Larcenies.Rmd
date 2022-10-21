@@ -435,7 +435,7 @@ newyork_larcenies_map
 <subhead>Submit a tip or story idea to Eyewitness News</subhead> 
 <br>
 <br>
-Have a breaking news tip or an idea for a story we should cover? Send it to Eyewitness News by <a href="https://abc7ny.com/news-tips-submit-video-photo-wabc-tv/5161087/">clicking here</a>. If attaching a video or photo, <a href="https://abc7ny.com/image-video-solicitation-and-rights-terms-of-use/5101040/" TARGET="_blank"> terms of use apply.[/url]
+Have a breaking news tip or an idea for a story we should cover? Send it to Eyewitness News by <a href="https://abc7ny.com/news-tips-submit-video-photo-wabc-tv/5161087/">clicking here</a>. If attaching a video or photo, <a href="https://abc7ny.com/image-video-solicitation-and-rights-terms-of-use/5101040/" TARGET="_blank"> terms of use apply.</a>
 
 <a href="https://abc7ny.com/news-tips-submit-video-photo-wabc-tv/5161087/">Submit here.</a>
 <br>

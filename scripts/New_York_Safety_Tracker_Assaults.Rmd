@@ -422,7 +422,7 @@ newyork_assaults_map
 <br>
 <!-- <subhead>Assaults by year since 2000</subhead> -->
 
-<iframe title="Felony assaults year by year in New York" aria-label="Column Chart" id="datawrapper-chart-lD4I4" src="https://datawrapper.dwcdn.net/lD4I4/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+<iframe title="Felony assaults year by year in New York" aria-label="Column Chart" id="datawrapper-chart-lD4I4" src="https://datawrapper.dwcdn.net/lD4I4/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
 <br>
 <br>
@@ -434,7 +434,7 @@ newyork_assaults_map
 <subhead>Submit a tip or story idea to Eyewitness News</subhead> 
 <br>
 <br>
-Have a breaking news tip or an idea for a story we should cover? Send it to Eyewitness News by <a href="https://abc7ny.com/news-tips-submit-video-photo-wabc-tv/5161087/">clicking here</a>. If attaching a video or photo, <a href="https://abc7ny.com/image-video-solicitation-and-rights-terms-of-use/5101040/" TARGET="_blank"> terms of use apply.[/url]
+Have a breaking news tip or an idea for a story we should cover? Send it to Eyewitness News by <a href="https://abc7ny.com/news-tips-submit-video-photo-wabc-tv/5161087/">clicking here</a>. If attaching a video or photo, <a href="https://abc7ny.com/image-video-solicitation-and-rights-terms-of-use/5101040/" TARGET="_blank"> terms of use apply.</a>
 
 <a href="https://abc7ny.com/news-tips-submit-video-photo-wabc-tv/5161087/">Submit here.</a>
 <br>

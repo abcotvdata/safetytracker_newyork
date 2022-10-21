@@ -18,7 +18,7 @@ library(sf)
 ```
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-![<popupchatter>Updated `r format(Sys.time(), '%B %d, %Y')` by the Eyewitness News Data Team</popupchatter>](https://github.com/abcotvdata/safetytracker_newyork/raw/main/docs/banner_placeholder.png)
+![<popupchatter>Updated `r format(Sys.time(), '%B %d, %Y')` by the Eyewitness News Data Team</popupchatter>](https://github.com/abcotvdata/safetytracker_newyork/raw/main/docs/banner_safetytracker_wabc.png)
 
 ```{css, echo=FALSE}
 

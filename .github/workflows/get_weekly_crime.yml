@@ -20,7 +20,7 @@ jobs:
         run: |
           brew install gdal
       - name: Install dependencies and packages
-        run: Rscript -e 'install.packages(c("sf","XML","tidyverse","rvest","readxl","lubridate","purrr"))'
+        run: Rscript -e 'install.packages(c("sf","XML","tidyverse","rvest","readxl","lubridate","janitor",purrr"))'
       - name: Get weekly crime data and compile
         run: Rscript scripts/process_newyork_crime_data.R
       - name: Commit results

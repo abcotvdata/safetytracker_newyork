@@ -323,20 +323,18 @@ citywide_crime$rate_last12 <- round((citywide_crime$last12mos/nyc_population)*10
 citywide_crime$rate_prior3years <- 
   round((citywide_crime$avg_prior3years/nyc_population)*100000,1)
 
-### OPEN WORK STOP POINT #####
-
 # create a quick long-term annual table
-citywide_yearly <- citywide_crime %>% select(2:24,32)
+citywide_yearly <- citywide_crime %>% select(2:24,39,32)
 write_csv(citywide_yearly,"data/output/yearly/citywide_yearly.csv")
 
 # add a series of csv tables for annual tracking of each crime with a tracker page
-citywide_yearly %>% filter(crime=="Murder") %>% write_csv("data/output/yearly/murder_yearly.csv")
-citywide_yearly %>% filter(crime=="Rape") %>% write_csv("data/output/yearly/rape_yearly.csv")
-citywide_yearly %>% filter(crime=="Robbery") %>% write_csv("data/output/yearly/robbery_yearly.csv")
-citywide_yearly %>% filter(crime=="Burglary") %>% write_csv("data/output/yearly/burglary_yearly.csv")
-citywide_yearly %>% filter(crime=="Felony Assault") %>% write_csv("data/output/yearly/assault_yearly.csv")
-citywide_yearly %>% filter(crime=="Grand Larceny") %>% write_csv("data/output/yearly/larceny_yearly.csv")
-citywide_yearly %>% filter(crime=="Motor Vehicle Theft") %>% write_csv("data/output/yearly/autotheft_yearly.csv")
+citywide_yearly %>% filter(crime=="Murder") %>% select(-25) %>% write_csv("data/output/yearly/murder_yearly.csv")
+citywide_yearly %>% filter(crime=="Rape") %>% select(-25) %>% write_csv("data/output/yearly/rape_yearly.csv")
+citywide_yearly %>% filter(crime=="Robbery") %>% select(-25) %>% write_csv("data/output/yearly/robbery_yearly.csv")
+citywide_yearly %>% filter(crime=="Burglary") %>% select(-25) %>% write_csv("data/output/yearly/burglary_yearly.csv")
+citywide_yearly %>% filter(crime=="Felony Assault") %>% select(-25) %>% write_csv("data/output/yearly/assault_yearly.csv")
+citywide_yearly %>% filter(crime=="Grand Larceny") %>% select(-25) %>%write_csv("data/output/yearly/larceny_yearly.csv")
+citywide_yearly %>% filter(crime=="Motor Vehicle Theft") %>% select(-25) %>% write_csv("data/output/yearly/autotheft_yearly.csv")
 
 # just for saving tallies of broad crime categories for charts
 citywide_type <- citywide_crime %>% group_by(type) %>%

@@ -16,6 +16,7 @@ data/source/reference/._city_crime*
 scripts/rds/._*
 scripts/._*
 docs/._*
+*.DS_Store
 
 # User-specific files
 .Ruserdata

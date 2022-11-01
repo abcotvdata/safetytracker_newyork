@@ -6,11 +6,6 @@ library(leaflet.providers)
 library(sp)
 library(sf)
 
-
-# UPDATED AND VETTED 9/28/22
-# OPEN WORK TO AUTOMATE THIS STEP IN GH ACTIONS
-# OPEN WORK ON NUMERIC OF PRECINCT 13 SHOWING UP IN SCIENTIFIC FORMAT
-
 # GEOGRAPHY
 # downloading geojson and csv of nypd precincts from city open data market
 download.file("https://data.cityofnewyork.us/api/geospatial/78dh-3ptz?method=export&format=GeoJSON","data/source/geo/precinctmap.geojson")

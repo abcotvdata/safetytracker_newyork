@@ -1,0 +1,1463 @@
+precinct,crime,lastweek2022,lastweek2021,week_pct_change,lastmonth2022,lastmonth2021,month_pct_change,yeartodate2022,yeartodate2021,yeartodate_pct_change,ytd_2yr_pct_change,ytd_12yr_pct_change,ytd_29yr_pct_change,lastdate,type
+1,Murder,0,0,NA,0,0,NA,0,2,-100,-100,-100,-100,2022-10-30,Violent
+1,Rape,1,0,NA,1,1,0,18,12,50,-5.3,350,63.6,2022-10-30,Violent
+1,Robbery,3,4,-25,12,12,0,115,100,15,-8,55.4,-83.8,2022-10-30,Property
+1,Felony Assault,1,3,-66.7,10,10,0,111,99,12.1,54.2,94.7,-28.4,2022-10-30,Violent
+1,Burglary,4,8,-50,20,24,-16.7,211,137,54,-1.4,43.5,-71.1,2022-10-30,Property
+1,Grand Larceny,21,20,5,105,88,19.3,1018,656,55.2,86.8,12.4,-69.2,2022-10-30,Property
+1,Motor Vehicle Theft,0,4,-100,9,10,-10,60,62,-3.2,114.3,76.5,-92.1,2022-10-30,Property
+1,Total Major Felonies,30,39,-23.1,157,145,8.3,1533,1068,43.5,52.7,25.2,-73,2022-10-30,Combined Total
+1,Transit System Crimes,3,1,200,8,5,60,80,63,27,2.6,48.1,NA,2022-10-30,Other/Mixed Category
+1,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+1,Petty Theft,76,49,55.1,302,222,36,3297,1797,83.5,138.2,130.7,NA,2022-10-30,Property
+1,Misdemeanor Assault,5,11,-54.5,32,42,-23.8,312,295,5.8,37.4,49.3,NA,2022-10-30,Violent
+1,Rape (FBI/UCR Definition),1,0,NA,1,1,0,25,14,78.6,13.6,NA,NA,2022-10-30,Violent
+1,Other Sex Crimes,0,1,-100,13,9,44.4,97,73,32.9,61.7,NA,NA,2022-10-30,Other/Mixed Category
+1,Shooting Victims,0,0,NA,0,0,NA,2,0,NA,0,-66.7,-50,2022-10-30,Other/Mixed Category
+1,Shooting Incidents,0,0,NA,0,0,NA,2,0,NA,0,-50,-50,2022-10-30,Other/Mixed Category
+1,Hate Crimes,0,0,NA,1,1,0,12,10,20,200,NA,NA,2022-10-30,Other/Mixed Category
+5,Murder,0,0,NA,0,1,-100,3,5,-40,200,200,-50,2022-10-30,Violent
+5,Rape,0,0,NA,1,1,0,16,15,6.7,33.3,77.8,100,2022-10-30,Violent
+5,Robbery,4,6,-33.3,13,13,0,84,61,37.7,52.7,-3.4,-87.8,2022-10-30,Property
+5,Felony Assault,4,4,0,14,13,7.7,178,129,38,25.4,60.4,-25.8,2022-10-30,Violent
+5,Burglary,3,5,-40,19,20,-5,142,86,65.1,-15,35.2,-77.7,2022-10-30,Property
+5,Grand Larceny,6,8,-25,50,44,13.6,517,325,59.1,90.1,7.5,-62,2022-10-30,Property
+5,Motor Vehicle Theft,1,0,NA,2,1,100,24,25,-4,33.3,100,-91.4,2022-10-30,Property
+5,Total Major Felonies,18,23,-21.7,99,93,6.5,964,646,49.2,44.5,19.6,-70,2022-10-30,Combined Total
+5,Transit System Crimes,3,1,200,7,2,250,62,35,77.1,87.9,21.6,NA,2022-10-30,Other/Mixed Category
+5,Housing System Crimes,0,1,-100,4,5,-20,42,35,20,7.7,31.2,NA,2022-10-30,Other/Mixed Category
+5,Petty Theft,26,13,100,106,62,71,774,534,44.9,40.7,-22.1,NA,2022-10-30,Property
+5,Misdemeanor Assault,9,5,80,32,23,39.1,322,257,25.3,38.2,33.1,NA,2022-10-30,Violent
+5,Rape (FBI/UCR Definition),0,0,NA,2,1,100,26,20,30,23.8,NA,NA,2022-10-30,Violent
+5,Other Sex Crimes,3,0,NA,10,10,0,89,95,-6.3,102.3,NA,NA,2022-10-30,Other/Mixed Category
+5,Shooting Victims,0,0,NA,0,0,NA,6,2,200,500,500,-66.7,2022-10-30,Other/Mixed Category
+5,Shooting Incidents,0,0,NA,0,0,NA,6,2,200,500,500,-64.7,2022-10-30,Other/Mixed Category
+5,Hate Crimes,0,0,NA,0,0,NA,7,8,-12.5,40,NA,NA,2022-10-30,Other/Mixed Category
+6,Murder,0,0,NA,0,0,NA,2,0,NA,100,NA,100,2022-10-30,Violent
+6,Rape,0,0,NA,1,0,NA,11,9,22.2,120,0,0,2022-10-30,Violent
+6,Robbery,7,5,40,19,16,18.8,213,151,41.1,86.8,76,-70.4,2022-10-30,Property
+6,Felony Assault,1,3,-66.7,8,11,-27.3,154,150,2.7,16.7,97.4,-38.9,2022-10-30,Violent
+6,Burglary,16,9,77.8,33,26,26.9,368,199,84.9,29.6,147,-47.1,2022-10-30,Property
+6,Grand Larceny,31,19,63.2,106,105,1,1110,645,72.1,87.8,26.9,-48.2,2022-10-30,Property
+6,Motor Vehicle Theft,1,2,-50,3,6,-50,52,45,15.6,20.9,36.8,-91.9,2022-10-30,Property
+6,Total Major Felonies,56,38,47.4,170,164,3.7,1910,1199,59.3,63.2,50.2,-57.2,2022-10-30,Combined Total
+6,Transit System Crimes,0,0,NA,1,1,0,33,27,22.2,26.9,-21.4,NA,2022-10-30,Other/Mixed Category
+6,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+6,Petty Theft,40,32,25,157,126,24.6,1653,1075,53.8,52.1,31,NA,2022-10-30,Property
+6,Misdemeanor Assault,15,8,87.5,45,31,45.2,351,265,32.5,59.5,67.1,NA,2022-10-30,Violent
+6,Rape (FBI/UCR Definition),0,0,NA,2,1,100,16,12,33.3,128.6,NA,NA,2022-10-30,Violent
+6,Other Sex Crimes,0,2,-100,5,7,-28.6,65,56,16.1,80.6,NA,NA,2022-10-30,Other/Mixed Category
+6,Shooting Victims,0,0,NA,0,0,NA,0,3,-100,-100,-100,-100,2022-10-30,Other/Mixed Category
+6,Shooting Incidents,0,0,NA,0,0,NA,0,3,-100,-100,-100,-100,2022-10-30,Other/Mixed Category
+6,Hate Crimes,0,0,NA,0,0,NA,8,13,-38.5,100,NA,NA,2022-10-30,Other/Mixed Category
+7,Murder,0,0,NA,0,1,-100,2,3,-33.3,0,100,-75,2022-10-30,Violent
+7,Rape,0,0,NA,2,0,NA,15,8,87.5,50,87.5,-6.2,2022-10-30,Violent
+7,Robbery,6,1,500,14,9,55.6,154,91,69.2,65.6,31.6,-77.4,2022-10-30,Property
+7,Felony Assault,1,6,-83.3,15,21,-28.6,184,160,15,80.4,64.3,-3.7,2022-10-30,Violent
+7,Burglary,0,7,-100,6,17,-64.7,141,92,53.3,-4.1,72,-57.4,2022-10-30,Property
+7,Grand Larceny,6,15,-60,55,58,-5.2,649,451,43.9,75.4,187.2,68.1,2022-10-30,Property
+7,Motor Vehicle Theft,0,2,-100,0,6,-100,52,52,0,18.2,15.6,-83.9,2022-10-30,Property
+7,Total Major Felonies,13,31,-58.1,92,112,-17.9,1197,857,39.7,55.9,102.5,-38.2,2022-10-30,Combined Total
+7,Transit System Crimes,1,0,NA,3,2,50,22,11,100,69.2,57.1,NA,2022-10-30,Other/Mixed Category
+7,Housing System Crimes,1,1,0,9,9,0,147,137,7.3,4.3,26.7,NA,2022-10-30,Other/Mixed Category
+7,Petty Theft,33,54,-38.9,147,200,-26.5,1941,1286,50.9,195.4,205.2,NA,2022-10-30,Property
+7,Misdemeanor Assault,9,9,0,29,42,-31,376,269,39.8,22.1,37.2,NA,2022-10-30,Violent
+7,Rape (FBI/UCR Definition),0,0,NA,2,1,100,24,13,84.6,20,NA,NA,2022-10-30,Violent
+7,Other Sex Crimes,1,1,0,4,2,100,38,39,-2.6,72.7,NA,NA,2022-10-30,Other/Mixed Category
+7,Shooting Victims,0,0,NA,0,2,-100,10,7,42.9,66.7,42.9,-33.3,2022-10-30,Other/Mixed Category
+7,Shooting Incidents,0,0,NA,0,1,-100,8,6,33.3,100,100,-38.5,2022-10-30,Other/Mixed Category
+7,Hate Crimes,0,0,NA,1,0,NA,12,14,-14.3,140,NA,NA,2022-10-30,Other/Mixed Category
+9,Murder,1,0,NA,1,0,NA,5,3,66.7,150,25,-66.7,2022-10-30,Violent
+9,Rape,0,0,NA,2,1,100,16,18,-11.1,77.8,33.3,-51.5,2022-10-30,Violent
+9,Robbery,1,3,-66.7,8,22,-63.6,195,142,37.3,134.9,20.4,-75.6,2022-10-30,Property
+9,Felony Assault,5,6,-16.7,16,19,-15.8,174,166,4.8,5.5,32.8,-63.8,2022-10-30,Violent
+9,Burglary,8,5,60,23,19,21.1,326,237,37.6,53.1,75.3,-57.8,2022-10-30,Property
+9,Grand Larceny,10,18,-44.4,80,86,-7,854,629,35.8,84.8,33.9,-37.3,2022-10-30,Property
+9,Motor Vehicle Theft,2,1,100,5,4,25,40,85,-52.9,-27.3,-4.8,-91.4,2022-10-30,Property
+9,Total Major Felonies,27,33,-18.2,135,151,-10.6,1610,1280,25.8,62.8,37,-59,2022-10-30,Combined Total
+9,Transit System Crimes,0,1,-100,0,3,-100,12,9,33.3,-20,-40,NA,2022-10-30,Other/Mixed Category
+9,Housing System Crimes,4,8,-50,7,23,-69.6,114,175,-34.9,-14.9,14,NA,2022-10-30,Other/Mixed Category
+9,Petty Theft,47,34,38.2,147,144,2.1,1875,950,97.4,136.4,31.3,NA,2022-10-30,Property
+9,Misdemeanor Assault,4,8,-50,23,38,-39.5,390,326,19.6,46.6,-1.3,NA,2022-10-30,Violent
+9,Rape (FBI/UCR Definition),0,0,NA,3,2,50,29,27,7.4,52.6,NA,NA,2022-10-30,Violent
+9,Other Sex Crimes,0,3,-100,5,10,-50,80,61,31.1,53.8,NA,NA,2022-10-30,Other/Mixed Category
+9,Shooting Victims,2,0,NA,3,0,NA,8,5,60,-20,33.3,-71.4,2022-10-30,Other/Mixed Category
+9,Shooting Incidents,1,0,NA,2,0,NA,7,4,75,-30,16.7,-69.6,2022-10-30,Other/Mixed Category
+9,Hate Crimes,0,0,NA,0,0,NA,8,8,0,700,NA,NA,2022-10-30,Other/Mixed Category
+10,Murder,0,0,NA,0,0,NA,3,1,200,0,200,-62.5,2022-10-30,Violent
+10,Rape,1,1,0,1,1,0,8,11,-27.3,33.3,0,-63.6,2022-10-30,Violent
+10,Robbery,2,4,-50,14,14,0,128,110,16.4,21.9,43.8,-75.1,2022-10-30,Property
+10,Felony Assault,1,5,-80,14,18,-22.2,113,110,2.7,25.6,2.7,-47.2,2022-10-30,Violent
+10,Burglary,5,7,-28.6,13,17,-23.5,146,110,32.7,0,65.9,-71.9,2022-10-30,Property
+10,Grand Larceny,15,18,-16.7,59,56,5.4,590,414,42.5,31.7,10.7,-15.8,2022-10-30,Property
+10,Motor Vehicle Theft,1,2,-50,4,8,-50,66,48,37.5,61,73.7,-84.5,2022-10-30,Property
+10,Total Major Felonies,25,37,-32.4,105,114,-7.9,1054,804,31.1,25.6,21.6,-56.2,2022-10-30,Combined Total
+10,Transit System Crimes,3,1,200,3,5,-40,27,16,68.8,145.5,170,NA,2022-10-30,Other/Mixed Category
+10,Housing System Crimes,0,2,-100,3,5,-40,47,56,-16.1,11.9,27,NA,2022-10-30,Other/Mixed Category
+10,Petty Theft,12,10,20,62,59,5.1,625,458,36.5,2,-12.7,NA,2022-10-30,Property
+10,Misdemeanor Assault,8,11,-27.3,30,28,7.1,321,266,20.7,52.9,15.5,NA,2022-10-30,Violent
+10,Rape (FBI/UCR Definition),1,1,0,2,2,0,14,13,7.7,75,NA,NA,2022-10-30,Violent
+10,Other Sex Crimes,3,2,50,4,7,-42.9,50,43,16.3,47.1,NA,NA,2022-10-30,Other/Mixed Category
+10,Shooting Victims,0,0,NA,0,0,NA,3,2,50,-25,-40,-70,2022-10-30,Other/Mixed Category
+10,Shooting Incidents,0,0,NA,0,0,NA,2,2,0,-33.3,-33.3,-80,2022-10-30,Other/Mixed Category
+10,Hate Crimes,0,0,NA,0,0,NA,15,3,400,7.1,NA,NA,2022-10-30,Other/Mixed Category
+13,Murder,0,0,NA,0,0,NA,2,1,100,0,-33.3,-66.7,2022-10-30,Violent
+13,Rape,0,0,NA,2,2,0,16,21,-23.8,77.8,60,0,2022-10-30,Violent
+13,Robbery,9,5,80,21,21,0,166,162,2.5,23,9.2,-80.8,2022-10-30,Property
+13,Felony Assault,5,2,150,26,15,73.3,204,183,11.5,19.3,74.4,-16,2022-10-30,Violent
+13,Burglary,3,4,-25,25,17,47.1,243,190,27.9,-27.5,16.8,-81.9,2022-10-30,Property
+13,Grand Larceny,24,23,4.3,103,87,18.4,857,641,33.7,11.4,-29.1,-62.6,2022-10-30,Property
+13,Motor Vehicle Theft,0,0,NA,3,5,-40,64,52,23.1,-1.5,60,-93.8,2022-10-30,Property
+13,Total Major Felonies,41,34,20.6,180,147,22.4,1552,1250,24.2,4.4,-10.8,-73.3,2022-10-30,Combined Total
+13,Transit System Crimes,2,4,-50,8,7,14.3,77,50,54,63.8,32.8,NA,2022-10-30,Other/Mixed Category
+13,Housing System Crimes,0,0,NA,1,3,-66.7,15,12,25,36.4,0,NA,2022-10-30,Other/Mixed Category
+13,Petty Theft,35,69,-49.3,166,220,-24.5,1976,1604,23.2,31.8,26.6,NA,2022-10-30,Property
+13,Misdemeanor Assault,8,11,-27.3,40,45,-11.1,434,372,16.7,33.1,22.6,NA,2022-10-30,Violent
+13,Rape (FBI/UCR Definition),0,0,NA,2,2,0,26,27,-3.7,36.8,NA,NA,2022-10-30,Violent
+13,Other Sex Crimes,1,1,0,11,12,-8.3,91,100,-9,16.7,NA,NA,2022-10-30,Other/Mixed Category
+13,Shooting Victims,0,1,-100,0,1,-100,3,4,-25,-25,0,-66.7,2022-10-30,Other/Mixed Category
+13,Shooting Incidents,0,1,-100,0,1,-100,3,4,-25,0,50,-66.7,2022-10-30,Other/Mixed Category
+13,Hate Crimes,0,0,NA,0,0,NA,18,16,12.5,200,NA,NA,2022-10-30,Other/Mixed Category
+14,Murder,0,0,NA,0,1,-100,6,3,100,500,NA,-33.3,2022-10-30,Violent
+14,Rape,0,1,-100,0,1,-100,18,15,20,-14.3,50,-48.6,2022-10-30,Violent
+14,Robbery,10,18,-44.4,58,52,11.5,527,356,48,305.4,290.4,-75.2,2022-10-30,Property
+14,Felony Assault,15,10,50,50,36,38.9,395,379,4.2,140.9,153.2,-30.1,2022-10-30,Violent
+14,Burglary,12,7,71.4,47,47,0,558,361,54.6,88.5,97.9,-75,2022-10-30,Property
+14,Grand Larceny,40,29,37.9,180,127,41.7,1875,1119,67.6,93.5,0.5,-76.3,2022-10-30,Property
+14,Motor Vehicle Theft,5,1,400,7,6,16.7,56,45,24.4,43.6,166.7,-81.3,2022-10-30,Property
+14,Total Major Felonies,82,66,24.2,342,270,26.7,3435,2278,50.8,112,39,-73.9,2022-10-30,Combined Total
+14,Transit System Crimes,3,2,50,17,12,41.7,162,126,28.6,38.5,38.5,NA,2022-10-30,Other/Mixed Category
+14,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+14,Petty Theft,63,39,61.5,280,206,35.9,2780,1814,53.3,86.7,-29.8,NA,2022-10-30,Property
+14,Misdemeanor Assault,28,17,64.7,77,74,4.1,749,733,2.2,76.2,51.9,NA,2022-10-30,Violent
+14,Rape (FBI/UCR Definition),1,1,0,1,1,0,26,32,-18.8,-13.3,NA,NA,2022-10-30,Violent
+14,Other Sex Crimes,5,2,150,18,10,80,190,128,48.4,86.3,NA,NA,2022-10-30,Other/Mixed Category
+14,Shooting Victims,0,0,NA,0,1,-100,4,11,-63.6,300,0,-50,2022-10-30,Other/Mixed Category
+14,Shooting Incidents,0,0,NA,0,1,-100,2,9,-77.8,100,-33.3,-71.4,2022-10-30,Other/Mixed Category
+14,Hate Crimes,0,0,NA,0,2,-100,18,33,-45.5,500,NA,NA,2022-10-30,Other/Mixed Category
+17,Murder,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Violent
+17,Rape,0,1,-100,2,1,100,13,6,116.7,30,116.7,18.2,2022-10-30,Violent
+17,Robbery,3,4,-25,7,15,-53.3,75,70,7.1,50,41.5,-85.8,2022-10-30,Property
+17,Felony Assault,4,6,-33.3,11,12,-8.3,95,92,3.3,72.7,93.9,-29.1,2022-10-30,Violent
+17,Burglary,6,10,-40,18,25,-28,155,129,20.2,6.2,109.5,-84.8,2022-10-30,Property
+17,Grand Larceny,14,12,16.7,56,51,9.8,547,441,24,13.3,-11.3,-70.9,2022-10-30,Property
+17,Motor Vehicle Theft,0,0,NA,6,0,NA,56,41,36.6,47.4,107.4,-89.6,2022-10-30,Property
+17,Total Major Felonies,27,33,-18.2,100,104,-3.8,941,779,20.8,20.3,13.9,-77.1,2022-10-30,Combined Total
+17,Transit System Crimes,1,2,-50,2,3,-33.3,26,21,23.8,36.8,-7.1,NA,2022-10-30,Other/Mixed Category
+17,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+17,Petty Theft,21,19,10.5,87,86,1.2,1079,829,30.2,-0.1,106.7,NA,2022-10-30,Property
+17,Misdemeanor Assault,4,3,33.3,19,11,72.7,193,145,33.1,39.9,2.7,NA,2022-10-30,Violent
+17,Rape (FBI/UCR Definition),0,1,-100,2,1,100,15,10,50,-6.2,NA,NA,2022-10-30,Violent
+17,Other Sex Crimes,1,0,NA,3,5,-40,45,57,-21.1,21.6,NA,NA,2022-10-30,Other/Mixed Category
+17,Shooting Victims,0,0,NA,0,0,NA,2,1,100,NA,NA,-33.3,2022-10-30,Other/Mixed Category
+17,Shooting Incidents,0,0,NA,0,0,NA,2,1,100,NA,NA,0,2022-10-30,Other/Mixed Category
+17,Hate Crimes,0,0,NA,0,1,-100,11,6,83.3,266.7,NA,NA,2022-10-30,Other/Mixed Category
+18,Murder,0,0,NA,0,0,NA,1,3,-66.7,-75,-66.7,-90,2022-10-30,Violent
+18,Rape,0,0,NA,2,1,100,17,18,-5.6,41.7,30.8,-22.7,2022-10-30,Violent
+18,Robbery,1,2,-50,11,18,-38.9,128,113,13.3,18.5,14.3,-88.7,2022-10-30,Property
+18,Felony Assault,4,2,100,12,8,50,155,126,23,47.6,38.4,-62.9,2022-10-30,Violent
+18,Burglary,3,3,0,15,18,-16.7,186,169,10.1,-16.6,13.4,-89.6,2022-10-30,Property
+18,Grand Larceny,53,42,26.2,188,137,37.2,1631,974,67.5,78.1,16.4,-73.9,2022-10-30,Property
+18,Motor Vehicle Theft,0,1,-100,11,8,37.5,103,55,87.3,80.7,157.5,-75.1,2022-10-30,Property
+18,Total Major Felonies,61,50,22,239,190,25.8,2221,1458,52.3,55.9,20.4,-77.9,2022-10-30,Combined Total
+18,Transit System Crimes,3,1,200,7,2,250,56,41,36.6,-12.5,14.3,NA,2022-10-30,Other/Mixed Category
+18,Housing System Crimes,0,0,NA,0,0,NA,2,4,-50,0,-50,NA,2022-10-30,Other/Mixed Category
+18,Petty Theft,60,48,25,260,207,25.6,2249,1606,40,91.2,40.1,NA,2022-10-30,Property
+18,Misdemeanor Assault,12,16,-25,50,45,11.1,481,374,28.6,81.5,27.9,NA,2022-10-30,Violent
+18,Rape (FBI/UCR Definition),0,2,-100,3,3,0,30,30,0,66.7,NA,NA,2022-10-30,Violent
+18,Other Sex Crimes,1,1,0,12,10,20,82,74,10.8,57.7,NA,NA,2022-10-30,Other/Mixed Category
+18,Shooting Victims,0,0,NA,0,0,NA,6,1,500,200,500,-40,2022-10-30,Other/Mixed Category
+18,Shooting Incidents,0,0,NA,0,0,NA,6,1,500,200,500,-25,2022-10-30,Other/Mixed Category
+18,Hate Crimes,0,0,NA,0,3,-100,12,15,-20,300,NA,NA,2022-10-30,Other/Mixed Category
+19,Murder,0,0,NA,0,0,NA,2,2,0,100,100,-60,2022-10-30,Violent
+19,Rape,0,1,-100,1,1,0,10,12,-16.7,0,-16.7,-63,2022-10-30,Violent
+19,Robbery,5,1,400,22,18,22.2,204,147,38.8,5.2,77.4,-81.9,2022-10-30,Property
+19,Felony Assault,2,1,100,11,12,-8.3,144,132,9.1,45.5,73.5,-43.5,2022-10-30,Violent
+19,Burglary,4,2,100,24,28,-14.3,213,187,13.9,-37.4,6,-91.2,2022-10-30,Property
+19,Grand Larceny,32,25,28,140,110,27.3,1449,942,53.8,30.8,39.9,-53.4,2022-10-30,Property
+19,Motor Vehicle Theft,1,5,-80,5,16,-68.8,148,147,0.7,39.6,92.2,-94.9,2022-10-30,Property
+19,Total Major Felonies,44,35,25.7,203,185,9.7,2170,1569,38.3,16.8,42.3,-77.9,2022-10-30,Combined Total
+19,Transit System Crimes,0,0,NA,4,2,100,38,13,192.3,40.7,65.2,NA,2022-10-30,Other/Mixed Category
+19,Housing System Crimes,0,0,NA,3,1,200,30,30,0,3.4,36.4,NA,2022-10-30,Other/Mixed Category
+19,Petty Theft,94,36,161.1,312,191,63.4,3327,2038,63.2,50.1,132.3,NA,2022-10-30,Property
+19,Misdemeanor Assault,8,7,14.3,29,32,-9.4,320,288,11.1,40.4,9.6,NA,2022-10-30,Violent
+19,Rape (FBI/UCR Definition),0,1,-100,1,2,-50,14,19,-26.3,-6.7,NA,NA,2022-10-30,Violent
+19,Other Sex Crimes,3,2,50,7,7,0,69,80,-13.8,21.1,NA,NA,2022-10-30,Other/Mixed Category
+19,Shooting Victims,0,0,NA,0,0,NA,2,6,-66.7,0,-33.3,0,2022-10-30,Other/Mixed Category
+19,Shooting Incidents,0,0,NA,0,0,NA,2,5,-60,100,-33.3,0,2022-10-30,Other/Mixed Category
+19,Hate Crimes,0,0,NA,1,0,NA,26,14,85.7,766.7,NA,NA,2022-10-30,Other/Mixed Category
+20,Murder,0,0,NA,0,0,NA,0,0,NA,-100,-100,-100,2022-10-30,Violent
+20,Rape,0,0,NA,0,0,NA,12,6,100,200,50,-36.8,2022-10-30,Violent
+20,Robbery,2,7,-71.4,8,18,-55.6,97,92,5.4,27.6,27.6,-80.9,2022-10-30,Property
+20,Felony Assault,3,1,200,9,14,-35.7,88,60,46.7,95.6,79.6,7.3,2022-10-30,Violent
+20,Burglary,0,0,NA,2,8,-75,118,68,73.5,-4.8,29.7,-84.5,2022-10-30,Property
+20,Grand Larceny,21,32,-34.4,68,92,-26.1,698,607,15,71.9,27.4,-54.5,2022-10-30,Property
+20,Motor Vehicle Theft,0,1,-100,6,10,-40,65,79,-17.7,91.2,124.1,-93.3,2022-10-30,Property
+20,Total Major Felonies,26,41,-36.6,93,142,-34.5,1078,912,18.2,56.2,34.4,-72.2,2022-10-30,Combined Total
+20,Transit System Crimes,0,0,NA,2,1,100,22,19,15.8,37.5,4.8,NA,2022-10-30,Other/Mixed Category
+20,Housing System Crimes,1,0,NA,1,3,-66.7,23,20,15,43.8,0,NA,2022-10-30,Other/Mixed Category
+20,Petty Theft,19,18,5.6,68,91,-25.3,1063,1076,-1.2,0.5,18.5,NA,2022-10-30,Property
+20,Misdemeanor Assault,5,4,25,18,16,12.5,178,151,17.9,56.1,-21.9,NA,2022-10-30,Violent
+20,Rape (FBI/UCR Definition),0,0,NA,0,1,-100,16,12,33.3,128.6,NA,NA,2022-10-30,Violent
+20,Other Sex Crimes,0,0,NA,3,3,0,46,40,15,48.4,NA,NA,2022-10-30,Other/Mixed Category
+20,Shooting Victims,0,1,-100,0,2,-100,1,3,-66.7,-50,NA,-50,2022-10-30,Other/Mixed Category
+20,Shooting Incidents,0,1,-100,0,2,-100,1,3,-66.7,-50,NA,-50,2022-10-30,Other/Mixed Category
+20,Hate Crimes,0,0,NA,0,0,NA,4,5,-20,33.3,NA,NA,2022-10-30,Other/Mixed Category
+22,Murder,0,0,NA,0,0,NA,1,0,NA,NA,NA,-50,2022-10-30,Violent
+22,Rape,0,0,NA,0,0,NA,2,5,-60,0,-66.7,-77.8,2022-10-30,Violent
+22,Robbery,1,1,0,4,1,300,24,14,71.4,166.7,9.1,-86.1,2022-10-30,Property
+22,Felony Assault,0,0,NA,1,1,0,14,9,55.6,133.3,180,-62.2,2022-10-30,Violent
+22,Burglary,0,0,NA,0,0,NA,2,1,100,-66.7,0,-93.8,2022-10-30,Property
+22,Grand Larceny,0,0,NA,4,1,300,23,22,4.5,-23.3,-61.7,-85.4,2022-10-30,Property
+22,Motor Vehicle Theft,0,0,NA,0,0,NA,0,0,NA,NA,NA,-100,2022-10-30,Property
+22,Total Major Felonies,1,1,0,9,3,200,66,51,29.4,24.5,-30.5,-84.2,2022-10-30,Combined Total
+22,Transit System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+22,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+22,Petty Theft,1,0,NA,4,5,-20,28,28,0,-9.7,-67.8,NA,2022-10-30,Property
+22,Misdemeanor Assault,1,1,0,2,5,-60,29,22,31.8,70.6,61.1,NA,2022-10-30,Violent
+22,Rape (FBI/UCR Definition),0,0,NA,0,0,NA,2,6,-66.7,0,NA,NA,2022-10-30,Violent
+22,Other Sex Crimes,0,0,NA,0,0,NA,12,4,200,50,NA,NA,2022-10-30,Other/Mixed Category
+22,Shooting Victims,0,0,NA,0,0,NA,0,0,NA,-100,NA,NA,2022-10-30,Other/Mixed Category
+22,Shooting Incidents,0,0,NA,0,0,NA,0,0,NA,-100,NA,NA,2022-10-30,Other/Mixed Category
+22,Hate Crimes,0,0,NA,0,0,NA,0,2,-100,-100,NA,NA,2022-10-30,Other/Mixed Category
+23,Murder,1,0,NA,1,1,0,4,7,-42.9,-50,33.3,-83.3,2022-10-30,Violent
+23,Rape,1,0,NA,2,0,NA,17,15,13.3,13.3,-19,-70.2,2022-10-30,Violent
+23,Robbery,2,5,-60,10,19,-47.4,160,153,4.6,15.9,-24.2,-78.8,2022-10-30,Property
+23,Felony Assault,11,7,57.1,30,28,7.1,320,303,5.6,28,73.9,-36.4,2022-10-30,Violent
+23,Burglary,7,2,250,16,7,128.6,163,88,85.2,20.7,94,-58.2,2022-10-30,Property
+23,Grand Larceny,18,4,350,43,27,59.3,408,303,34.7,46.8,90.7,-17.6,2022-10-30,Property
+23,Motor Vehicle Theft,2,0,NA,5,3,66.7,72,48,50,38.5,118.2,-80.1,2022-10-30,Property
+23,Total Major Felonies,42,18,133.3,107,85,25.9,1144,917,24.8,30.6,52.5,-55.7,2022-10-30,Combined Total
+23,Transit System Crimes,0,0,NA,1,0,NA,6,5,20,-25,20,NA,2022-10-30,Other/Mixed Category
+23,Housing System Crimes,10,8,25,29,34,-14.7,346,354,-2.3,-0.9,48.5,NA,2022-10-30,Other/Mixed Category
+23,Petty Theft,17,13,30.8,75,56,33.9,743,644,15.4,17.6,32,NA,2022-10-30,Property
+23,Misdemeanor Assault,9,10,-10,44,55,-20,461,440,4.8,1.1,-19.5,NA,2022-10-30,Violent
+23,Rape (FBI/UCR Definition),1,0,NA,5,1,400,24,22,9.1,9.1,NA,NA,2022-10-30,Violent
+23,Other Sex Crimes,0,2,-100,2,11,-81.8,52,65,-20,23.8,NA,NA,2022-10-30,Other/Mixed Category
+23,Shooting Victims,1,0,NA,3,0,NA,24,28,-14.3,-35.1,-31.4,-72.1,2022-10-30,Other/Mixed Category
+23,Shooting Incidents,1,0,NA,3,0,NA,17,26,-34.6,-43.3,-43.3,-78.8,2022-10-30,Other/Mixed Category
+23,Hate Crimes,0,0,NA,0,0,NA,1,2,-50,-75,NA,NA,2022-10-30,Other/Mixed Category
+24,Murder,0,0,NA,0,0,NA,1,1,0,-87.5,-50,-95.2,2022-10-30,Violent
+24,Rape,0,0,NA,0,2,-100,6,12,-50,50,-40,-81.2,2022-10-30,Violent
+24,Robbery,2,4,-50,11,15,-26.7,137,118,16.1,17.1,-16.5,-81.7,2022-10-30,Property
+24,Felony Assault,3,6,-50,12,15,-20,151,147,2.7,21.8,79.8,-63.4,2022-10-30,Violent
+24,Burglary,5,9,-44.4,13,16,-18.8,154,113,36.3,-3.1,38.7,-82.8,2022-10-30,Property
+24,Grand Larceny,7,8,-12.5,39,55,-29.1,438,387,13.2,45.5,-2.2,-52.6,2022-10-30,Property
+24,Motor Vehicle Theft,1,0,NA,6,6,0,79,74,6.8,21.5,132.4,-90.6,2022-10-30,Property
+24,Total Major Felonies,18,27,-33.3,81,109,-25.7,966,852,13.4,24.2,13.2,-75,2022-10-30,Combined Total
+24,Transit System Crimes,2,1,100,5,1,400,25,23,8.7,38.9,0,NA,2022-10-30,Other/Mixed Category
+24,Housing System Crimes,3,2,50,13,6,116.7,106,92,15.2,30.9,65.6,NA,2022-10-30,Other/Mixed Category
+24,Petty Theft,56,40,40,175,151,15.9,1573,985,59.7,31.2,74.2,NA,2022-10-30,Property
+24,Misdemeanor Assault,3,7,-57.1,28,21,33.3,261,229,14,30.5,-9.1,NA,2022-10-30,Violent
+24,Rape (FBI/UCR Definition),0,0,NA,0,3,-100,10,16,-37.5,11.1,NA,NA,2022-10-30,Violent
+24,Other Sex Crimes,0,2,-100,6,7,-14.3,44,47,-6.4,33.3,NA,NA,2022-10-30,Other/Mixed Category
+24,Shooting Victims,0,0,NA,0,0,NA,5,8,-37.5,-50,66.7,-89.4,2022-10-30,Other/Mixed Category
+24,Shooting Incidents,0,0,NA,0,0,NA,4,4,0,-55.6,33.3,-90.9,2022-10-30,Other/Mixed Category
+24,Hate Crimes,0,0,NA,0,0,NA,16,9,77.8,700,NA,NA,2022-10-30,Other/Mixed Category
+25,Murder,0,0,NA,1,1,0,7,13,-46.2,-30,-36.4,-77.4,2022-10-30,Violent
+25,Rape,1,0,NA,1,1,0,11,9,22.2,0,-26.7,-67.6,2022-10-30,Violent
+25,Robbery,3,9,-66.7,21,28,-25,204,192,6.2,15.3,6.2,-72.7,2022-10-30,Property
+25,Felony Assault,8,5,60,21,33,-36.4,368,319,15.4,35.8,84.9,-35,2022-10-30,Violent
+25,Burglary,3,7,-57.1,8,14,-42.9,167,83,101.2,6.4,81.5,-62.1,2022-10-30,Property
+25,Grand Larceny,12,8,50,37,40,-7.5,527,328,60.7,62.7,177.4,53.2,2022-10-30,Property
+25,Motor Vehicle Theft,1,3,-66.7,7,6,16.7,70,56,25,84.2,18.6,-75.1,2022-10-30,Property
+25,Total Major Felonies,28,32,-12.5,96,123,-22,1354,1000,35.4,37,78.6,-44.6,2022-10-30,Combined Total
+25,Transit System Crimes,2,0,NA,3,2,50,34,23,47.8,25.9,17.2,NA,2022-10-30,Other/Mixed Category
+25,Housing System Crimes,2,5,-60,16,18,-11.1,151,145,4.1,11.9,65.9,NA,2022-10-30,Other/Mixed Category
+25,Petty Theft,28,29,-3.4,135,100,35,1130,759,48.9,62.8,39.9,NA,2022-10-30,Property
+25,Misdemeanor Assault,7,7,0,41,31,32.3,470,420,11.9,11.4,11.1,NA,2022-10-30,Violent
+25,Rape (FBI/UCR Definition),1,0,NA,3,3,0,25,20,25,19,NA,NA,2022-10-30,Violent
+25,Other Sex Crimes,1,1,0,4,3,33.3,61,55,10.9,13,NA,NA,2022-10-30,Other/Mixed Category
+25,Shooting Victims,1,0,NA,2,1,100,40,24,66.7,166.7,21.2,-39.4,2022-10-30,Other/Mixed Category
+25,Shooting Incidents,1,0,NA,2,1,100,29,19,52.6,93.3,7.4,-53.2,2022-10-30,Other/Mixed Category
+25,Hate Crimes,0,1,-100,0,2,-100,8,11,-27.3,166.7,NA,NA,2022-10-30,Other/Mixed Category
+26,Murder,0,0,NA,0,0,NA,1,1,0,-50,-50,-90.9,2022-10-30,Violent
+26,Rape,0,0,NA,1,0,NA,15,4,275,50,25,-31.8,2022-10-30,Violent
+26,Robbery,3,3,0,9,8,12.5,90,61,47.5,8.4,-34.8,-86.1,2022-10-30,Property
+26,Felony Assault,1,6,-83.3,7,26,-73.1,123,136,-9.6,23,29.5,-50.4,2022-10-30,Violent
+26,Burglary,2,5,-60,6,12,-50,102,55,85.5,22.9,59.4,-79.7,2022-10-30,Property
+26,Grand Larceny,6,7,-14.3,25,36,-30.6,284,218,30.3,35.2,24.6,-49.6,2022-10-30,Property
+26,Motor Vehicle Theft,2,1,100,10,6,66.7,66,43,53.5,69.2,200,-79.2,2022-10-30,Property
+26,Total Major Felonies,14,22,-36.4,58,88,-34.1,681,518,31.5,29.2,21.4,-70.6,2022-10-30,Combined Total
+26,Transit System Crimes,1,1,0,3,3,0,17,25,-32,-29.2,-37,NA,2022-10-30,Other/Mixed Category
+26,Housing System Crimes,1,4,-75,6,8,-25,96,92,4.3,-5.9,41.2,NA,2022-10-30,Other/Mixed Category
+26,Petty Theft,5,16,-68.8,40,51,-21.6,429,356,20.5,-22.3,-18.3,NA,2022-10-30,Property
+26,Misdemeanor Assault,5,7,-28.6,14,25,-44,181,174,4,-1.6,-27.9,NA,2022-10-30,Violent
+26,Rape (FBI/UCR Definition),0,0,NA,2,1,100,22,8,175,57.1,NA,NA,2022-10-30,Violent
+26,Other Sex Crimes,0,2,-100,11,5,120,46,35,31.4,91.7,NA,NA,2022-10-30,Other/Mixed Category
+26,Shooting Victims,0,0,NA,0,1,-100,7,10,-30,-36.4,16.7,-75.9,2022-10-30,Other/Mixed Category
+26,Shooting Incidents,0,0,NA,0,1,-100,7,9,-22.2,-30,16.7,-70.8,2022-10-30,Other/Mixed Category
+26,Hate Crimes,0,0,NA,0,0,NA,8,7,14.3,166.7,NA,NA,2022-10-30,Other/Mixed Category
+28,Murder,0,0,NA,0,0,NA,3,2,50,-50,-40,-89.7,2022-10-30,Violent
+28,Rape,0,1,-100,2,1,100,9,7,28.6,-30.8,-10,-75.7,2022-10-30,Violent
+28,Robbery,4,6,-33.3,10,22,-54.5,148,145,2.1,19.4,-25.3,-79.4,2022-10-30,Property
+28,Felony Assault,6,7,-14.3,22,20,10,194,217,-10.6,10.9,24.4,-68.2,2022-10-30,Violent
+28,Burglary,3,5,-40,14,15,-6.7,149,135,10.4,17.3,63.7,-79.4,2022-10-30,Property
+28,Grand Larceny,5,16,-68.8,38,41,-7.3,337,322,4.7,27.2,31.1,-15.3,2022-10-30,Property
+28,Motor Vehicle Theft,0,0,NA,5,3,66.7,43,42,2.4,4.9,138.9,-64.2,2022-10-30,Property
+28,Total Major Felonies,18,35,-48.6,91,102,-10.8,883,870,1.5,17.6,20.1,-66.5,2022-10-30,Combined Total
+28,Transit System Crimes,0,0,NA,1,4,-75,29,21,38.1,38.1,163.6,NA,2022-10-30,Other/Mixed Category
+28,Housing System Crimes,2,1,100,3,3,0,77,67,14.9,11.6,102.6,NA,2022-10-30,Other/Mixed Category
+28,Petty Theft,25,17,47.1,78,60,30,963,1003,-4,33.8,14,NA,2022-10-30,Property
+28,Misdemeanor Assault,9,9,0,22,36,-38.9,345,346,-0.3,12.4,-20.3,NA,2022-10-30,Violent
+28,Rape (FBI/UCR Definition),0,1,-100,2,1,100,15,15,0,-16.7,NA,NA,2022-10-30,Violent
+28,Other Sex Crimes,1,1,0,4,4,0,43,40,7.5,34.4,NA,NA,2022-10-30,Other/Mixed Category
+28,Shooting Victims,0,0,NA,3,4,-25,23,25,-8,21.1,21.1,-74.7,2022-10-30,Other/Mixed Category
+28,Shooting Incidents,0,0,NA,2,2,0,18,22,-18.2,12.5,5.9,-77.5,2022-10-30,Other/Mixed Category
+28,Hate Crimes,0,0,NA,0,0,NA,2,3,-33.3,100,NA,NA,2022-10-30,Other/Mixed Category
+30,Murder,0,0,NA,0,0,NA,4,1,300,0,-33.3,-92.2,2022-10-30,Violent
+30,Rape,0,0,NA,2,1,100,16,6,166.7,77.8,-30.4,-61,2022-10-30,Violent
+30,Robbery,1,1,0,6,9,-33.3,110,89,23.6,-17.9,-45.5,-81.1,2022-10-30,Property
+30,Felony Assault,3,6,-50,14,17,-17.6,191,158,20.9,34.5,27.3,-67.1,2022-10-30,Violent
+30,Burglary,1,2,-50,3,8,-62.5,59,99,-40.4,-25.3,-36.6,-90.9,2022-10-30,Property
+30,Grand Larceny,5,5,0,20,28,-28.6,292,264,10.6,32.1,135.5,3.2,2022-10-30,Property
+30,Motor Vehicle Theft,2,1,100,10,4,150,66,52,26.9,43.5,53.5,-75.4,2022-10-30,Property
+30,Total Major Felonies,12,15,-20,55,67,-17.9,738,669,10.3,16.2,15.1,-70,2022-10-30,Combined Total
+30,Transit System Crimes,0,0,NA,2,1,100,21,15,40,23.5,90.9,NA,2022-10-30,Other/Mixed Category
+30,Housing System Crimes,0,1,-100,0,1,-100,6,9,-33.3,-40,20,NA,2022-10-30,Other/Mixed Category
+30,Petty Theft,16,23,-30.4,83,90,-7.8,1001,725,38.1,41.2,202.4,NA,2022-10-30,Property
+30,Misdemeanor Assault,5,7,-28.6,26,28,-7.1,298,270,10.4,17.8,-30,NA,2022-10-30,Violent
+30,Rape (FBI/UCR Definition),0,0,NA,2,1,100,22,17,29.4,57.1,NA,NA,2022-10-30,Violent
+30,Other Sex Crimes,4,0,NA,9,1,800,49,28,75,104.2,NA,NA,2022-10-30,Other/Mixed Category
+30,Shooting Victims,0,0,NA,0,0,NA,13,8,62.5,30,8.3,-81.7,2022-10-30,Other/Mixed Category
+30,Shooting Incidents,0,0,NA,0,0,NA,13,8,62.5,62.5,30,-81.2,2022-10-30,Other/Mixed Category
+30,Hate Crimes,0,0,NA,0,0,NA,5,3,66.7,25,NA,NA,2022-10-30,Other/Mixed Category
+32,Murder,0,1,-100,0,1,-100,7,14,-50,0,0,-85.4,2022-10-30,Violent
+32,Rape,0,0,NA,0,1,-100,22,17,29.4,15.8,-18.5,-69,2022-10-30,Violent
+32,Robbery,4,4,0,13,23,-43.5,180,139,29.5,26.8,-22.4,-76.3,2022-10-30,Property
+32,Felony Assault,6,11,-45.5,35,50,-30,428,439,-2.5,22.3,60.3,-49.2,2022-10-30,Violent
+32,Burglary,6,7,-14.3,17,17,0,171,140,22.1,74.5,59.8,-79.2,2022-10-30,Property
+32,Grand Larceny,7,8,-12.5,26,19,36.8,291,264,10.2,7,16.4,-12.1,2022-10-30,Property
+32,Motor Vehicle Theft,4,4,0,5,11,-54.5,65,47,38.3,25,47.7,-69.2,2022-10-30,Property
+32,Total Major Felonies,27,35,-22.9,96,122,-21.3,1164,1060,9.8,23.8,24.6,-62.3,2022-10-30,Combined Total
+32,Transit System Crimes,1,0,NA,1,0,NA,16,12,33.3,60,77.8,NA,2022-10-30,Other/Mixed Category
+32,Housing System Crimes,5,6,-16.7,14,21,-33.3,186,184,1.1,12,34.8,NA,2022-10-30,Other/Mixed Category
+32,Petty Theft,9,10,-10,71,66,7.6,692,641,8,8,27.7,NA,2022-10-30,Property
+32,Misdemeanor Assault,12,10,20,42,62,-32.3,494,525,-5.9,13.6,-32,NA,2022-10-30,Violent
+32,Rape (FBI/UCR Definition),0,0,NA,1,1,0,39,30,30,69.6,NA,NA,2022-10-30,Violent
+32,Other Sex Crimes,2,1,100,6,4,50,63,61,3.3,90.9,NA,NA,2022-10-30,Other/Mixed Category
+32,Shooting Victims,0,1,-100,3,6,-50,32,51,-37.3,-15.8,-13.5,-71.2,2022-10-30,Other/Mixed Category
+32,Shooting Incidents,0,1,-100,2,5,-60,27,43,-37.2,-3.6,-12.9,-73.5,2022-10-30,Other/Mixed Category
+32,Hate Crimes,0,0,NA,1,0,NA,2,4,-50,0,NA,NA,2022-10-30,Other/Mixed Category
+33,Murder,0,0,NA,0,1,-100,2,4,-50,-50,-50,NA,2022-10-30,Violent
+33,Rape,0,0,NA,1,1,0,13,11,18.2,30,-13.3,160,2022-10-30,Violent
+33,Robbery,4,2,100,20,17,17.6,170,193,-11.9,19.7,-14.1,198.2,2022-10-30,Property
+33,Felony Assault,9,4,125,20,24,-16.7,233,263,-11.4,32.4,54.3,606.1,2022-10-30,Violent
+33,Burglary,1,2,-50,7,9,-22.2,82,111,-26.1,-59.2,-7.9,54.7,2022-10-30,Property
+33,Grand Larceny,3,12,-75,21,46,-54.3,247,292,-15.4,18.2,9.8,648.5,2022-10-30,Property
+33,Motor Vehicle Theft,1,3,-66.7,9,13,-30.8,119,62,91.9,77.6,101.7,120.4,2022-10-30,Property
+33,Total Major Felonies,18,23,-21.7,78,111,-29.7,866,936,-7.5,7,16.9,268.5,2022-10-30,Combined Total
+33,Transit System Crimes,1,0,NA,3,2,50,25,17,47.1,525,78.6,NA,2022-10-30,Other/Mixed Category
+33,Housing System Crimes,0,2,-100,1,2,-50,18,20,-10,12.5,63.6,NA,2022-10-30,Other/Mixed Category
+33,Petty Theft,22,35,-37.1,76,162,-53.1,1138,1293,-12,92.9,128.5,NA,2022-10-30,Property
+33,Misdemeanor Assault,5,12,-58.3,24,44,-45.5,337,356,-5.3,38.1,-18,NA,2022-10-30,Violent
+33,Rape (FBI/UCR Definition),0,0,NA,2,1,100,22,18,22.2,22.2,NA,NA,2022-10-30,Violent
+33,Other Sex Crimes,1,1,0,5,2,150,43,43,0,72,NA,NA,2022-10-30,Other/Mixed Category
+33,Shooting Victims,2,0,NA,2,2,0,9,16,-43.8,28.6,12.5,50,2022-10-30,Other/Mixed Category
+33,Shooting Incidents,2,0,NA,2,2,0,8,14,-42.9,14.3,0,33.3,2022-10-30,Other/Mixed Category
+33,Hate Crimes,0,0,NA,0,0,NA,2,1,100,NA,NA,NA,2022-10-30,Other/Mixed Category
+34,Murder,0,0,NA,0,0,NA,4,11,-63.6,-42.9,0,-92,2022-10-30,Violent
+34,Rape,0,0,NA,2,0,NA,22,13,69.2,69.2,29.4,-71.4,2022-10-30,Violent
+34,Robbery,10,6,66.7,25,17,47.1,238,170,40,51.6,-0.4,-79.9,2022-10-30,Property
+34,Felony Assault,6,0,NA,24,18,33.3,264,239,10.5,39.7,36.8,-66,2022-10-30,Violent
+34,Burglary,3,5,-40,14,15,-6.7,128,95,34.7,-31.2,-16.9,-92.6,2022-10-30,Property
+34,Grand Larceny,16,8,100,51,53,-3.8,490,495,-1,27.6,57.6,-52.9,2022-10-30,Property
+34,Motor Vehicle Theft,3,2,50,17,11,54.5,261,175,49.1,107.1,239,-83.9,2022-10-30,Property
+34,Total Major Felonies,38,21,81,133,114,16.7,1407,1198,17.4,32.5,41.4,-78.3,2022-10-30,Combined Total
+34,Transit System Crimes,1,0,NA,8,1,700,27,21,28.6,80,28.6,NA,2022-10-30,Other/Mixed Category
+34,Housing System Crimes,1,1,0,2,3,-33.3,34,27,25.9,25.9,70,NA,2022-10-30,Other/Mixed Category
+34,Petty Theft,20,14,42.9,103,84,22.6,1190,745,59.7,42.7,117.2,NA,2022-10-30,Property
+34,Misdemeanor Assault,10,4,150,30,31,-3.2,375,347,8.1,10.3,-20,NA,2022-10-30,Violent
+34,Rape (FBI/UCR Definition),0,1,-100,3,1,200,34,24,41.7,78.9,NA,NA,2022-10-30,Violent
+34,Other Sex Crimes,4,1,300,11,4,175,43,52,-17.3,13.2,NA,NA,2022-10-30,Other/Mixed Category
+34,Shooting Victims,0,0,NA,0,0,NA,18,42,-57.1,-35.7,157.1,-88.9,2022-10-30,Other/Mixed Category
+34,Shooting Incidents,0,0,NA,0,0,NA,18,32,-43.8,-5.3,157.1,-87.3,2022-10-30,Other/Mixed Category
+34,Hate Crimes,0,0,NA,0,0,NA,4,1,300,0,NA,NA,2022-10-30,Other/Mixed Category
+40,Murder,0,1,-100,2,2,0,13,15,-13.3,8.3,-7.1,-78.7,2022-10-30,Violent
+40,Rape,0,1,-100,2,2,0,27,24,12.5,8,50,-60.9,2022-10-30,Violent
+40,Robbery,8,12,-33.3,33,37,-10.8,467,341,37,25.9,22.6,-70.6,2022-10-30,Property
+40,Felony Assault,14,18,-22.2,55,53,3.8,704,584,20.5,15.4,88.7,-24,2022-10-30,Violent
+40,Burglary,9,6,50,34,18,88.9,305,150,103.3,30.3,81.5,-73.2,2022-10-30,Property
+40,Grand Larceny,18,14,28.6,55,74,-25.7,625,604,3.5,7.2,74.1,-2.3,2022-10-30,Property
+40,Motor Vehicle Theft,5,5,0,23,16,43.8,262,154,70.1,81.9,156.9,-53.6,2022-10-30,Property
+40,Total Major Felonies,54,57,-5.3,204,202,1,2403,1872,28.4,21.4,69.8,-51.8,2022-10-30,Combined Total
+40,Transit System Crimes,0,1,-100,2,5,-60,74,57,29.8,7.2,42.3,NA,2022-10-30,Other/Mixed Category
+40,Housing System Crimes,4,9,-55.6,20,29,-31,325,243,33.7,24.5,27.5,NA,2022-10-30,Other/Mixed Category
+40,Petty Theft,38,36,5.6,224,109,105.5,1613,1120,44,19.7,37.2,NA,2022-10-30,Property
+40,Misdemeanor Assault,20,22,-9.1,85,69,23.2,874,760,15,0,-9.3,NA,2022-10-30,Violent
+40,Rape (FBI/UCR Definition),0,3,-100,3,8,-62.5,45,61,-26.2,9.8,NA,NA,2022-10-30,Violent
+40,Other Sex Crimes,1,1,0,5,9,-44.4,71,72,-1.4,1.4,NA,NA,2022-10-30,Other/Mixed Category
+40,Shooting Victims,0,4,-100,2,8,-75,52,62,-16.1,-10.3,-1.9,-72.3,2022-10-30,Other/Mixed Category
+40,Shooting Incidents,0,3,-100,2,7,-71.4,43,54,-20.4,-10.4,-4.4,-74.6,2022-10-30,Other/Mixed Category
+40,Hate Crimes,0,0,NA,0,0,NA,3,4,-25,-40,NA,NA,2022-10-30,Other/Mixed Category
+41,Murder,0,0,NA,1,0,NA,5,10,-50,0,25,-86.8,2022-10-30,Violent
+41,Rape,1,0,NA,5,0,NA,26,26,0,-10.3,30,-7.1,2022-10-30,Violent
+41,Robbery,6,8,-25,22,25,-12,251,150,67.3,52.1,6.8,-64.9,2022-10-30,Property
+41,Felony Assault,10,4,150,36,20,80,355,258,37.6,62.8,8.6,-18.8,2022-10-30,Violent
+41,Burglary,2,1,100,12,11,9.1,133,80,66.2,8.1,-27.7,-85.2,2022-10-30,Property
+41,Grand Larceny,10,3,233.3,40,36,11.1,346,273,26.7,37.3,55.9,-8.7,2022-10-30,Property
+41,Motor Vehicle Theft,6,1,500,16,8,100,175,115,52.2,116,165.2,-50.6,2022-10-30,Property
+41,Total Major Felonies,35,17,105.9,132,100,32,1291,912,41.6,47.9,22,-54.7,2022-10-30,Combined Total
+41,Transit System Crimes,1,0,NA,2,2,0,25,20,25,-7.4,13.6,NA,2022-10-30,Other/Mixed Category
+41,Housing System Crimes,1,0,NA,3,0,NA,15,15,0,25,50,NA,2022-10-30,Other/Mixed Category
+41,Petty Theft,19,10,90,48,70,-31.4,659,442,49.1,15.2,24.8,NA,2022-10-30,Property
+41,Misdemeanor Assault,10,8,25,44,29,51.7,454,323,40.6,50.8,-19.2,NA,2022-10-30,Violent
+41,Rape (FBI/UCR Definition),2,1,100,8,1,700,47,54,-13,-17.5,NA,NA,2022-10-30,Violent
+41,Other Sex Crimes,3,3,0,6,7,-14.3,83,89,-6.7,69.4,NA,NA,2022-10-30,Other/Mixed Category
+41,Shooting Victims,0,0,NA,1,2,-50,23,33,-30.3,15,-4.2,-77.7,2022-10-30,Other/Mixed Category
+41,Shooting Incidents,0,0,NA,1,2,-50,19,25,-24,5.6,-9.5,-77.4,2022-10-30,Other/Mixed Category
+41,Hate Crimes,0,0,NA,0,0,NA,1,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+42,Murder,0,0,NA,0,0,NA,5,17,-70.6,-61.5,-50,-81.5,2022-10-30,Violent
+42,Rape,0,0,NA,3,4,-25,34,31,9.7,61.9,161.5,-49.3,2022-10-30,Violent
+42,Robbery,10,8,25,33,34,-2.9,359,278,29.1,37,39.1,-66.1,2022-10-30,Property
+42,Felony Assault,16,15,6.7,47,61,-23,554,540,2.6,22.6,107.5,-32.8,2022-10-30,Violent
+42,Burglary,4,5,-20,16,22,-27.3,277,169,63.9,42.8,118.1,-69.7,2022-10-30,Property
+42,Grand Larceny,8,6,33.3,46,54,-14.8,434,393,10.4,30.3,114.9,41.8,2022-10-30,Property
+42,Motor Vehicle Theft,2,2,0,25,26,-3.8,251,182,37.9,118.3,164.2,-36.5,2022-10-30,Property
+42,Total Major Felonies,40,36,11.1,170,201,-15.4,1914,1610,18.9,37.7,96.9,-46.7,2022-10-30,Combined Total
+42,Transit System Crimes,0,1,-100,1,1,0,11,11,0,-8.3,-26.7,NA,2022-10-30,Other/Mixed Category
+42,Housing System Crimes,9,7,28.6,33,26,26.9,302,184,64.1,105.4,91.1,NA,2022-10-30,Other/Mixed Category
+42,Petty Theft,25,17,47.1,84,71,18.3,1056,791,33.5,6.8,64,NA,2022-10-30,Property
+42,Misdemeanor Assault,18,19,-5.3,53,85,-37.6,820,753,8.9,15.5,12.5,NA,2022-10-30,Violent
+42,Rape (FBI/UCR Definition),0,0,NA,6,6,0,53,49,8.2,47.2,NA,NA,2022-10-30,Violent
+42,Other Sex Crimes,1,2,-50,9,7,28.6,69,56,23.2,72.5,NA,NA,2022-10-30,Other/Mixed Category
+42,Shooting Victims,0,1,-100,1,4,-75,32,66,-51.5,-34.7,-23.8,-66,2022-10-30,Other/Mixed Category
+42,Shooting Incidents,0,1,-100,1,4,-75,28,56,-50,-28.2,-22.2,-69.9,2022-10-30,Other/Mixed Category
+42,Hate Crimes,0,0,NA,0,0,NA,0,3,-100,NA,NA,NA,2022-10-30,Other/Mixed Category
+43,Murder,0,0,NA,0,1,-100,6,15,-60,-33.3,-33.3,-90,2022-10-30,Violent
+43,Rape,0,2,-100,3,3,0,40,35,14.3,33.3,29,-37.5,2022-10-30,Violent
+43,Robbery,19,11,72.7,53,59,-10.2,616,402,53.2,93.1,45.6,-64,2022-10-30,Property
+43,Felony Assault,15,11,36.4,51,77,-33.8,656,584,12.3,17.4,52.2,-18.5,2022-10-30,Violent
+43,Burglary,3,4,-25,22,22,0,260,212,22.6,42.1,-21,-83.1,2022-10-30,Property
+43,Grand Larceny,16,20,-20,77,93,-17.2,863,617,39.9,59.5,81.7,33,2022-10-30,Property
+43,Motor Vehicle Theft,9,9,0,37,45,-17.8,442,348,27,140.2,109.5,-73.6,2022-10-30,Property
+43,Total Major Felonies,62,57,8.8,243,300,-19,2883,2213,30.3,58,51,-55.7,2022-10-30,Combined Total
+43,Transit System Crimes,0,0,NA,1,2,-50,17,13,30.8,-5.6,21.4,NA,2022-10-30,Other/Mixed Category
+43,Housing System Crimes,7,6,16.7,23,26,-11.5,281,223,26,17.1,48.7,NA,2022-10-30,Other/Mixed Category
+43,Petty Theft,26,37,-29.7,152,123,23.6,1704,1165,46.3,46.1,36.1,NA,2022-10-30,Property
+43,Misdemeanor Assault,23,18,27.8,93,78,19.2,945,808,17,15.2,-28.4,NA,2022-10-30,Violent
+43,Rape (FBI/UCR Definition),0,3,-100,4,7,-42.9,60,58,3.4,33.3,NA,NA,2022-10-30,Violent
+43,Other Sex Crimes,3,2,50,10,8,25,58,87,-33.3,9.4,NA,NA,2022-10-30,Other/Mixed Category
+43,Shooting Victims,1,0,NA,2,6,-66.7,39,53,-26.4,21.9,-4.9,-70,2022-10-30,Other/Mixed Category
+43,Shooting Incidents,1,0,NA,2,5,-60,32,44,-27.3,18.5,-8.6,-72.4,2022-10-30,Other/Mixed Category
+43,Hate Crimes,0,0,NA,0,0,NA,1,1,0,NA,NA,NA,2022-10-30,Other/Mixed Category
+44,Murder,0,0,NA,1,1,0,19,17,11.8,72.7,46.2,-67.8,2022-10-30,Violent
+44,Rape,1,1,0,3,6,-50,33,30,10,10,22.2,-57.1,2022-10-30,Violent
+44,Robbery,15,15,0,54,53,1.9,587,413,42.1,76.8,43.5,-64.9,2022-10-30,Property
+44,Felony Assault,18,19,-5.3,85,71,19.7,889,730,21.8,40.4,91.2,-24.2,2022-10-30,Violent
+44,Burglary,10,6,66.7,41,27,51.9,362,227,59.5,70.8,60.9,-79.2,2022-10-30,Property
+44,Grand Larceny,11,19,-42.1,68,70,-2.9,800,625,28,48.1,149.2,17.1,2022-10-30,Property
+44,Motor Vehicle Theft,5,2,150,26,19,36.8,322,137,135,126.8,83,-71,2022-10-30,Property
+44,Total Major Felonies,60,62,-3.2,278,247,12.6,3012,2179,38.2,58.5,84.1,-53.8,2022-10-30,Combined Total
+44,Transit System Crimes,0,0,NA,2,1,100,32,19,68.4,14.3,-11.1,NA,2022-10-30,Other/Mixed Category
+44,Housing System Crimes,2,1,100,7,6,16.7,66,66,0,43.5,69.2,NA,2022-10-30,Other/Mixed Category
+44,Petty Theft,38,33,15.2,150,132,13.6,1608,1099,46.3,28.1,39,NA,2022-10-30,Property
+44,Misdemeanor Assault,17,22,-22.7,80,89,-10.1,1076,845,27.3,21.6,1.3,NA,2022-10-30,Violent
+44,Rape (FBI/UCR Definition),1,1,0,4,6,-33.3,51,48,6.2,15.9,NA,NA,2022-10-30,Violent
+44,Other Sex Crimes,5,2,150,11,9,22.2,102,78,30.8,59.4,NA,NA,2022-10-30,Other/Mixed Category
+44,Shooting Victims,0,1,-100,0,7,-100,54,74,-27,1.9,50,-65.4,2022-10-30,Other/Mixed Category
+44,Shooting Incidents,0,1,-100,0,7,-100,47,59,-20.3,14.6,62.1,-66.4,2022-10-30,Other/Mixed Category
+44,Hate Crimes,0,0,NA,0,1,-100,1,2,-50,-83.3,NA,NA,2022-10-30,Other/Mixed Category
+45,Murder,0,0,NA,0,0,NA,4,5,-20,100,NA,-69.2,2022-10-30,Violent
+45,Rape,0,0,NA,0,0,NA,12,11,9.1,-14.3,-33.3,-40,2022-10-30,Violent
+45,Robbery,3,3,0,23,8,187.5,173,146,18.5,76.5,-11.3,-55.3,2022-10-30,Property
+45,Felony Assault,4,5,-20,15,15,0,215,191,12.6,9.7,36.1,10.8,2022-10-30,Violent
+45,Burglary,4,3,33.3,9,9,0,87,93,-6.5,2.4,-66.4,-87.6,2022-10-30,Property
+45,Grand Larceny,12,15,-20,55,42,31,476,382,24.6,31.5,18.7,30.4,2022-10-30,Property
+45,Motor Vehicle Theft,6,10,-40,27,35,-22.9,253,255,-0.8,94.6,42.1,-85.8,2022-10-30,Property
+45,Total Major Felonies,29,36,-19.4,129,109,18.3,1220,1083,12.7,37.5,0.9,-64.8,2022-10-30,Combined Total
+45,Transit System Crimes,0,1,-100,0,1,-100,13,12,8.3,-13.3,8.3,NA,2022-10-30,Other/Mixed Category
+45,Housing System Crimes,2,1,100,2,4,-50,28,39,-28.2,-17.6,-37.8,NA,2022-10-30,Other/Mixed Category
+45,Petty Theft,31,11,181.8,95,82,15.9,964,792,21.7,26,-22.6,NA,2022-10-30,Property
+45,Misdemeanor Assault,14,10,40,41,39,5.1,383,370,3.5,18.9,5.8,NA,2022-10-30,Violent
+45,Rape (FBI/UCR Definition),0,0,NA,0,0,NA,25,15,66.7,31.6,NA,NA,2022-10-30,Violent
+45,Other Sex Crimes,2,2,0,4,5,-20,46,37,24.3,155.6,NA,NA,2022-10-30,Other/Mixed Category
+45,Shooting Victims,0,1,-100,0,2,-100,13,11,18.2,85.7,85.7,-31.6,2022-10-30,Other/Mixed Category
+45,Shooting Incidents,0,1,-100,0,2,-100,9,9,0,28.6,28.6,-52.6,2022-10-30,Other/Mixed Category
+45,Hate Crimes,0,0,NA,0,0,NA,4,0,NA,100,NA,NA,2022-10-30,Other/Mixed Category
+46,Murder,0,1,-100,1,1,0,12,11,9.1,100,9.1,-78.2,2022-10-30,Violent
+46,Rape,0,2,-100,3,3,0,25,20,25,56.2,13.6,-63.8,2022-10-30,Violent
+46,Robbery,10,4,150,24,24,0,326,299,9,10.1,-10.4,-81.8,2022-10-30,Property
+46,Felony Assault,9,12,-25,48,57,-15.8,597,506,18,10.1,67.2,-33.1,2022-10-30,Violent
+46,Burglary,1,2,-50,16,12,33.3,178,143,24.5,-46.4,1.7,-90.8,2022-10-30,Property
+46,Grand Larceny,9,24,-62.5,47,70,-32.9,507,515,-1.6,3.9,102,-38.2,2022-10-30,Property
+46,Motor Vehicle Theft,5,7,-28.6,16,20,-20,179,131,36.6,80.8,70.5,-76.2,2022-10-30,Property
+46,Total Major Felonies,34,52,-34.6,155,187,-17.1,1824,1625,12.2,2.5,41.9,-71.1,2022-10-30,Combined Total
+46,Transit System Crimes,0,0,NA,4,1,300,24,31,-22.6,-11.1,-11.1,NA,2022-10-30,Other/Mixed Category
+46,Housing System Crimes,0,1,-100,0,2,-100,27,38,-28.9,-3.6,42.1,NA,2022-10-30,Other/Mixed Category
+46,Petty Theft,15,22,-31.8,83,115,-27.8,1144,975,17.3,23.7,46.3,NA,2022-10-30,Property
+46,Misdemeanor Assault,26,13,100,74,77,-3.9,911,713,27.8,23.4,-16.7,NA,2022-10-30,Violent
+46,Rape (FBI/UCR Definition),1,3,-66.7,4,4,0,43,32,34.4,43.3,NA,NA,2022-10-30,Violent
+46,Other Sex Crimes,0,0,NA,6,8,-25,75,67,11.9,33.9,NA,NA,2022-10-30,Other/Mixed Category
+46,Shooting Victims,0,1,-100,2,3,-33.3,36,40,-10,-29.4,-28,-76.6,2022-10-30,Other/Mixed Category
+46,Shooting Incidents,0,1,-100,2,3,-33.3,32,37,-13.5,-20,-25.6,-77.5,2022-10-30,Other/Mixed Category
+46,Hate Crimes,0,0,NA,0,0,NA,5,3,66.7,NA,NA,NA,2022-10-30,Other/Mixed Category
+47,Murder,0,0,NA,2,0,NA,12,13,-7.7,33.3,-42.9,-52,2022-10-30,Violent
+47,Rape,1,2,-50,1,5,-80,40,35,14.3,8.1,14.3,-37.5,2022-10-30,Violent
+47,Robbery,15,6,150,41,31,32.3,378,288,31.2,53,3,-67.7,2022-10-30,Property
+47,Felony Assault,16,13,23.1,51,62,-17.7,608,607,0.2,6.7,66.6,-17.5,2022-10-30,Violent
+47,Burglary,5,10,-50,28,21,33.3,242,206,17.5,20.4,-18.5,-84.5,2022-10-30,Property
+47,Grand Larceny,12,16,-25,71,52,36.5,638,430,48.4,78.2,139.8,37.2,2022-10-30,Property
+47,Motor Vehicle Theft,8,18,-55.6,37,57,-35.1,365,431,-15.3,78.9,32.7,-73,2022-10-30,Property
+47,Total Major Felonies,57,65,-12.3,231,228,1.3,2283,2010,13.6,40.4,40.4,-57.6,2022-10-30,Combined Total
+47,Transit System Crimes,1,0,NA,4,3,33.3,35,14,150,84.2,45.8,NA,2022-10-30,Other/Mixed Category
+47,Housing System Crimes,3,3,0,7,11,-36.4,96,95,1.1,9.1,50,NA,2022-10-30,Other/Mixed Category
+47,Petty Theft,32,24,33.3,98,96,2.1,1236,907,36.3,48.6,92.8,NA,2022-10-30,Property
+47,Misdemeanor Assault,9,19,-52.6,58,80,-27.5,740,774,-4.4,-12,-10.1,NA,2022-10-30,Violent
+47,Rape (FBI/UCR Definition),1,3,-66.7,4,6,-33.3,69,52,32.7,38,NA,NA,2022-10-30,Violent
+47,Other Sex Crimes,1,3,-66.7,5,10,-50,64,69,-7.2,12.3,NA,NA,2022-10-30,Other/Mixed Category
+47,Shooting Victims,0,0,NA,2,2,0,39,59,-33.9,-7.1,-32.8,-65.8,2022-10-30,Other/Mixed Category
+47,Shooting Incidents,0,0,NA,2,2,0,36,50,-28,-5.3,-23.4,-66.4,2022-10-30,Other/Mixed Category
+47,Hate Crimes,0,1,-100,0,1,-100,1,4,-75,NA,NA,NA,2022-10-30,Other/Mixed Category
+48,Murder,0,0,NA,0,1,-100,12,11,9.1,-7.7,200,-62.5,2022-10-30,Violent
+48,Rape,0,2,-100,0,6,-100,22,34,-35.3,-8.3,37.5,-58.5,2022-10-30,Violent
+48,Robbery,14,10,40,39,39,0,366,282,29.8,55.7,12.6,-61.6,2022-10-30,Property
+48,Felony Assault,10,9,11.1,44,50,-12,524,400,31,38.3,67.4,-10.6,2022-10-30,Violent
+48,Burglary,4,5,-20,25,19,31.6,225,171,31.6,10.3,9.2,-79.2,2022-10-30,Property
+48,Grand Larceny,9,9,0,28,46,-39.1,378,387,-2.3,10.9,39,-3.1,2022-10-30,Property
+48,Motor Vehicle Theft,5,5,0,24,22,9.1,240,162,48.1,112.4,135.3,-51,2022-10-30,Property
+48,Total Major Felonies,42,40,5,160,183,-12.6,1767,1447,22.1,35,42.7,-50.7,2022-10-30,Combined Total
+48,Transit System Crimes,1,0,NA,1,1,0,6,9,-33.3,-40,0,NA,2022-10-30,Other/Mixed Category
+48,Housing System Crimes,0,0,NA,1,1,0,26,13,100,-13.3,100,NA,2022-10-30,Other/Mixed Category
+48,Petty Theft,21,20,5,80,69,15.9,1036,735,41,19.2,28.7,NA,2022-10-30,Property
+48,Misdemeanor Assault,11,19,-42.1,49,89,-44.9,748,652,14.7,10.3,-8.8,NA,2022-10-30,Violent
+48,Rape (FBI/UCR Definition),1,3,-66.7,1,8,-87.5,45,50,-10,18.4,NA,NA,2022-10-30,Violent
+48,Other Sex Crimes,1,3,-66.7,3,3,0,64,46,39.1,20.8,NA,NA,2022-10-30,Other/Mixed Category
+48,Shooting Victims,0,0,NA,2,2,0,47,51,-7.8,9.3,38.2,-60.5,2022-10-30,Other/Mixed Category
+48,Shooting Incidents,0,0,NA,2,2,0,41,46,-10.9,24.2,46.4,-59,2022-10-30,Other/Mixed Category
+48,Hate Crimes,0,0,NA,0,0,NA,7,2,250,600,NA,NA,2022-10-30,Other/Mixed Category
+49,Murder,0,0,NA,0,0,NA,4,5,-20,0,-60,-60,2022-10-30,Violent
+49,Rape,0,0,NA,1,1,0,14,19,-26.3,-12.5,-17.6,-51.7,2022-10-30,Violent
+49,Robbery,10,6,66.7,30,22,36.4,223,179,24.6,57,-13.2,-61.1,2022-10-30,Property
+49,Felony Assault,2,9,-77.8,30,25,20,304,239,27.2,47.6,39.4,8.6,2022-10-30,Violent
+49,Burglary,2,3,-33.3,10,7,42.9,112,133,-15.8,-24.3,-64.7,-90.8,2022-10-30,Property
+49,Grand Larceny,15,8,87.5,57,35,62.9,517,359,44,54.8,37.5,3.2,2022-10-30,Property
+49,Motor Vehicle Theft,12,10,20,34,24,41.7,291,217,34.1,98,50.8,-81.7,2022-10-30,Property
+49,Total Major Felonies,41,36,13.9,162,114,42.1,1465,1151,27.3,46.9,5.5,-65.1,2022-10-30,Combined Total
+49,Transit System Crimes,0,1,-100,2,2,0,18,4,350,0,5.9,NA,2022-10-30,Other/Mixed Category
+49,Housing System Crimes,2,2,0,7,9,-22.2,94,73,28.8,62.1,67.9,NA,2022-10-30,Other/Mixed Category
+49,Petty Theft,20,26,-23.1,103,92,12,1101,839,31.2,19.9,41.5,NA,2022-10-30,Property
+49,Misdemeanor Assault,10,7,42.9,35,48,-27.1,446,334,33.5,23.2,-16.6,NA,2022-10-30,Violent
+49,Rape (FBI/UCR Definition),1,0,NA,4,2,100,33,28,17.9,26.9,NA,NA,2022-10-30,Violent
+49,Other Sex Crimes,1,2,-50,7,12,-41.7,43,47,-8.5,4.9,NA,NA,2022-10-30,Other/Mixed Category
+49,Shooting Victims,1,0,NA,1,1,0,32,14,128.6,166.7,33.3,-17.9,2022-10-30,Other/Mixed Category
+49,Shooting Incidents,1,0,NA,1,1,0,24,12,100,140,20,-29.4,2022-10-30,Other/Mixed Category
+49,Hate Crimes,0,0,NA,1,0,NA,2,0,NA,100,NA,NA,2022-10-30,Other/Mixed Category
+50,Murder,0,0,NA,0,0,NA,2,1,100,0,-60,-77.8,2022-10-30,Violent
+50,Rape,1,0,NA,3,1,200,18,15,20,63.6,157.1,-5.3,2022-10-30,Violent
+50,Robbery,2,5,-60,14,12,16.7,158,86,83.7,129,15.3,-68.6,2022-10-30,Property
+50,Felony Assault,2,7,-71.4,14,15,-6.7,178,133,33.8,32.8,79.8,-22.3,2022-10-30,Violent
+50,Burglary,1,0,NA,8,6,33.3,111,76,46.1,-3.5,-19.6,-88.5,2022-10-30,Property
+50,Grand Larceny,14,11,27.3,71,50,42,581,382,52.1,58.7,103.9,51.3,2022-10-30,Property
+50,Motor Vehicle Theft,8,4,100,29,17,70.6,230,109,111,78.3,121.2,-85,2022-10-30,Property
+50,Total Major Felonies,28,27,3.7,139,101,37.6,1278,802,59.4,54.7,64.9,-64.9,2022-10-30,Combined Total
+50,Transit System Crimes,0,0,NA,0,1,-100,4,3,33.3,100,-73.3,NA,2022-10-30,Other/Mixed Category
+50,Housing System Crimes,0,4,-100,3,6,-50,61,34,79.4,38.6,69.4,NA,2022-10-30,Other/Mixed Category
+50,Petty Theft,14,13,7.7,88,72,22.2,999,745,34.1,19.9,46.9,NA,2022-10-30,Property
+50,Misdemeanor Assault,5,3,66.7,32,28,14.3,282,232,21.6,32.4,-14.8,NA,2022-10-30,Violent
+50,Rape (FBI/UCR Definition),1,0,NA,3,1,200,23,19,21.1,64.3,NA,NA,2022-10-30,Violent
+50,Other Sex Crimes,2,1,100,5,2,150,31,27,14.8,6.9,NA,NA,2022-10-30,Other/Mixed Category
+50,Shooting Victims,0,0,NA,0,0,NA,12,10,20,100,140,0,2022-10-30,Other/Mixed Category
+50,Shooting Incidents,0,0,NA,0,0,NA,10,9,11.1,66.7,100,0,2022-10-30,Other/Mixed Category
+50,Hate Crimes,0,0,NA,0,0,NA,7,18,-61.1,250,NA,NA,2022-10-30,Other/Mixed Category
+52,Murder,0,0,NA,0,0,NA,12,6,100,33.3,50,-67.6,2022-10-30,Violent
+52,Rape,0,0,NA,4,2,100,33,27,22.2,50,26.9,-38.9,2022-10-30,Violent
+52,Robbery,7,6,16.7,29,28,3.6,343,298,15.1,16.7,-19.7,-75.8,2022-10-30,Property
+52,Felony Assault,8,12,-33.3,37,39,-5.1,504,447,12.8,20.6,32.3,-6.5,2022-10-30,Violent
+52,Burglary,2,3,-33.3,9,16,-43.8,164,151,8.6,-21.2,-51,-91.6,2022-10-30,Property
+52,Grand Larceny,16,12,33.3,58,48,20.8,543,543,0,7.7,18.3,-29.6,2022-10-30,Property
+52,Motor Vehicle Theft,5,4,25,22,14,57.1,218,180,21.1,44.4,40.6,-82.7,2022-10-30,Property
+52,Total Major Felonies,38,37,2.7,159,147,8.2,1817,1652,10,13.1,1.5,-69.9,2022-10-30,Combined Total
+52,Transit System Crimes,2,1,100,5,4,25,42,21,100,-10.6,82.6,NA,2022-10-30,Other/Mixed Category
+52,Housing System Crimes,0,0,NA,0,0,NA,2,8,-75,-60,-75,NA,2022-10-30,Other/Mixed Category
+52,Petty Theft,22,44,-50,154,156,-1.3,2306,1249,84.6,89.8,115.7,NA,2022-10-30,Property
+52,Misdemeanor Assault,17,14,21.4,74,60,23.3,659,660,-0.2,-0.6,-12.8,NA,2022-10-30,Violent
+52,Rape (FBI/UCR Definition),0,0,NA,5,2,150,63,35,80,75,NA,NA,2022-10-30,Violent
+52,Other Sex Crimes,3,2,50,9,4,125,76,93,-18.3,20.6,NA,NA,2022-10-30,Other/Mixed Category
+52,Shooting Victims,0,0,NA,0,4,-100,32,34,-5.9,45.5,-5.9,-58.4,2022-10-30,Other/Mixed Category
+52,Shooting Incidents,0,0,NA,0,4,-100,27,28,-3.6,35,3.8,-62,2022-10-30,Other/Mixed Category
+52,Hate Crimes,0,1,-100,0,2,-100,4,3,33.3,300,NA,NA,2022-10-30,Other/Mixed Category
+60,Murder,0,0,NA,0,1,-100,5,8,-37.5,-44.4,-16.7,-73.7,2022-10-30,Violent
+60,Rape,0,0,NA,1,0,NA,11,8,37.5,-35.3,-26.7,-65.6,2022-10-30,Violent
+60,Robbery,2,0,NA,13,7,85.7,155,83,86.7,49,-32.6,-82.8,2022-10-30,Property
+60,Felony Assault,9,5,80,30,29,3.4,319,299,6.7,61.9,79.2,-50.5,2022-10-30,Violent
+60,Burglary,3,2,50,20,9,122.2,138,144,-4.2,3,0.7,-83.4,2022-10-30,Property
+60,Grand Larceny,7,14,-50,35,32,9.4,436,336,29.8,55.7,-10.7,-23.2,2022-10-30,Property
+60,Motor Vehicle Theft,0,1,-100,4,9,-55.6,103,63,63.5,77.6,9.6,-89.6,2022-10-30,Property
+60,Total Major Felonies,21,22,-4.5,103,87,18.4,1167,941,24,46.1,1.7,-70.7,2022-10-30,Combined Total
+60,Transit System Crimes,0,0,NA,2,0,NA,24,11,118.2,-11.1,-11.1,NA,2022-10-30,Other/Mixed Category
+60,Housing System Crimes,4,1,300,21,8,162.5,144,158,-8.9,46.9,41.2,NA,2022-10-30,Other/Mixed Category
+60,Petty Theft,24,16,50,88,89,-1.1,1033,721,43.3,21.2,1.1,NA,2022-10-30,Property
+60,Misdemeanor Assault,13,5,160,41,31,32.3,483,373,29.5,30.5,7.1,NA,2022-10-30,Violent
+60,Rape (FBI/UCR Definition),1,0,NA,4,0,NA,23,18,27.8,-4.2,NA,NA,2022-10-30,Violent
+60,Other Sex Crimes,2,0,NA,14,5,180,52,31,67.7,92.6,NA,NA,2022-10-30,Other/Mixed Category
+60,Shooting Victims,0,0,NA,0,1,-100,26,11,136.4,62.5,62.5,-58.7,2022-10-30,Other/Mixed Category
+60,Shooting Incidents,0,0,NA,0,1,-100,17,11,54.5,54.5,30.8,-65.3,2022-10-30,Other/Mixed Category
+60,Hate Crimes,1,0,NA,1,2,-50,7,5,40,0,NA,NA,2022-10-30,Other/Mixed Category
+61,Murder,0,0,NA,0,1,-100,2,1,100,0,-60,-66.7,2022-10-30,Violent
+61,Rape,0,0,NA,0,2,-100,7,7,0,-41.7,75,-66.7,2022-10-30,Violent
+61,Robbery,4,1,300,24,8,200,170,86,97.7,45.3,32.8,-77,2022-10-30,Property
+61,Felony Assault,4,2,100,19,21,-9.5,214,195,9.7,13.2,127.7,-17.4,2022-10-30,Violent
+61,Burglary,8,2,300,28,7,300,197,130,51.5,16.6,-9.6,-88.6,2022-10-30,Property
+61,Grand Larceny,14,10,40,43,38,13.2,635,357,77.9,57.2,92.4,-47.3,2022-10-30,Property
+61,Motor Vehicle Theft,3,0,NA,17,8,112.5,158,77,105.2,28.5,3.9,-94.3,2022-10-30,Property
+61,Total Major Felonies,33,15,120,131,85,54.1,1383,853,62.1,36.1,48.5,-79.5,2022-10-30,Combined Total
+61,Transit System Crimes,0,0,NA,1,1,0,9,5,80,-35.7,-43.8,NA,2022-10-30,Other/Mixed Category
+61,Housing System Crimes,2,0,NA,11,6,83.3,85,55,54.5,84.8,240,NA,2022-10-30,Other/Mixed Category
+61,Petty Theft,37,22,68.2,149,93,60.2,1366,871,56.8,48.6,53.1,NA,2022-10-30,Property
+61,Misdemeanor Assault,2,13,-84.6,28,23,21.7,363,287,26.5,31,-15.4,NA,2022-10-30,Violent
+61,Rape (FBI/UCR Definition),0,0,NA,1,2,-50,19,15,26.7,11.8,NA,NA,2022-10-30,Violent
+61,Other Sex Crimes,2,1,100,5,6,-16.7,34,41,-17.1,61.9,NA,NA,2022-10-30,Other/Mixed Category
+61,Shooting Victims,0,0,NA,1,0,NA,12,3,300,200,140,-61.3,2022-10-30,Other/Mixed Category
+61,Shooting Incidents,0,0,NA,1,0,NA,9,3,200,125,200,-62.5,2022-10-30,Other/Mixed Category
+61,Hate Crimes,0,0,NA,0,0,NA,19,7,171.4,850,NA,NA,2022-10-30,Other/Mixed Category
+62,Murder,0,0,NA,0,1,-100,5,2,150,150,-16.7,-44.4,2022-10-30,Violent
+62,Rape,0,1,-100,2,2,0,16,18,-11.1,14.3,60,-30.4,2022-10-30,Violent
+62,Robbery,2,6,-66.7,11,13,-15.4,98,90,8.9,14,-31.9,-84.6,2022-10-30,Property
+62,Felony Assault,3,2,50,19,11,72.7,150,145,3.4,27.1,44.2,-44,2022-10-30,Violent
+62,Burglary,6,4,50,17,16,6.2,161,119,35.3,35.3,-33.2,-88,2022-10-30,Property
+62,Grand Larceny,5,14,-64.3,51,49,4.1,624,473,31.9,61.7,73.8,-4,2022-10-30,Property
+62,Motor Vehicle Theft,0,3,-100,10,18,-44.4,125,91,37.4,52.4,-6.7,-91.7,2022-10-30,Property
+62,Total Major Felonies,16,30,-46.7,110,110,0,1179,938,25.7,46.1,18.1,-73.4,2022-10-30,Combined Total
+62,Transit System Crimes,0,1,-100,1,2,-50,11,11,0,0,-54.2,NA,2022-10-30,Other/Mixed Category
+62,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+62,Petty Theft,37,27,37,151,96,57.3,1553,1005,54.5,52.9,86.7,NA,2022-10-30,Property
+62,Misdemeanor Assault,8,11,-27.3,40,34,17.6,380,360,5.6,34.3,2.4,NA,2022-10-30,Violent
+62,Rape (FBI/UCR Definition),0,1,-100,2,4,-50,21,22,-4.5,-12.5,NA,NA,2022-10-30,Violent
+62,Other Sex Crimes,3,2,50,7,9,-22.2,46,52,-11.5,53.3,NA,NA,2022-10-30,Other/Mixed Category
+62,Shooting Victims,0,0,NA,0,2,-100,5,3,66.7,66.7,NA,400,2022-10-30,Other/Mixed Category
+62,Shooting Incidents,0,0,NA,0,1,-100,5,2,150,66.7,NA,400,2022-10-30,Other/Mixed Category
+62,Hate Crimes,0,0,NA,0,0,NA,8,8,0,NA,NA,NA,2022-10-30,Other/Mixed Category
+63,Murder,0,0,NA,1,0,NA,1,1,0,0,0,-92.9,2022-10-30,Violent
+63,Rape,0,0,NA,0,1,-100,7,14,-50,-22.2,-56.2,-68.2,2022-10-30,Violent
+63,Robbery,1,2,-50,4,13,-69.2,97,66,47,12.8,-47.3,-83.1,2022-10-30,Property
+63,Felony Assault,3,2,50,12,12,0,143,139,2.9,14.4,33.6,-46.4,2022-10-30,Violent
+63,Burglary,2,2,0,8,8,0,95,89,6.7,15.9,-60.1,-90.1,2022-10-30,Property
+63,Grand Larceny,7,15,-53.3,41,47,-12.8,431,317,36,32.6,3.9,-20.6,2022-10-30,Property
+63,Motor Vehicle Theft,5,3,66.7,18,6,200,109,66,65.2,23.9,-20.4,-95.3,2022-10-30,Property
+63,Total Major Felonies,18,24,-25,84,87,-3.4,883,692,27.6,23.3,-19.6,-81.2,2022-10-30,Combined Total
+63,Transit System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+63,Housing System Crimes,1,0,NA,1,1,0,28,23,21.7,86.7,12,NA,2022-10-30,Other/Mixed Category
+63,Petty Theft,25,20,25,90,75,20,951,680,39.9,34.5,14,NA,2022-10-30,Property
+63,Misdemeanor Assault,6,4,50,22,24,-8.3,196,210,-6.7,4.8,-34.2,NA,2022-10-30,Violent
+63,Rape (FBI/UCR Definition),0,0,NA,0,1,-100,12,23,-47.8,-7.7,NA,NA,2022-10-30,Violent
+63,Other Sex Crimes,0,1,-100,3,2,50,27,22,22.7,58.8,NA,NA,2022-10-30,Other/Mixed Category
+63,Shooting Victims,1,0,NA,3,2,50,14,17,-17.6,0,-17.6,-56.2,2022-10-30,Other/Mixed Category
+63,Shooting Incidents,1,0,NA,3,2,50,10,14,-28.6,-28.6,-28.6,-64.3,2022-10-30,Other/Mixed Category
+63,Hate Crimes,0,0,NA,0,0,NA,6,3,100,200,NA,NA,2022-10-30,Other/Mixed Category
+66,Murder,0,0,NA,0,0,NA,1,1,0,-66.7,NA,-88.9,2022-10-30,Violent
+66,Rape,1,2,-50,5,2,150,18,9,100,20,157.1,0,2022-10-30,Violent
+66,Robbery,2,2,0,12,7,71.4,79,63,25.4,-12.2,-49.4,-86.9,2022-10-30,Property
+66,Felony Assault,3,4,-25,15,16,-6.2,186,139,33.8,51.2,35.8,-30.1,2022-10-30,Violent
+66,Burglary,3,8,-62.5,9,19,-52.6,155,136,14,14.8,-50.9,-89.1,2022-10-30,Property
+66,Grand Larceny,14,10,40,53,44,20.5,523,367,42.5,65.5,63.4,-6.4,2022-10-30,Property
+66,Motor Vehicle Theft,2,0,NA,12,1,1100,102,62,64.5,-3.8,-12.1,-93.3,2022-10-30,Property
+66,Total Major Felonies,25,26,-3.8,106,89,19.1,1064,777,36.9,35,1.1,-75.7,2022-10-30,Combined Total
+66,Transit System Crimes,0,0,NA,1,0,NA,4,9,-55.6,-50,-77.8,NA,2022-10-30,Other/Mixed Category
+66,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+66,Petty Theft,16,24,-33.3,78,91,-14.3,934,704,32.7,29.4,22.1,NA,2022-10-30,Property
+66,Misdemeanor Assault,8,5,60,34,27,25.9,293,256,14.5,9.3,-16.3,NA,2022-10-30,Violent
+66,Rape (FBI/UCR Definition),1,2,-50,7,2,250,24,14,71.4,20,NA,NA,2022-10-30,Violent
+66,Other Sex Crimes,3,0,NA,6,4,50,69,59,16.9,91.7,NA,NA,2022-10-30,Other/Mixed Category
+66,Shooting Victims,0,0,NA,1,0,NA,2,1,100,NA,-71.4,-89.5,2022-10-30,Other/Mixed Category
+66,Shooting Incidents,0,0,NA,1,0,NA,2,1,100,NA,-50,-89.5,2022-10-30,Other/Mixed Category
+66,Hate Crimes,0,0,NA,1,0,NA,14,9,55.6,75,NA,NA,2022-10-30,Other/Mixed Category
+67,Murder,0,0,NA,0,4,-100,15,13,15.4,25,-21.1,-65.9,2022-10-30,Violent
+67,Rape,0,0,NA,1,1,0,24,24,0,-29.4,-7.7,-72.4,2022-10-30,Violent
+67,Robbery,4,7,-42.9,20,29,-31,273,196,39.3,21.9,-17.8,-86.5,2022-10-30,Property
+67,Felony Assault,13,13,0,45,58,-22.4,547,543,0.7,18.7,47.8,-48.4,2022-10-30,Violent
+67,Burglary,4,4,0,21,15,40,177,127,39.4,4.7,-51.4,-89.8,2022-10-30,Property
+67,Grand Larceny,9,12,-25,45,42,7.1,569,374,52.1,60.7,23.2,-12.2,2022-10-30,Property
+67,Motor Vehicle Theft,5,6,-16.7,12,17,-29.4,210,187,12.3,40,-11,-87.6,2022-10-30,Property
+67,Total Major Felonies,35,42,-16.7,144,166,-13.3,1815,1464,24,29.3,0.3,-75.1,2022-10-30,Combined Total
+67,Transit System Crimes,0,1,-100,0,1,-100,9,6,50,50,50,NA,2022-10-30,Other/Mixed Category
+67,Housing System Crimes,0,1,-100,0,1,-100,8,2,300,60,300,NA,2022-10-30,Other/Mixed Category
+67,Petty Theft,14,28,-50,86,103,-16.5,900,741,21.5,31.2,13.9,NA,2022-10-30,Property
+67,Misdemeanor Assault,13,7,85.7,54,59,-8.5,622,549,13.3,33.5,-19,NA,2022-10-30,Violent
+67,Rape (FBI/UCR Definition),0,0,NA,2,1,100,38,34,11.8,-19.1,NA,NA,2022-10-30,Violent
+67,Other Sex Crimes,1,1,0,7,6,16.7,67,53,26.4,21.8,NA,NA,2022-10-30,Other/Mixed Category
+67,Shooting Victims,3,0,NA,5,3,66.7,46,51,-9.8,-32.4,-28.1,-76.9,2022-10-30,Other/Mixed Category
+67,Shooting Incidents,3,0,NA,5,3,66.7,39,45,-13.3,-22,-30.4,-78.3,2022-10-30,Other/Mixed Category
+67,Hate Crimes,0,0,NA,0,1,-100,2,3,-33.3,0,NA,NA,2022-10-30,Other/Mixed Category
+68,Murder,0,0,NA,0,0,NA,2,0,NA,-33.3,100,-50,2022-10-30,Violent
+68,Rape,0,0,NA,1,2,-50,10,12,-16.7,-33.3,66.7,-61.5,2022-10-30,Violent
+68,Robbery,1,1,0,7,5,40,44,44,0,-22.8,-48.2,-90.8,2022-10-30,Property
+68,Felony Assault,2,1,100,9,5,80,88,75,17.3,-18.5,0,-63.8,2022-10-30,Violent
+68,Burglary,3,3,0,10,9,11.1,83,102,-18.6,-30.3,-59.9,-91.1,2022-10-30,Property
+68,Grand Larceny,5,8,-37.5,24,34,-29.4,424,307,38.1,58.2,57,9.8,2022-10-30,Property
+68,Motor Vehicle Theft,1,7,-85.7,7,12,-41.7,89,71,25.4,-23.3,-31,-94.5,2022-10-30,Property
+68,Total Major Felonies,12,20,-40,58,67,-13.4,740,611,21.1,7.9,-5.9,-79.9,2022-10-30,Combined Total
+68,Transit System Crimes,0,0,NA,1,0,NA,10,5,100,-9.1,42.9,NA,2022-10-30,Other/Mixed Category
+68,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+68,Petty Theft,27,37,-27,137,125,9.6,1568,868,80.6,91.2,55.6,NA,2022-10-30,Property
+68,Misdemeanor Assault,10,3,233.3,33,13,153.8,266,208,27.9,43,-19.9,NA,2022-10-30,Violent
+68,Rape (FBI/UCR Definition),0,0,NA,1,2,-50,13,16,-18.8,-18.8,NA,NA,2022-10-30,Violent
+68,Other Sex Crimes,2,1,100,2,8,-75,39,30,30,18.2,NA,NA,2022-10-30,Other/Mixed Category
+68,Shooting Victims,0,0,NA,0,0,NA,4,0,NA,100,33.3,-42.9,2022-10-30,Other/Mixed Category
+68,Shooting Incidents,0,0,NA,0,0,NA,4,0,NA,100,33.3,-33.3,2022-10-30,Other/Mixed Category
+68,Hate Crimes,0,0,NA,0,1,-100,1,3,-66.7,-50,NA,NA,2022-10-30,Other/Mixed Category
+69,Murder,0,0,NA,0,1,-100,5,9,-44.4,66.7,-44.4,-37.5,2022-10-30,Violent
+69,Rape,0,0,NA,0,0,NA,12,13,-7.7,-50,0,-36.8,2022-10-30,Violent
+69,Robbery,1,1,0,6,9,-33.3,90,46,95.7,28.6,-54.3,-84.2,2022-10-30,Property
+69,Felony Assault,0,10,-100,12,25,-52,174,177,-1.7,0.6,25.2,-23,2022-10-30,Violent
+69,Burglary,2,3,-33.3,5,7,-28.6,81,61,32.8,-14.7,-62.5,-84.6,2022-10-30,Property
+69,Grand Larceny,5,3,66.7,12,19,-36.8,197,139,41.7,7.1,0,-40.1,2022-10-30,Property
+69,Motor Vehicle Theft,5,4,25,18,10,80,132,81,63,63,33.3,-92.7,2022-10-30,Property
+69,Total Major Felonies,13,21,-38.1,53,71,-25.4,691,526,31.4,9.7,-20.5,-80.1,2022-10-30,Combined Total
+69,Transit System Crimes,0,0,NA,0,0,NA,6,6,0,-25,-40,NA,2022-10-30,Other/Mixed Category
+69,Housing System Crimes,1,4,-75,8,10,-20,84,77,9.1,16.7,71.4,NA,2022-10-30,Other/Mixed Category
+69,Petty Theft,10,7,42.9,49,45,8.9,462,360,28.3,15.5,0.9,NA,2022-10-30,Property
+69,Misdemeanor Assault,7,6,16.7,22,26,-15.4,322,260,23.8,13.8,-17,NA,2022-10-30,Violent
+69,Rape (FBI/UCR Definition),0,0,NA,1,1,0,21,20,5,-36.4,NA,NA,2022-10-30,Violent
+69,Other Sex Crimes,2,0,NA,3,3,0,24,25,-4,26.3,NA,NA,2022-10-30,Other/Mixed Category
+69,Shooting Victims,0,0,NA,0,2,-100,23,26,-11.5,-43.9,-11.5,-11.5,2022-10-30,Other/Mixed Category
+69,Shooting Incidents,0,0,NA,0,2,-100,19,22,-13.6,-44.1,-13.6,-5,2022-10-30,Other/Mixed Category
+69,Hate Crimes,0,0,NA,0,0,NA,3,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+70,Murder,0,0,NA,1,0,NA,2,3,-33.3,-75,-71.4,-94.9,2022-10-30,Violent
+70,Rape,1,2,-50,1,3,-66.7,26,22,18.2,13,18.2,-74.8,2022-10-30,Violent
+70,Robbery,4,5,-20,12,16,-25,165,136,21.3,14.6,-51.3,-90.8,2022-10-30,Property
+70,Felony Assault,4,8,-50,21,41,-48.8,300,288,4.2,9.5,-0.7,-59.5,2022-10-30,Violent
+70,Burglary,9,7,28.6,23,18,27.8,163,165,-1.2,-9.4,-38.5,-93.2,2022-10-30,Property
+70,Grand Larceny,6,6,0,34,47,-27.7,433,392,10.5,11.6,-20.8,-52.3,2022-10-30,Property
+70,Motor Vehicle Theft,2,3,-33.3,8,8,0,98,105,-6.7,-22.2,-40.2,-95.2,2022-10-30,Property
+70,Total Major Felonies,26,31,-16.1,100,133,-24.8,1187,1111,6.8,3.8,-27.9,-85.2,2022-10-30,Combined Total
+70,Transit System Crimes,0,1,-100,0,5,-100,10,15,-33.3,-33.3,-58.3,NA,2022-10-30,Other/Mixed Category
+70,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+70,Petty Theft,26,44,-40.9,137,147,-6.8,1233,1131,9,7.1,12.7,NA,2022-10-30,Property
+70,Misdemeanor Assault,13,14,-7.1,48,59,-18.6,472,461,2.4,-0.8,-28.7,NA,2022-10-30,Violent
+70,Rape (FBI/UCR Definition),1,2,-50,3,3,0,40,37,8.1,14.3,NA,NA,2022-10-30,Violent
+70,Other Sex Crimes,2,0,NA,12,5,140,68,54,25.9,9.7,NA,NA,2022-10-30,Other/Mixed Category
+70,Shooting Victims,0,0,NA,2,5,-60,13,18,-27.8,-64.9,-58.1,-89.3,2022-10-30,Other/Mixed Category
+70,Shooting Incidents,0,0,NA,2,2,0,12,14,-14.3,-52,-53.8,-88,2022-10-30,Other/Mixed Category
+70,Hate Crimes,0,0,NA,1,1,0,13,8,62.5,44.4,NA,NA,2022-10-30,Other/Mixed Category
+71,Murder,1,0,NA,1,0,NA,7,2,250,0,0,-78.1,2022-10-30,Violent
+71,Rape,0,0,NA,1,1,0,11,18,-38.9,-38.9,10,-82.5,2022-10-30,Violent
+71,Robbery,0,4,-100,10,11,-9.1,136,96,41.7,27.1,-40.1,-90.4,2022-10-30,Property
+71,Felony Assault,9,9,0,25,31,-19.4,288,253,13.8,7.9,12.1,-63.6,2022-10-30,Violent
+71,Burglary,5,1,400,11,10,10,113,76,48.7,-0.9,-57.2,-92.8,2022-10-30,Property
+71,Grand Larceny,9,9,0,32,29,10.3,289,222,30.2,25.7,-20.2,-50.2,2022-10-30,Property
+71,Motor Vehicle Theft,2,4,-50,15,12,25,121,103,17.5,30.1,-4.7,-89.4,2022-10-30,Property
+71,Total Major Felonies,26,27,-3.7,95,94,1.1,965,770,25.3,15.4,-23,-82.8,2022-10-30,Combined Total
+71,Transit System Crimes,0,0,NA,0,0,NA,16,5,220,14.3,-62.8,NA,2022-10-30,Other/Mixed Category
+71,Housing System Crimes,0,0,NA,1,0,NA,1,2,-50,-80,-75,NA,2022-10-30,Other/Mixed Category
+71,Petty Theft,20,29,-31,67,105,-36.2,912,889,2.6,9.7,7.2,NA,2022-10-30,Property
+71,Misdemeanor Assault,11,13,-15.4,38,54,-29.6,469,384,22.1,48.9,-33.4,NA,2022-10-30,Violent
+71,Rape (FBI/UCR Definition),0,0,NA,3,1,200,22,26,-15.4,-21.4,NA,NA,2022-10-30,Violent
+71,Other Sex Crimes,0,1,-100,3,6,-50,49,53,-7.5,2.1,NA,NA,2022-10-30,Other/Mixed Category
+71,Shooting Victims,2,1,100,3,2,50,20,23,-13,-52.4,-45.9,-77.8,2022-10-30,Other/Mixed Category
+71,Shooting Incidents,2,1,100,3,2,50,18,20,-10,-28,-37.9,-79.8,2022-10-30,Other/Mixed Category
+71,Hate Crimes,0,0,NA,1,3,-66.7,9,6,50,200,NA,NA,2022-10-30,Other/Mixed Category
+72,Murder,0,0,NA,1,0,NA,3,2,50,NA,-50,-82.4,2022-10-30,Violent
+72,Rape,0,0,NA,4,1,300,21,24,-12.5,31.2,16.7,-30,2022-10-30,Violent
+72,Robbery,6,2,200,22,14,57.1,170,141,20.6,19.7,-13.7,-80.3,2022-10-30,Property
+72,Felony Assault,0,2,-100,23,14,64.3,256,179,43,41.4,57.1,-42.3,2022-10-30,Violent
+72,Burglary,3,5,-40,14,18,-22.2,205,138,48.6,28.9,-5.1,-78.7,2022-10-30,Property
+72,Grand Larceny,11,10,10,62,47,31.9,688,410,67.8,101.8,120.5,77.8,2022-10-30,Property
+72,Motor Vehicle Theft,2,1,100,7,9,-22.2,125,67,86.6,62.3,22.5,-85,2022-10-30,Property
+72,Total Major Felonies,22,20,10,133,103,29.1,1468,961,52.8,60.3,44.8,-58.5,2022-10-30,Combined Total
+72,Transit System Crimes,1,0,NA,4,1,300,30,24,25,66.7,20,NA,2022-10-30,Other/Mixed Category
+72,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+72,Petty Theft,27,25,8,110,88,25,1142,774,47.5,34.5,74.1,NA,2022-10-30,Property
+72,Misdemeanor Assault,5,6,-16.7,33,25,32,378,380,-0.5,3.6,-30,NA,2022-10-30,Violent
+72,Rape (FBI/UCR Definition),0,1,-100,4,2,100,29,36,-19.4,0,NA,NA,2022-10-30,Violent
+72,Other Sex Crimes,3,1,200,5,6,-16.7,56,51,9.8,12,NA,NA,2022-10-30,Other/Mixed Category
+72,Shooting Victims,0,0,NA,0,0,NA,12,6,100,0,50,-53.8,2022-10-30,Other/Mixed Category
+72,Shooting Incidents,0,0,NA,0,0,NA,3,6,-50,-66.7,-57.1,-88,2022-10-30,Other/Mixed Category
+72,Hate Crimes,0,0,NA,0,0,NA,9,3,200,125,NA,NA,2022-10-30,Other/Mixed Category
+73,Murder,1,2,-50,3,3,0,18,18,0,-25,-18.2,-71.9,2022-10-30,Violent
+73,Rape,1,0,NA,3,0,NA,28,28,0,7.7,3.7,-59.4,2022-10-30,Violent
+73,Robbery,2,7,-71.4,20,23,-13,285,184,54.9,39.7,-27.7,-84.9,2022-10-30,Property
+73,Felony Assault,8,8,0,61,51,19.6,609,519,17.3,26.3,21.8,-37.9,2022-10-30,Violent
+73,Burglary,4,2,100,15,12,25,161,116,38.8,5.9,-32.9,-75.5,2022-10-30,Property
+73,Grand Larceny,9,6,50,30,28,7.1,332,246,35,43.7,-9.3,-58.3,2022-10-30,Property
+73,Motor Vehicle Theft,5,8,-37.5,18,22,-18.2,165,133,24.1,103.7,33.1,-71,2022-10-30,Property
+73,Total Major Felonies,30,33,-9.1,150,139,7.9,1598,1244,28.5,33.2,-4.5,-68.2,2022-10-30,Combined Total
+73,Transit System Crimes,0,1,-100,1,4,-75,39,36,8.3,-7.1,-18.8,NA,2022-10-30,Other/Mixed Category
+73,Housing System Crimes,5,6,-16.7,33,30,10,322,274,17.5,24.3,56.3,NA,2022-10-30,Other/Mixed Category
+73,Petty Theft,19,17,11.8,82,73,12.3,945,648,45.8,34.6,15.1,NA,2022-10-30,Property
+73,Misdemeanor Assault,17,16,6.2,73,87,-16.1,796,695,14.5,21.7,-27.7,NA,2022-10-30,Violent
+73,Rape (FBI/UCR Definition),3,1,200,8,3,166.7,48,52,-7.7,17.1,NA,NA,2022-10-30,Violent
+73,Other Sex Crimes,5,1,400,9,6,50,74,72,2.8,34.5,NA,NA,2022-10-30,Other/Mixed Category
+73,Shooting Victims,2,2,0,6,10,-40,73,77,-5.2,-30.5,-21.5,-74.6,2022-10-30,Other/Mixed Category
+73,Shooting Incidents,1,2,-50,5,9,-44.4,57,64,-10.9,-32.9,-24,-78.2,2022-10-30,Other/Mixed Category
+73,Hate Crimes,0,0,NA,0,0,NA,3,2,50,50,NA,NA,2022-10-30,Other/Mixed Category
+75,Murder,0,0,NA,2,2,0,20,24,-16.7,-20,-31,-80.8,2022-10-30,Violent
+75,Rape,0,0,NA,5,4,25,45,46,-2.2,-19.6,-16.7,-57.1,2022-10-30,Violent
+75,Robbery,8,14,-42.9,58,56,3.6,643,511,25.8,26.1,-0.2,-75,2022-10-30,Property
+75,Felony Assault,22,17,29.4,80,86,-7,925,765,20.9,25,43.2,-27.5,2022-10-30,Violent
+75,Burglary,9,6,50,31,29,6.9,328,332,-1.2,-9.4,-18.2,-78.9,2022-10-30,Property
+75,Grand Larceny,23,25,-8,96,90,6.7,1121,860,30.3,38.6,92.3,39.6,2022-10-30,Property
+75,Motor Vehicle Theft,13,8,62.5,47,41,14.6,423,449,-5.8,31.8,60.2,-80.7,2022-10-30,Property
+75,Total Major Felonies,75,70,7.1,319,308,3.6,3505,2987,17.3,24.2,33.7,-59.3,2022-10-30,Combined Total
+75,Transit System Crimes,0,3,-100,4,4,0,63,36,75,8.6,12.5,NA,2022-10-30,Other/Mixed Category
+75,Housing System Crimes,6,10,-40,24,26,-7.7,294,246,19.5,33.6,49.2,NA,2022-10-30,Other/Mixed Category
+75,Petty Theft,84,41,104.9,241,224,7.6,2438,1906,27.9,43,95.4,NA,2022-10-30,Property
+75,Misdemeanor Assault,29,26,11.5,93,98,-5.1,1072,861,24.5,39.4,-31.8,NA,2022-10-30,Violent
+75,Rape (FBI/UCR Definition),2,3,-33.3,8,10,-20,68,83,-18.1,-17.1,NA,NA,2022-10-30,Violent
+75,Other Sex Crimes,1,3,-66.7,10,9,11.1,104,101,3,23.8,NA,NA,2022-10-30,Other/Mixed Category
+75,Shooting Victims,0,0,NA,3,3,0,79,73,8.2,-26.9,-20.2,-71.8,2022-10-30,Other/Mixed Category
+75,Shooting Incidents,0,0,NA,3,3,0,68,59,15.3,-21.8,-17.1,-73.1,2022-10-30,Other/Mixed Category
+75,Hate Crimes,0,0,NA,0,1,-100,3,6,-50,0,NA,NA,2022-10-30,Other/Mixed Category
+76,Murder,0,0,NA,0,0,NA,1,4,-75,-75,-50,-83.3,2022-10-30,Violent
+76,Rape,1,0,NA,1,0,NA,6,3,100,200,500,-40,2022-10-30,Violent
+76,Robbery,1,2,-50,3,5,-40,50,30,66.7,38.9,-43.8,-84.5,2022-10-30,Property
+76,Felony Assault,8,4,100,12,10,20,87,73,19.2,24.3,8.8,-66.9,2022-10-30,Violent
+76,Burglary,1,1,0,6,6,0,90,60,50,13.9,-1.1,-74.6,2022-10-30,Property
+76,Grand Larceny,9,2,350,18,13,38.5,176,106,66,35.4,-7.9,-12.9,2022-10-30,Property
+76,Motor Vehicle Theft,1,1,0,5,6,-16.7,48,45,6.7,26.3,-11.1,-85.9,2022-10-30,Property
+76,Total Major Felonies,21,10,110,45,40,12.5,458,321,42.7,27.6,-9.8,-69.4,2022-10-30,Combined Total
+76,Transit System Crimes,1,0,NA,2,0,NA,7,5,40,NA,-41.7,NA,2022-10-30,Other/Mixed Category
+76,Housing System Crimes,1,2,-50,5,9,-44.4,97,70,38.6,34.7,38.6,NA,2022-10-30,Other/Mixed Category
+76,Petty Theft,8,7,14.3,41,18,127.8,382,292,30.8,8.5,0.5,NA,2022-10-30,Property
+76,Misdemeanor Assault,1,5,-80,6,21,-71.4,149,136,9.6,53.6,-39.4,NA,2022-10-30,Violent
+76,Rape (FBI/UCR Definition),1,0,NA,1,0,NA,8,6,33.3,14.3,NA,NA,2022-10-30,Violent
+76,Other Sex Crimes,0,0,NA,1,5,-80,17,23,-26.1,112.5,NA,NA,2022-10-30,Other/Mixed Category
+76,Shooting Victims,0,0,NA,0,0,NA,6,11,-45.5,-50,-62.5,-88.5,2022-10-30,Other/Mixed Category
+76,Shooting Incidents,0,0,NA,0,0,NA,4,10,-60,-63.6,-69.2,-90.2,2022-10-30,Other/Mixed Category
+76,Hate Crimes,0,0,NA,0,0,NA,1,2,-50,0,NA,NA,2022-10-30,Other/Mixed Category
+77,Murder,1,0,NA,2,1,100,10,11,-9.1,-41.2,-37.5,-85.7,2022-10-30,Violent
+77,Rape,0,1,-100,0,1,-100,19,21,-9.5,35.7,11.8,-69.8,2022-10-30,Violent
+77,Robbery,7,2,250,17,16,6.2,179,119,50.4,21.8,-17.9,-90.1,2022-10-30,Property
+77,Felony Assault,7,4,75,23,22,4.5,298,264,12.9,34.8,14.2,-71.5,2022-10-30,Violent
+77,Burglary,4,5,-20,10,16,-37.5,150,119,26.1,-2,-42.1,-89.1,2022-10-30,Property
+77,Grand Larceny,7,5,40,36,23,56.5,358,231,55,43.8,44.9,-26,2022-10-30,Property
+77,Motor Vehicle Theft,1,3,-66.7,10,11,-9.1,113,83,36.1,29.9,5.6,-81.9,2022-10-30,Property
+77,Total Major Felonies,27,20,35,98,90,8.9,1127,848,32.9,26.9,0.2,-79.4,2022-10-30,Combined Total
+77,Transit System Crimes,1,0,NA,4,3,33.3,28,16,75,-3.4,-3.4,NA,2022-10-30,Other/Mixed Category
+77,Housing System Crimes,4,2,100,6,7,-14.3,91,70,30,-3.2,51.7,NA,2022-10-30,Other/Mixed Category
+77,Petty Theft,23,18,27.8,69,63,9.5,750,553,35.6,0.3,5,NA,2022-10-30,Property
+77,Misdemeanor Assault,13,8,62.5,38,27,40.7,413,306,35,14.7,-40.4,NA,2022-10-30,Violent
+77,Rape (FBI/UCR Definition),0,3,-100,1,3,-66.7,33,31,6.5,32,NA,NA,2022-10-30,Violent
+77,Other Sex Crimes,5,1,400,8,6,33.3,76,67,13.4,18.8,NA,NA,2022-10-30,Other/Mixed Category
+77,Shooting Victims,2,1,100,6,3,100,33,46,-28.3,-35.3,-48.4,-85.8,2022-10-30,Other/Mixed Category
+77,Shooting Incidents,1,1,0,5,3,66.7,29,41,-29.3,-38.3,-42,-86.2,2022-10-30,Other/Mixed Category
+77,Hate Crimes,0,0,NA,1,0,NA,6,5,20,200,NA,NA,2022-10-30,Other/Mixed Category
+78,Murder,0,0,NA,0,0,NA,5,1,400,150,400,25,2022-10-30,Violent
+78,Rape,0,0,NA,1,3,-66.7,10,10,0,11.1,150,-58.3,2022-10-30,Violent
+78,Robbery,3,3,0,11,7,57.1,100,71,40.8,9.9,-15.3,-86.1,2022-10-30,Property
+78,Felony Assault,3,2,50,11,8,37.5,120,90,33.3,55.8,215.8,-45,2022-10-30,Violent
+78,Burglary,5,2,150,17,17,0,115,108,6.5,19.8,-23.8,-82.5,2022-10-30,Property
+78,Grand Larceny,16,16,0,57,52,9.6,538,386,39.4,69.2,57.8,27.8,2022-10-30,Property
+78,Motor Vehicle Theft,4,3,33.3,16,9,77.8,109,63,73,73,43.4,-87.2,2022-10-30,Property
+78,Total Major Felonies,31,26,19.2,113,96,17.7,997,729,36.8,52,36.8,-65.6,2022-10-30,Combined Total
+78,Transit System Crimes,1,0,NA,3,0,NA,23,19,21.1,-17.9,-23.3,NA,2022-10-30,Other/Mixed Category
+78,Housing System Crimes,0,0,NA,2,1,100,17,16,6.2,6.2,30.8,NA,2022-10-30,Other/Mixed Category
+78,Petty Theft,27,17,58.8,111,90,23.3,1127,801,40.7,52.7,44.3,NA,2022-10-30,Property
+78,Misdemeanor Assault,2,2,0,18,22,-18.2,255,200,27.5,61.4,65.6,NA,2022-10-30,Violent
+78,Rape (FBI/UCR Definition),0,0,NA,3,3,0,15,15,0,25,NA,NA,2022-10-30,Violent
+78,Other Sex Crimes,2,1,100,6,5,20,51,37,37.8,75.9,NA,NA,2022-10-30,Other/Mixed Category
+78,Shooting Victims,0,0,NA,0,0,NA,5,3,66.7,0,400,-54.5,2022-10-30,Other/Mixed Category
+78,Shooting Incidents,0,0,NA,0,0,NA,5,3,66.7,0,400,-54.5,2022-10-30,Other/Mixed Category
+78,Hate Crimes,0,1,-100,0,1,-100,6,2,200,200,NA,NA,2022-10-30,Other/Mixed Category
+79,Murder,0,0,NA,0,0,NA,8,7,14.3,14.3,-33.3,-84,2022-10-30,Violent
+79,Rape,0,0,NA,1,4,-75,23,13,76.9,15,-4.2,-63.5,2022-10-30,Violent
+79,Robbery,3,5,-40,9,11,-18.2,150,179,-16.2,-10.7,-58.8,-91.3,2022-10-30,Property
+79,Felony Assault,7,7,0,30,37,-18.9,375,350,7.1,24.2,4.2,-61.4,2022-10-30,Violent
+79,Burglary,6,6,0,18,29,-37.9,194,189,2.6,-36.4,-44.9,-81.7,2022-10-30,Property
+79,Grand Larceny,10,8,25,44,45,-2.2,345,318,8.5,0.9,-2.5,-52.8,2022-10-30,Property
+79,Motor Vehicle Theft,1,0,NA,3,8,-62.5,80,78,2.6,17.6,-20,-82.4,2022-10-30,Property
+79,Total Major Felonies,27,26,3.8,105,134,-21.6,1175,1134,3.6,-3.1,-25,-76.7,2022-10-30,Combined Total
+79,Transit System Crimes,2,3,-33.3,5,5,0,24,23,4.3,84.6,-17.2,NA,2022-10-30,Other/Mixed Category
+79,Housing System Crimes,4,3,33.3,13,16,-18.8,198,206,-3.9,16.5,7,NA,2022-10-30,Other/Mixed Category
+79,Petty Theft,20,27,-25.9,156,123,26.8,1364,1070,27.5,5.7,61.8,NA,2022-10-30,Property
+79,Misdemeanor Assault,14,10,40,51,50,2,563,419,34.4,24.6,-32.7,NA,2022-10-30,Violent
+79,Rape (FBI/UCR Definition),0,0,NA,2,5,-60,36,23,56.5,0,NA,NA,2022-10-30,Violent
+79,Other Sex Crimes,0,3,-100,3,8,-62.5,35,70,-50,-41.7,NA,NA,2022-10-30,Other/Mixed Category
+79,Shooting Victims,1,0,NA,2,1,100,30,51,-41.2,-51.6,-40,-87.7,2022-10-30,Other/Mixed Category
+79,Shooting Incidents,1,0,NA,2,1,100,23,41,-43.9,-53.1,-39.5,-89.2,2022-10-30,Other/Mixed Category
+79,Hate Crimes,0,0,NA,0,1,-100,9,5,80,80,NA,NA,2022-10-30,Other/Mixed Category
+81,Murder,0,0,NA,0,0,NA,5,9,-44.4,-37.5,-68.8,-78.3,2022-10-30,Violent
+81,Rape,1,0,NA,2,1,100,19,10,90,5.6,-5,-71.2,2022-10-30,Violent
+81,Robbery,3,3,0,6,18,-66.7,133,145,-8.3,-13.1,-53,-86.9,2022-10-30,Property
+81,Felony Assault,6,7,-14.3,21,33,-36.4,281,280,0.4,15.2,3.3,-62.2,2022-10-30,Violent
+81,Burglary,7,3,133.3,22,16,37.5,170,141,20.6,-18.7,-13.7,-74.4,2022-10-30,Property
+81,Grand Larceny,8,11,-27.3,37,35,5.7,358,309,15.9,10.8,24.7,16.6,2022-10-30,Property
+81,Motor Vehicle Theft,2,1,100,10,8,25,116,84,38.1,27.5,58.9,-77.1,2022-10-30,Property
+81,Total Major Felonies,27,25,8,98,111,-11.7,1082,978,10.6,3.4,-5.7,-67.5,2022-10-30,Combined Total
+81,Transit System Crimes,0,0,NA,2,1,100,13,14,-7.1,8.3,-38.1,NA,2022-10-30,Other/Mixed Category
+81,Housing System Crimes,4,1,300,5,10,-50,72,92,-21.7,-7.7,7.5,NA,2022-10-30,Other/Mixed Category
+81,Petty Theft,18,7,157.1,87,40,117.5,746,491,51.9,10.4,9.7,NA,2022-10-30,Property
+81,Misdemeanor Assault,6,2,200,17,25,-32,335,285,17.5,9.8,-51.7,NA,2022-10-30,Violent
+81,Rape (FBI/UCR Definition),1,1,0,2,2,0,25,23,8.7,0,NA,NA,2022-10-30,Violent
+81,Other Sex Crimes,1,0,NA,6,1,500,27,41,-34.1,-41.3,NA,NA,2022-10-30,Other/Mixed Category
+81,Shooting Victims,0,1,-100,0,2,-100,35,36,-2.8,-27.1,-31.4,-78,2022-10-30,Other/Mixed Category
+81,Shooting Incidents,0,1,-100,0,2,-100,27,27,0,-30.8,-38.6,-81.1,2022-10-30,Other/Mixed Category
+81,Hate Crimes,0,0,NA,0,0,NA,3,6,-50,NA,NA,NA,2022-10-30,Other/Mixed Category
+83,Murder,0,1,-100,0,1,-100,3,6,-50,-40,-75,-91.4,2022-10-30,Violent
+83,Rape,1,0,NA,6,2,200,36,23,56.5,111.8,28.6,-30.8,2022-10-30,Violent
+83,Robbery,4,9,-55.6,20,34,-41.2,267,203,31.5,24.8,-25.8,-78.5,2022-10-30,Property
+83,Felony Assault,4,3,33.3,27,20,35,303,271,11.8,12.6,-5.6,-56.8,2022-10-30,Violent
+83,Burglary,10,3,233.3,32,22,45.5,256,223,14.8,-9.2,-30.8,-77,2022-10-30,Property
+83,Grand Larceny,20,14,42.9,78,60,30,588,461,27.5,33.3,132.4,28.1,2022-10-30,Property
+83,Motor Vehicle Theft,5,5,0,11,15,-26.7,203,144,41,47.1,48.2,-74.1,2022-10-30,Property
+83,Total Major Felonies,44,35,25.7,174,154,13,1656,1331,24.4,21.2,11.8,-62.2,2022-10-30,Combined Total
+83,Transit System Crimes,1,0,NA,1,2,-50,10,17,-41.2,-9.1,-54.5,NA,2022-10-30,Other/Mixed Category
+83,Housing System Crimes,0,0,NA,0,5,-100,23,29,-20.7,-20.7,4.5,NA,2022-10-30,Other/Mixed Category
+83,Petty Theft,19,23,-17.4,86,88,-2.3,875,774,13,-10,38.2,NA,2022-10-30,Property
+83,Misdemeanor Assault,12,19,-36.8,44,47,-6.4,498,439,13.4,20.9,-26.7,NA,2022-10-30,Violent
+83,Rape (FBI/UCR Definition),2,0,NA,7,2,250,49,36,36.1,75,NA,NA,2022-10-30,Violent
+83,Other Sex Crimes,1,3,-66.7,6,5,20,57,41,39,7.5,NA,NA,2022-10-30,Other/Mixed Category
+83,Shooting Victims,0,1,-100,2,2,0,13,35,-62.9,18.2,-69,-93.5,2022-10-30,Other/Mixed Category
+83,Shooting Incidents,0,1,-100,2,2,0,13,25,-48,18.2,-59.4,-93,2022-10-30,Other/Mixed Category
+83,Hate Crimes,0,0,NA,0,0,NA,4,3,33.3,300,NA,NA,2022-10-30,Other/Mixed Category
+84,Murder,0,0,NA,0,0,NA,1,1,0,-66.7,-66.7,-90.9,2022-10-30,Violent
+84,Rape,0,0,NA,1,0,NA,10,9,11.1,150,900,-44.4,2022-10-30,Violent
+84,Robbery,0,5,-100,4,16,-75,118,113,4.4,29.7,-20.3,-89.2,2022-10-30,Property
+84,Felony Assault,9,3,200,23,15,53.3,149,138,8,6.4,62,-60.2,2022-10-30,Violent
+84,Burglary,1,2,-50,14,13,7.7,161,115,40,2.5,62.6,-76.6,2022-10-30,Property
+84,Grand Larceny,13,13,0,52,38,36.8,532,426,24.9,59.3,27.3,-42.7,2022-10-30,Property
+84,Motor Vehicle Theft,2,3,-33.3,9,5,80,55,34,61.8,37.5,12.2,-91.1,2022-10-30,Property
+84,Total Major Felonies,25,26,-3.8,103,87,18.4,1026,836,22.7,33.4,26.7,-72.4,2022-10-30,Combined Total
+84,Transit System Crimes,0,2,-100,3,5,-40,52,43,20.9,-1.9,-10.3,NA,2022-10-30,Other/Mixed Category
+84,Housing System Crimes,2,1,100,3,2,50,31,39,-20.5,3.3,34.8,NA,2022-10-30,Other/Mixed Category
+84,Petty Theft,43,30,43.3,169,113,49.6,1618,1108,46,103.8,27.1,NA,2022-10-30,Property
+84,Misdemeanor Assault,9,9,0,27,26,3.8,305,220,38.6,28.7,2.7,NA,2022-10-30,Violent
+84,Rape (FBI/UCR Definition),0,0,NA,2,0,NA,16,21,-23.8,220,NA,NA,2022-10-30,Violent
+84,Other Sex Crimes,2,1,100,7,7,0,58,56,3.6,56.8,NA,NA,2022-10-30,Other/Mixed Category
+84,Shooting Victims,1,0,NA,2,0,NA,7,9,-22.2,-12.5,-12.5,-79.4,2022-10-30,Other/Mixed Category
+84,Shooting Incidents,1,0,NA,2,0,NA,7,9,-22.2,0,16.7,-72,2022-10-30,Other/Mixed Category
+84,Hate Crimes,0,0,NA,1,0,NA,11,6,83.3,120,NA,NA,2022-10-30,Other/Mixed Category
+88,Murder,0,0,NA,0,0,NA,0,3,-100,-100,-100,-100,2022-10-30,Violent
+88,Rape,0,0,NA,3,2,50,10,6,66.7,11.1,25,-65.5,2022-10-30,Violent
+88,Robbery,1,2,-50,12,5,140,93,77,20.8,-6.1,-51.8,-90.3,2022-10-30,Property
+88,Felony Assault,2,2,0,9,9,0,145,114,27.2,-28.6,29.5,-65.6,2022-10-30,Violent
+88,Burglary,3,0,NA,11,4,175,101,80,26.2,-15.1,-32.7,-89.1,2022-10-30,Property
+88,Grand Larceny,9,5,80,30,34,-11.8,283,225,25.8,7.6,-27.8,-38.3,2022-10-30,Property
+88,Motor Vehicle Theft,3,0,NA,8,4,100,79,46,71.7,46.3,-4.8,-86.9,2022-10-30,Property
+88,Total Major Felonies,18,9,100,73,58,25.9,711,551,29,-5.6,-24.7,-79.2,2022-10-30,Combined Total
+88,Transit System Crimes,0,0,NA,2,0,NA,10,8,25,-58.3,-78.7,NA,2022-10-30,Other/Mixed Category
+88,Housing System Crimes,2,3,-33.3,4,6,-33.3,74,88,-15.9,-30.2,-12.9,NA,2022-10-30,Other/Mixed Category
+88,Petty Theft,14,15,-6.7,68,54,25.9,635,456,39.3,7.4,-33.3,NA,2022-10-30,Property
+88,Misdemeanor Assault,5,6,-16.7,25,27,-7.4,316,212,49.1,45.6,31.1,NA,2022-10-30,Violent
+88,Rape (FBI/UCR Definition),0,0,NA,3,3,0,16,13,23.1,6.7,NA,NA,2022-10-30,Violent
+88,Other Sex Crimes,1,1,0,3,6,-50,25,36,-30.6,8.7,NA,NA,2022-10-30,Other/Mixed Category
+88,Shooting Victims,0,1,-100,2,2,0,8,11,-27.3,-60,-57.9,-92.9,2022-10-30,Other/Mixed Category
+88,Shooting Incidents,0,1,-100,2,2,0,8,10,-20,-46.7,-52.9,-91.8,2022-10-30,Other/Mixed Category
+88,Hate Crimes,0,0,NA,1,0,NA,6,4,50,-14.3,NA,NA,2022-10-30,Other/Mixed Category
+90,Murder,0,0,NA,0,0,NA,0,4,-100,-100,-100,-100,2022-10-30,Violent
+90,Rape,0,0,NA,0,1,-100,15,17,-11.8,7.1,114.3,-55.9,2022-10-30,Violent
+90,Robbery,4,3,33.3,11,13,-15.4,147,107,37.4,2.8,-53.2,-86.4,2022-10-30,Property
+90,Felony Assault,3,3,0,15,17,-11.8,235,182,29.1,18.1,38.2,-53,2022-10-30,Violent
+90,Burglary,4,11,-63.6,26,24,8.3,250,187,33.7,-18.6,-36.4,-77.9,2022-10-30,Property
+90,Grand Larceny,13,15,-13.3,58,60,-3.3,559,408,37,22.6,35.7,23.9,2022-10-30,Property
+90,Motor Vehicle Theft,5,2,150,16,11,45.5,153,130,17.7,53,12.5,-80,2022-10-30,Property
+90,Total Major Felonies,29,34,-14.7,126,126,0,1359,1035,31.3,11.2,-5.2,-65.9,2022-10-30,Combined Total
+90,Transit System Crimes,0,2,-100,1,4,-75,35,19,84.2,59.1,-5.4,NA,2022-10-30,Other/Mixed Category
+90,Housing System Crimes,4,2,100,14,13,7.7,132,138,-4.3,-10.8,11.9,NA,2022-10-30,Other/Mixed Category
+90,Petty Theft,26,19,36.8,88,80,10,1019,803,26.9,26,-1.1,NA,2022-10-30,Property
+90,Misdemeanor Assault,10,11,-9.1,35,37,-5.4,412,313,31.6,53.2,1.5,NA,2022-10-30,Violent
+90,Rape (FBI/UCR Definition),0,0,NA,1,1,0,22,23,-4.3,15.8,NA,NA,2022-10-30,Violent
+90,Other Sex Crimes,4,1,300,5,3,66.7,41,62,-33.9,-12.8,NA,NA,2022-10-30,Other/Mixed Category
+90,Shooting Victims,0,0,NA,0,0,NA,10,16,-37.5,-44.4,-28.6,-86.8,2022-10-30,Other/Mixed Category
+90,Shooting Incidents,0,0,NA,0,0,NA,10,10,0,-41.2,-23.1,-85.7,2022-10-30,Other/Mixed Category
+90,Hate Crimes,0,3,-100,1,3,-66.7,26,12,116.7,333.3,NA,NA,2022-10-30,Other/Mixed Category
+94,Murder,0,0,NA,0,0,NA,1,0,NA,NA,NA,-85.7,2022-10-30,Violent
+94,Rape,0,0,NA,0,2,-100,11,8,37.5,10,1000,37.5,2022-10-30,Violent
+94,Robbery,2,1,100,10,2,400,120,66,81.8,93.5,5.3,-76.6,2022-10-30,Property
+94,Felony Assault,3,3,0,12,12,0,133,88,51.1,68.4,107.8,-40.6,2022-10-30,Violent
+94,Burglary,6,5,20,24,28,-14.3,219,187,17.1,9.5,5.8,-77.4,2022-10-30,Property
+94,Grand Larceny,15,12,25,50,36,38.9,497,358,38.8,36.9,97.2,59.3,2022-10-30,Property
+94,Motor Vehicle Theft,5,1,400,16,9,77.8,156,94,66,32.2,25.8,-79.2,2022-10-30,Property
+94,Total Major Felonies,31,22,40.9,112,89,25.8,1137,801,41.9,36.7,49.2,-59.1,2022-10-30,Combined Total
+94,Transit System Crimes,0,1,-100,2,1,100,11,7,57.1,22.2,-15.4,NA,2022-10-30,Other/Mixed Category
+94,Housing System Crimes,2,0,NA,7,2,250,28,20,40,55.6,27.3,NA,2022-10-30,Other/Mixed Category
+94,Petty Theft,27,19,42.1,76,86,-11.6,841,716,17.5,13.2,62.4,NA,2022-10-30,Property
+94,Misdemeanor Assault,3,4,-25,13,23,-43.5,226,187,20.9,33.7,27,NA,2022-10-30,Violent
+94,Rape (FBI/UCR Definition),0,0,NA,0,2,-100,13,12,8.3,-27.8,NA,NA,2022-10-30,Violent
+94,Other Sex Crimes,0,0,NA,1,3,-66.7,25,25,0,-16.7,NA,NA,2022-10-30,Other/Mixed Category
+94,Shooting Victims,0,0,NA,1,0,NA,11,6,83.3,83.3,57.1,-8.3,2022-10-30,Other/Mixed Category
+94,Shooting Incidents,0,0,NA,1,0,NA,8,5,60,60,33.3,-20,2022-10-30,Other/Mixed Category
+94,Hate Crimes,0,0,NA,0,0,NA,0,5,-100,-100,NA,NA,2022-10-30,Other/Mixed Category
+100,Murder,0,0,NA,0,0,NA,1,1,0,-75,0,-75,2022-10-30,Violent
+100,Rape,0,0,NA,0,0,NA,9,9,0,125,200,-30.8,2022-10-30,Violent
+100,Robbery,1,1,0,4,2,100,46,18,155.6,2.2,-20.7,-80.4,2022-10-30,Property
+100,Felony Assault,1,2,-50,5,8,-37.5,89,96,-7.3,-28.8,21.9,-53.4,2022-10-30,Violent
+100,Burglary,0,0,NA,4,5,-20,51,36,41.7,-8.9,4.1,-85.9,2022-10-30,Property
+100,Grand Larceny,7,1,600,16,10,60,137,116,18.1,0,35.6,-18.9,2022-10-30,Property
+100,Motor Vehicle Theft,2,1,100,6,5,20,56,18,211.1,75,124,-80.1,2022-10-30,Property
+100,Total Major Felonies,11,5,120,35,30,16.7,389,294,32.3,-3.5,25.5,-69,2022-10-30,Combined Total
+100,Transit System Crimes,1,0,NA,1,0,NA,8,12,-33.3,-33.3,-50,NA,2022-10-30,Other/Mixed Category
+100,Housing System Crimes,0,0,NA,1,1,0,18,15,20,0,-5.3,NA,2022-10-30,Other/Mixed Category
+100,Petty Theft,7,8,-12.5,41,38,7.9,448,333,34.5,2.8,74.3,NA,2022-10-30,Property
+100,Misdemeanor Assault,5,4,25,21,19,10.5,183,160,14.4,-10.7,-37.1,NA,2022-10-30,Violent
+100,Rape (FBI/UCR Definition),0,0,NA,0,0,NA,12,11,9.1,71.4,NA,NA,2022-10-30,Violent
+100,Other Sex Crimes,0,0,NA,1,0,NA,19,15,26.7,35.7,NA,NA,2022-10-30,Other/Mixed Category
+100,Shooting Victims,0,0,NA,0,1,-100,6,10,-40,-57.1,50,-50,2022-10-30,Other/Mixed Category
+100,Shooting Incidents,0,0,NA,0,1,-100,5,10,-50,-54.5,25,-54.5,2022-10-30,Other/Mixed Category
+100,Hate Crimes,0,0,NA,0,0,NA,0,1,-100,-100,NA,NA,2022-10-30,Other/Mixed Category
+101,Murder,0,0,NA,1,1,0,8,11,-27.3,-20,60,-46.7,2022-10-30,Violent
+101,Rape,0,1,-100,1,1,0,17,18,-5.6,21.4,30.8,-52.8,2022-10-30,Violent
+101,Robbery,1,3,-66.7,4,6,-33.3,74,85,-12.9,-7.5,-28.8,-87,2022-10-30,Property
+101,Felony Assault,9,7,28.6,19,21,-9.5,197,249,-20.9,-22.7,47,-53.8,2022-10-30,Violent
+101,Burglary,4,2,100,8,7,14.3,63,59,6.8,-7.4,-46.2,-90.6,2022-10-30,Property
+101,Grand Larceny,0,2,-100,9,23,-60.9,144,147,-2,5.1,67.4,-46.7,2022-10-30,Property
+101,Motor Vehicle Theft,0,0,NA,3,2,50,51,37,37.8,18.6,-26.1,-87.1,2022-10-30,Property
+101,Total Major Felonies,14,15,-6.7,45,61,-26.2,554,606,-8.6,-8.7,4.9,-76.7,2022-10-30,Combined Total
+101,Transit System Crimes,0,0,NA,1,2,-50,8,8,0,-33.3,0,NA,2022-10-30,Other/Mixed Category
+101,Housing System Crimes,3,2,50,9,7,28.6,75,82,-8.5,-2.6,120.6,NA,2022-10-30,Other/Mixed Category
+101,Petty Theft,10,5,100,39,43,-9.3,491,514,-4.5,-10.2,56.9,NA,2022-10-30,Property
+101,Misdemeanor Assault,5,4,25,23,31,-25.8,329,371,-11.3,-3.5,-5.2,NA,2022-10-30,Violent
+101,Rape (FBI/UCR Definition),0,1,-100,2,1,100,28,23,21.7,-17.6,NA,NA,2022-10-30,Violent
+101,Other Sex Crimes,1,1,0,7,6,16.7,45,42,7.1,55.2,NA,NA,2022-10-30,Other/Mixed Category
+101,Shooting Victims,0,4,-100,1,5,-80,25,27,-7.4,-41.9,19,-34.2,2022-10-30,Other/Mixed Category
+101,Shooting Incidents,0,2,-100,1,3,-66.7,19,24,-20.8,-42.4,0,-47.2,2022-10-30,Other/Mixed Category
+101,Hate Crimes,0,0,NA,0,0,NA,2,3,-33.3,-50,NA,NA,2022-10-30,Other/Mixed Category
+102,Murder,0,0,NA,1,0,NA,5,5,0,0,0,0,2022-10-30,Violent
+102,Rape,1,1,0,3,3,0,19,20,-5,35.7,72.7,-24,2022-10-30,Violent
+102,Robbery,4,2,100,15,6,150,173,95,82.1,58.7,-25.4,-82.4,2022-10-30,Property
+102,Felony Assault,13,11,18.2,30,29,3.4,317,229,38.4,51.7,66.8,3.3,2022-10-30,Violent
+102,Burglary,3,4,-25,18,9,100,132,87,51.7,10,-53.4,-88.9,2022-10-30,Property
+102,Grand Larceny,6,9,-33.3,27,28,-3.6,311,212,46.7,31.2,7.6,-34.8,2022-10-30,Property
+102,Motor Vehicle Theft,7,4,75,27,18,50,216,195,10.8,68.8,-10.4,-92.6,2022-10-30,Property
+102,Total Major Felonies,34,31,9.7,121,93,30.1,1173,843,39.1,42.7,-6.2,-80.1,2022-10-30,Combined Total
+102,Transit System Crimes,0,0,NA,0,0,NA,13,7,85.7,-7.1,-13.3,NA,2022-10-30,Other/Mixed Category
+102,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+102,Petty Theft,41,26,57.7,139,108,28.7,1382,832,66.1,73.8,106.3,NA,2022-10-30,Property
+102,Misdemeanor Assault,7,5,40,44,27,63,455,419,8.6,23,-14.6,NA,2022-10-30,Violent
+102,Rape (FBI/UCR Definition),1,1,0,3,3,0,32,30,6.7,23.1,NA,NA,2022-10-30,Violent
+102,Other Sex Crimes,4,1,300,5,7,-28.6,45,59,-23.7,2.3,NA,NA,2022-10-30,Other/Mixed Category
+102,Shooting Victims,0,0,NA,2,0,NA,20,17,17.6,233.3,185.7,-25.9,2022-10-30,Other/Mixed Category
+102,Shooting Incidents,0,0,NA,1,0,NA,10,13,-23.1,100,42.9,-54.5,2022-10-30,Other/Mixed Category
+102,Hate Crimes,0,0,NA,0,3,-100,5,6,-16.7,NA,NA,NA,2022-10-30,Other/Mixed Category
+103,Murder,0,0,NA,0,1,-100,9,6,50,12.5,-18.2,-64,2022-10-30,Violent
+103,Rape,1,1,0,2,2,0,31,16,93.8,72.2,72.2,-50,2022-10-30,Violent
+103,Robbery,8,9,-11.1,33,42,-21.4,333,264,26.1,10.6,-14,-76.2,2022-10-30,Property
+103,Felony Assault,11,17,-35.3,29,43,-32.6,494,426,16,28.6,71.5,-31.4,2022-10-30,Violent
+103,Burglary,7,5,40,28,35,-20,184,150,22.7,-9.4,-7.5,-80.8,2022-10-30,Property
+103,Grand Larceny,18,9,100,58,42,38.1,497,374,32.9,35.1,46.6,-50.3,2022-10-30,Property
+103,Motor Vehicle Theft,6,1,500,15,8,87.5,186,97,91.8,36.8,30.1,-85.6,2022-10-30,Property
+103,Total Major Felonies,51,42,21.4,165,173,-4.6,1734,1333,30.1,22.3,25.2,-68.2,2022-10-30,Combined Total
+103,Transit System Crimes,1,1,0,1,3,-66.7,18,9,100,50,-14.3,NA,2022-10-30,Other/Mixed Category
+103,Housing System Crimes,0,0,NA,2,3,-33.3,46,39,17.9,-8,39.4,NA,2022-10-30,Other/Mixed Category
+103,Petty Theft,25,35,-28.6,94,124,-24.2,1249,981,27.3,44.2,30.8,NA,2022-10-30,Property
+103,Misdemeanor Assault,16,2,700,75,40,87.5,653,504,29.6,28.5,-0.9,NA,2022-10-30,Violent
+103,Rape (FBI/UCR Definition),1,1,0,2,5,-60,45,35,28.6,55.2,NA,NA,2022-10-30,Violent
+103,Other Sex Crimes,5,1,400,8,6,33.3,69,47,46.8,56.8,NA,NA,2022-10-30,Other/Mixed Category
+103,Shooting Victims,5,0,NA,6,1,500,29,28,3.6,-29.3,-9.4,-77.9,2022-10-30,Other/Mixed Category
+103,Shooting Incidents,3,0,NA,4,1,300,24,23,4.3,-27.3,14.3,-80.2,2022-10-30,Other/Mixed Category
+103,Hate Crimes,0,0,NA,0,0,NA,11,4,175,NA,NA,NA,2022-10-30,Other/Mixed Category
+104,Murder,0,0,NA,0,0,NA,2,2,0,NA,-50,-88.2,2022-10-30,Violent
+104,Rape,0,0,NA,1,0,NA,18,12,50,63.6,5.9,-10,2022-10-30,Violent
+104,Robbery,5,5,0,16,11,45.5,169,111,52.3,7.6,-23.5,-79.3,2022-10-30,Property
+104,Felony Assault,7,3,133.3,26,24,8.3,251,210,19.5,0.8,36.4,-1.2,2022-10-30,Violent
+104,Burglary,4,6,-33.3,18,21,-14.3,230,183,25.7,-11.5,-39,-86.2,2022-10-30,Property
+104,Grand Larceny,11,10,10,53,45,17.8,541,444,21.8,8.2,49,1.9,2022-10-30,Property
+104,Motor Vehicle Theft,4,3,33.3,37,15,146.7,254,173,46.8,67.1,-18.3,-91.4,2022-10-30,Property
+104,Total Major Felonies,31,27,14.8,151,116,30.2,1465,1135,29.1,10.2,-0.8,-76.6,2022-10-30,Combined Total
+104,Transit System Crimes,0,0,NA,3,0,NA,13,6,116.7,-27.8,-18.8,NA,2022-10-30,Other/Mixed Category
+104,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+104,Petty Theft,26,24,8.3,119,96,24,1218,1113,9.4,1,37.8,NA,2022-10-30,Property
+104,Misdemeanor Assault,7,5,40,38,46,-17.4,447,421,6.2,18.3,-25.9,NA,2022-10-30,Violent
+104,Rape (FBI/UCR Definition),1,0,NA,2,1,100,28,18,55.6,16.7,NA,NA,2022-10-30,Violent
+104,Other Sex Crimes,3,1,200,8,3,166.7,63,45,40,43.2,NA,NA,2022-10-30,Other/Mixed Category
+104,Shooting Victims,0,0,NA,0,0,NA,8,3,166.7,33.3,100,-68,2022-10-30,Other/Mixed Category
+104,Shooting Incidents,0,0,NA,0,0,NA,7,3,133.3,75,133.3,-68.2,2022-10-30,Other/Mixed Category
+104,Hate Crimes,0,0,NA,1,0,NA,7,3,133.3,NA,NA,NA,2022-10-30,Other/Mixed Category
+105,Murder,0,0,NA,1,0,NA,5,4,25,0,-61.5,-75,2022-10-30,Violent
+105,Rape,1,1,0,3,3,0,12,37,-67.6,-62.5,-25,-63.6,2022-10-30,Violent
+105,Robbery,2,1,100,13,6,116.7,155,114,36,6.9,-41.1,-82,2022-10-30,Property
+105,Felony Assault,9,5,80,26,34,-23.5,350,346,1.2,-3.3,48.3,-0.3,2022-10-30,Violent
+105,Burglary,2,3,-33.3,18,9,100,173,119,45.4,2.4,-45.4,-87.1,2022-10-30,Property
+105,Grand Larceny,12,13,-7.7,38,46,-17.4,523,379,38,3.2,39.5,4.4,2022-10-30,Property
+105,Motor Vehicle Theft,9,3,200,35,12,191.7,227,119,90.8,-12,-29.9,-92,2022-10-30,Property
+105,Total Major Felonies,35,26,34.6,134,110,21.8,1445,1118,29.2,-2.2,-6.4,-75.7,2022-10-30,Combined Total
+105,Transit System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+105,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+105,Petty Theft,39,34,14.7,117,100,17,1273,826,54.1,50.3,80.3,NA,2022-10-30,Property
+105,Misdemeanor Assault,16,12,33.3,55,51,7.8,562,422,33.2,26,9.6,NA,2022-10-30,Violent
+105,Rape (FBI/UCR Definition),1,1,0,5,3,66.7,27,46,-41.3,-30.8,NA,NA,2022-10-30,Violent
+105,Other Sex Crimes,6,0,NA,8,3,166.7,54,42,28.6,22.7,NA,NA,2022-10-30,Other/Mixed Category
+105,Shooting Victims,0,0,NA,2,2,0,22,32,-31.2,-18.5,-47.6,-67.6,2022-10-30,Other/Mixed Category
+105,Shooting Incidents,0,0,NA,2,2,0,18,26,-30.8,-25,-33.3,-70,2022-10-30,Other/Mixed Category
+105,Hate Crimes,0,0,NA,0,1,-100,2,1,100,NA,NA,NA,2022-10-30,Other/Mixed Category
+106,Murder,0,0,NA,0,0,NA,4,5,-20,100,0,-78.9,2022-10-30,Violent
+106,Rape,1,0,NA,1,0,NA,19,11,72.7,90,18.8,-29.6,2022-10-30,Violent
+106,Robbery,5,3,66.7,15,15,0,184,158,16.5,21.1,-17.9,-74.4,2022-10-30,Property
+106,Felony Assault,11,8,37.5,31,36,-13.9,301,283,6.4,24.9,148.8,-15.2,2022-10-30,Violent
+106,Burglary,5,3,66.7,20,13,53.8,132,84,57.1,1.5,-45.9,-86.4,2022-10-30,Property
+106,Grand Larceny,17,16,6.2,59,52,13.5,552,415,33,22.4,88.4,12.9,2022-10-30,Property
+106,Motor Vehicle Theft,6,5,20,18,23,-21.7,184,158,16.5,20.3,-28.7,-93.2,2022-10-30,Property
+106,Total Major Felonies,45,35,28.6,144,139,3.6,1376,1114,23.5,20.8,18.6,-74,2022-10-30,Combined Total
+106,Transit System Crimes,0,0,NA,2,1,100,22,13,69.2,46.7,-4.3,NA,2022-10-30,Other/Mixed Category
+106,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+106,Petty Theft,23,31,-25.8,81,96,-15.6,1154,771,49.7,64.2,102.1,NA,2022-10-30,Property
+106,Misdemeanor Assault,14,7,100,37,34,8.8,443,387,14.5,19.4,3.7,NA,2022-10-30,Violent
+106,Rape (FBI/UCR Definition),1,0,NA,5,0,NA,33,17,94.1,83.3,NA,NA,2022-10-30,Violent
+106,Other Sex Crimes,3,0,NA,8,2,300,51,34,50,88.9,NA,NA,2022-10-30,Other/Mixed Category
+106,Shooting Victims,0,1,-100,1,1,0,16,18,-11.1,166.7,166.7,-27.3,2022-10-30,Other/Mixed Category
+106,Shooting Incidents,0,1,-100,1,1,0,12,14,-14.3,140,140,-45.5,2022-10-30,Other/Mixed Category
+106,Hate Crimes,0,0,NA,0,0,NA,3,3,0,200,NA,NA,2022-10-30,Other/Mixed Category
+107,Murder,0,0,NA,0,1,-100,0,1,-100,NA,-100,-100,2022-10-30,Violent
+107,Rape,0,0,NA,3,0,NA,19,18,5.6,11.8,72.7,-29.6,2022-10-30,Violent
+107,Robbery,2,4,-50,12,17,-29.4,154,107,43.9,24.2,-28.7,-81.5,2022-10-30,Property
+107,Felony Assault,4,3,33.3,17,17,0,160,129,24,34.5,90.5,-23.1,2022-10-30,Violent
+107,Burglary,8,1,700,25,9,177.8,192,153,25.5,23.9,-17.9,-84.2,2022-10-30,Property
+107,Grand Larceny,16,10,60,55,48,14.6,558,315,77.1,19,52.9,8.3,2022-10-30,Property
+107,Motor Vehicle Theft,6,2,200,28,12,133.3,222,129,72.1,58.6,14.4,-94.6,2022-10-30,Property
+107,Total Major Felonies,36,20,80,140,104,34.6,1305,852,53.2,27.4,17.8,-81.2,2022-10-30,Combined Total
+107,Transit System Crimes,0,2,-100,2,2,0,25,34,-26.5,25,25,NA,2022-10-30,Other/Mixed Category
+107,Housing System Crimes,0,1,-100,3,2,50,42,33,27.3,7.7,40,NA,2022-10-30,Other/Mixed Category
+107,Petty Theft,54,14,285.7,142,91,56,1237,730,69.5,53.1,46.6,NA,2022-10-30,Property
+107,Misdemeanor Assault,11,6,83.3,34,24,41.7,376,278,35.3,43,10.6,NA,2022-10-30,Violent
+107,Rape (FBI/UCR Definition),0,0,NA,3,0,NA,28,24,16.7,7.7,NA,NA,2022-10-30,Violent
+107,Other Sex Crimes,1,0,NA,2,4,-50,50,42,19,31.6,NA,NA,2022-10-30,Other/Mixed Category
+107,Shooting Victims,0,0,NA,0,1,-100,9,5,80,350,80,-10,2022-10-30,Other/Mixed Category
+107,Shooting Incidents,0,0,NA,0,1,-100,7,5,40,250,40,-30,2022-10-30,Other/Mixed Category
+107,Hate Crimes,0,0,NA,1,0,NA,4,7,-42.9,-50,NA,NA,2022-10-30,Other/Mixed Category
+108,Murder,0,0,NA,0,0,NA,1,2,-50,-50,-50,-87.5,2022-10-30,Violent
+108,Rape,1,0,NA,2,2,0,18,11,63.6,100,38.5,125,2022-10-30,Violent
+108,Robbery,6,4,50,15,10,50,164,98,67.3,62.4,3.1,-80.6,2022-10-30,Property
+108,Felony Assault,2,3,-33.3,13,18,-27.8,185,175,5.7,44.5,79.6,-29.7,2022-10-30,Violent
+108,Burglary,4,6,-33.3,13,17,-23.5,140,151,-7.3,-1.4,-31.7,-89.1,2022-10-30,Property
+108,Grand Larceny,11,13,-15.4,52,47,10.6,587,370,58.6,70.6,51.7,-23.3,2022-10-30,Property
+108,Motor Vehicle Theft,2,6,-66.7,22,18,22.2,196,155,26.5,42,13.3,-88.8,2022-10-30,Property
+108,Total Major Felonies,26,32,-18.8,117,112,4.5,1291,962,34.2,49.4,23.9,-73.7,2022-10-30,Combined Total
+108,Transit System Crimes,2,1,100,7,4,75,68,34,100,134.5,54.5,NA,2022-10-30,Other/Mixed Category
+108,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+108,Petty Theft,36,22,63.6,142,107,32.7,1253,1065,17.7,64.9,58.6,NA,2022-10-30,Property
+108,Misdemeanor Assault,9,6,50,60,38,57.9,470,396,18.7,67.3,10.6,NA,2022-10-30,Violent
+108,Rape (FBI/UCR Definition),1,0,NA,3,2,50,24,19,26.3,50,NA,NA,2022-10-30,Violent
+108,Other Sex Crimes,3,3,0,9,9,0,76,52,46.2,35.7,NA,NA,2022-10-30,Other/Mixed Category
+108,Shooting Victims,0,0,NA,0,0,NA,5,7,-28.6,0,400,-64.3,2022-10-30,Other/Mixed Category
+108,Shooting Incidents,0,0,NA,0,0,NA,4,6,-33.3,-20,300,-71.4,2022-10-30,Other/Mixed Category
+108,Hate Crimes,0,0,NA,0,0,NA,9,11,-18.2,NA,NA,NA,2022-10-30,Other/Mixed Category
+109,Murder,0,0,NA,0,0,NA,4,5,-20,33.3,-33.3,-60,2022-10-30,Violent
+109,Rape,1,0,NA,3,0,NA,34,16,112.5,21.4,142.9,36,2022-10-30,Violent
+109,Robbery,16,2,700,39,15,160,254,123,106.5,59.7,50.3,-74.6,2022-10-30,Property
+109,Felony Assault,8,2,300,32,25,28,277,175,58.3,20.4,49.7,-9.2,2022-10-30,Violent
+109,Burglary,14,4,250,62,25,148,459,278,65.1,35,12.8,-77.2,2022-10-30,Property
+109,Grand Larceny,30,12,150,118,60,96.7,1256,594,111.4,67.7,126.7,12.4,2022-10-30,Property
+109,Motor Vehicle Theft,7,3,133.3,38,12,216.7,218,166,31.3,74.4,-9.9,-93.6,2022-10-30,Property
+109,Total Major Felonies,76,23,230.4,292,137,113.1,2502,1357,84.4,53.1,58.7,-68.2,2022-10-30,Combined Total
+109,Transit System Crimes,0,1,-100,4,3,33.3,34,12,183.3,1033.3,750,NA,2022-10-30,Other/Mixed Category
+109,Housing System Crimes,0,0,NA,1,2,-50,13,13,0,-48,30,NA,2022-10-30,Other/Mixed Category
+109,Petty Theft,47,52,-9.6,188,210,-10.5,2311,1718,34.5,56.7,73.2,NA,2022-10-30,Property
+109,Misdemeanor Assault,13,11,18.2,59,46,28.3,590,432,36.6,31.7,-2,NA,2022-10-30,Violent
+109,Rape (FBI/UCR Definition),1,0,NA,3,1,200,45,25,80,25,NA,NA,2022-10-30,Violent
+109,Other Sex Crimes,0,1,-100,4,5,-20,68,53,28.3,25.9,NA,NA,2022-10-30,Other/Mixed Category
+109,Shooting Victims,0,0,NA,0,0,NA,5,6,-16.7,-28.6,150,-77.3,2022-10-30,Other/Mixed Category
+109,Shooting Incidents,0,0,NA,0,0,NA,5,5,0,-28.6,150,-72.2,2022-10-30,Other/Mixed Category
+109,Hate Crimes,0,0,NA,3,1,200,13,9,44.4,1200,NA,NA,2022-10-30,Other/Mixed Category
+110,Murder,0,0,NA,1,0,NA,6,3,100,200,100,-75,2022-10-30,Violent
+110,Rape,4,1,300,5,3,66.7,33,33,0,37.5,50,22.2,2022-10-30,Violent
+110,Robbery,16,9,77.8,35,24,45.8,339,204,66.2,50,11.1,-73.5,2022-10-30,Property
+110,Felony Assault,9,7,28.6,40,33,21.2,439,330,33,46.3,116.3,5.8,2022-10-30,Violent
+110,Burglary,0,2,-100,9,10,-10,133,137,-2.9,-20.8,-43.9,-92.7,2022-10-30,Property
+110,Grand Larceny,31,34,-8.8,104,99,5.1,1007,508,98.2,148,119.4,-3,2022-10-30,Property
+110,Motor Vehicle Theft,5,4,25,15,18,-16.7,181,153,18.3,48.4,46,-90.4,2022-10-30,Property
+110,Total Major Felonies,65,57,14,209,187,11.8,2138,1368,56.3,71.3,58,-67.1,2022-10-30,Combined Total
+110,Transit System Crimes,2,1,100,7,3,133.3,37,21,76.2,208.3,48,NA,2022-10-30,Other/Mixed Category
+110,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+110,Petty Theft,50,37,35.1,172,179,-3.9,1959,1484,32,80.1,32.1,NA,2022-10-30,Property
+110,Misdemeanor Assault,25,14,78.6,70,64,9.4,754,648,16.4,29.6,39.9,NA,2022-10-30,Violent
+110,Rape (FBI/UCR Definition),4,1,300,6,6,0,51,51,0,27.5,NA,NA,2022-10-30,Violent
+110,Other Sex Crimes,3,4,-25,13,9,44.4,107,84,27.4,55.1,NA,NA,2022-10-30,Other/Mixed Category
+110,Shooting Victims,0,0,NA,0,0,NA,13,7,85.7,-18.8,160,-75.9,2022-10-30,Other/Mixed Category
+110,Shooting Incidents,0,0,NA,0,0,NA,8,6,33.3,-27.3,100,-83,2022-10-30,Other/Mixed Category
+110,Hate Crimes,0,0,NA,0,0,NA,5,11,-54.5,0,NA,NA,2022-10-30,Other/Mixed Category
+111,Murder,0,0,NA,0,0,NA,0,0,NA,-100,NA,-100,2022-10-30,Violent
+111,Rape,0,0,NA,0,1,-100,2,5,-60,-50,-60,-81.8,2022-10-30,Violent
+111,Robbery,3,2,50,5,3,66.7,70,21,233.3,204.3,7.7,-74.1,2022-10-30,Property
+111,Felony Assault,5,4,25,10,9,11.1,80,60,33.3,15.9,73.9,-21.6,2022-10-30,Violent
+111,Burglary,6,2,200,26,16,62.5,223,179,24.6,54.9,7.7,-73.9,2022-10-30,Property
+111,Grand Larceny,16,8,100,61,27,125.9,540,307,75.9,77.6,78.2,15.1,2022-10-30,Property
+111,Motor Vehicle Theft,4,0,NA,12,4,200,97,57,70.2,83,-18.5,-96.5,2022-10-30,Property
+111,Total Major Felonies,34,16,112.5,114,60,90,1012,629,60.9,69.2,35.8,-77.3,2022-10-30,Combined Total
+111,Transit System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+111,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+111,Petty Theft,16,12,33.3,65,44,47.7,650,450,44.4,91.7,74.7,NA,2022-10-30,Property
+111,Misdemeanor Assault,6,2,200,38,13,192.3,208,123,69.1,51.8,43.4,NA,2022-10-30,Violent
+111,Rape (FBI/UCR Definition),0,0,NA,0,1,-100,3,10,-70,-57.1,NA,NA,2022-10-30,Violent
+111,Other Sex Crimes,0,1,-100,1,1,0,18,17,5.9,28.6,NA,NA,2022-10-30,Other/Mixed Category
+111,Shooting Victims,0,0,NA,1,0,NA,3,0,NA,50,NA,50,2022-10-30,Other/Mixed Category
+111,Shooting Incidents,0,0,NA,1,0,NA,3,0,NA,200,NA,50,2022-10-30,Other/Mixed Category
+111,Hate Crimes,0,0,NA,0,0,NA,3,6,-50,-40,NA,NA,2022-10-30,Other/Mixed Category
+112,Murder,0,0,NA,0,0,NA,2,0,NA,NA,100,-33.3,2022-10-30,Violent
+112,Rape,1,0,NA,1,1,0,10,8,25,42.9,233.3,11.1,2022-10-30,Violent
+112,Robbery,2,3,-33.3,9,6,50,76,39,94.9,58.3,-24.8,-85.8,2022-10-30,Property
+112,Felony Assault,1,2,-50,3,9,-66.7,68,54,25.9,65.9,41.7,-36.4,2022-10-30,Violent
+112,Burglary,3,2,50,7,7,0,93,75,24,-5.1,-13.1,-92.1,2022-10-30,Property
+112,Grand Larceny,8,5,60,33,29,13.8,420,289,45.3,70,31.2,-50.2,2022-10-30,Property
+112,Motor Vehicle Theft,3,1,200,10,6,66.7,86,58,48.3,72,4.9,-97,2022-10-30,Property
+112,Total Major Felonies,18,13,38.5,63,58,8.6,755,523,44.4,53.8,14,-86.4,2022-10-30,Combined Total
+112,Transit System Crimes,0,0,NA,1,0,NA,29,10,190,107.1,61.1,NA,2022-10-30,Other/Mixed Category
+112,Housing System Crimes,0,0,NA,0,1,-100,4,1,300,33.3,NA,NA,2022-10-30,Other/Mixed Category
+112,Petty Theft,24,25,-4,113,128,-11.7,1469,1079,36.1,70.4,78.9,NA,2022-10-30,Property
+112,Misdemeanor Assault,5,3,66.7,11,8,37.5,157,149,5.4,37.7,-7.6,NA,2022-10-30,Violent
+112,Rape (FBI/UCR Definition),1,2,-50,1,3,-66.7,15,16,-6.2,-25,NA,NA,2022-10-30,Violent
+112,Other Sex Crimes,0,1,-100,2,2,0,35,27,29.6,-12.5,NA,NA,2022-10-30,Other/Mixed Category
+112,Shooting Victims,0,0,NA,0,0,NA,3,0,NA,NA,50,-76.9,2022-10-30,Other/Mixed Category
+112,Shooting Incidents,0,0,NA,0,0,NA,3,0,NA,NA,50,-62.5,2022-10-30,Other/Mixed Category
+112,Hate Crimes,0,0,NA,0,0,NA,8,11,-27.3,33.3,NA,NA,2022-10-30,Other/Mixed Category
+113,Murder,0,0,NA,0,0,NA,8,10,-20,33.3,-52.9,-76.5,2022-10-30,Violent
+113,Rape,0,1,-100,0,2,-100,32,22,45.5,3.2,60,-51.5,2022-10-30,Violent
+113,Robbery,4,1,300,7,10,-30,109,122,-10.7,-21.6,-61.5,-88.3,2022-10-30,Property
+113,Felony Assault,6,9,-33.3,24,28,-14.3,329,332,-0.9,-6.3,12.3,-47.7,2022-10-30,Violent
+113,Burglary,1,2,-50,8,16,-50,104,106,-1.9,-20,-67.7,-88.7,2022-10-30,Property
+113,Grand Larceny,10,11,-9.1,33,31,6.5,368,287,28.2,7.6,-31.7,-89.1,2022-10-30,Property
+113,Motor Vehicle Theft,3,3,0,14,11,27.3,196,147,33.3,16,-11.7,-86.5,2022-10-30,Property
+113,Total Major Felonies,24,27,-11.1,86,98,-12.2,1146,1026,11.7,-1.9,-32.4,-84.5,2022-10-30,Combined Total
+113,Transit System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+113,Housing System Crimes,1,0,NA,1,0,NA,5,17,-70.6,-54.5,-54.5,NA,2022-10-30,Other/Mixed Category
+113,Petty Theft,20,31,-35.5,106,96,10.4,1100,795,38.4,27.9,24.9,NA,2022-10-30,Property
+113,Misdemeanor Assault,14,9,55.6,33,43,-23.3,435,407,6.9,2.8,-35.6,NA,2022-10-30,Violent
+113,Rape (FBI/UCR Definition),0,1,-100,2,2,0,46,39,17.9,7,NA,NA,2022-10-30,Violent
+113,Other Sex Crimes,3,0,NA,10,4,150,50,42,19,138.1,NA,NA,2022-10-30,Other/Mixed Category
+113,Shooting Victims,0,0,NA,2,0,NA,30,45,-33.3,-23.1,-41.2,-77.8,2022-10-30,Other/Mixed Category
+113,Shooting Incidents,0,0,NA,2,0,NA,24,35,-31.4,-25,-42.9,-80,2022-10-30,Other/Mixed Category
+113,Hate Crimes,0,1,-100,0,1,-100,2,4,-50,100,NA,NA,2022-10-30,Other/Mixed Category
+114,Murder,0,0,NA,0,1,-100,4,9,-55.6,-42.9,-42.9,-83.3,2022-10-30,Violent
+114,Rape,2,1,100,3,2,50,24,27,-11.1,41.2,100,-40,2022-10-30,Violent
+114,Robbery,1,4,-75,20,19,5.3,210,169,24.3,42.9,-22.2,-85.4,2022-10-30,Property
+114,Felony Assault,11,6,83.3,40,28,42.9,409,339,20.6,31.5,74,-36.7,2022-10-30,Violent
+114,Burglary,4,5,-20,14,12,16.7,226,200,13,7.1,-43.8,-88.1,2022-10-30,Property
+114,Grand Larceny,17,16,6.2,72,67,7.5,716,570,25.6,25.6,31.4,-22.9,2022-10-30,Property
+114,Motor Vehicle Theft,10,4,150,36,26,38.5,298,207,44,41.2,28.4,-86.8,2022-10-30,Property
+114,Total Major Felonies,45,36,25,185,155,19.4,1887,1521,24.1,28,10.8,-73.9,2022-10-30,Combined Total
+114,Transit System Crimes,0,0,NA,2,0,NA,19,20,-5,90,-26.9,NA,2022-10-30,Other/Mixed Category
+114,Housing System Crimes,5,3,66.7,18,19,-5.3,179,174,2.9,16.2,35.6,NA,2022-10-30,Other/Mixed Category
+114,Petty Theft,53,35,51.4,191,217,-12,2255,1916,17.7,47.6,77.4,NA,2022-10-30,Property
+114,Misdemeanor Assault,18,16,12.5,63,90,-30,768,757,1.5,29.7,4.3,NA,2022-10-30,Violent
+114,Rape (FBI/UCR Definition),2,1,100,3,4,-25,36,43,-16.3,24.1,NA,NA,2022-10-30,Violent
+114,Other Sex Crimes,1,0,NA,9,5,80,78,95,-17.9,-1.3,NA,NA,2022-10-30,Other/Mixed Category
+114,Shooting Victims,0,0,NA,1,4,-75,18,27,-33.3,-40,-5.3,-51.4,2022-10-30,Other/Mixed Category
+114,Shooting Incidents,0,0,NA,1,3,-66.7,16,21,-23.8,-30.4,0,-54.3,2022-10-30,Other/Mixed Category
+114,Hate Crimes,0,1,-100,0,1,-100,5,9,-44.4,150,NA,NA,2022-10-30,Other/Mixed Category
+115,Murder,0,0,NA,0,0,NA,3,4,-25,-72.7,200,-80,2022-10-30,Violent
+115,Rape,1,2,-50,5,5,0,35,25,40,52.2,25,29.6,2022-10-30,Violent
+115,Robbery,12,6,100,31,16,93.8,250,200,25,47.9,-15.5,-77.1,2022-10-30,Property
+115,Felony Assault,7,4,75,34,30,13.3,356,323,10.2,35.9,30.9,-2.7,2022-10-30,Violent
+115,Burglary,3,9,-66.7,10,21,-52.4,124,117,6,-13.9,-50.6,-92.5,2022-10-30,Property
+115,Grand Larceny,21,20,5,88,60,46.7,815,454,79.5,83.6,97.3,-32.9,2022-10-30,Property
+115,Motor Vehicle Theft,8,5,60,26,18,44.4,261,174,50,57.2,38.8,-86.2,2022-10-30,Property
+115,Total Major Felonies,52,46,13,194,150,29.3,1844,1297,42.2,51.3,27.3,-70.6,2022-10-30,Combined Total
+115,Transit System Crimes,2,0,NA,7,2,250,54,24,125,237.5,100,NA,2022-10-30,Other/Mixed Category
+115,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+115,Petty Theft,40,17,135.3,169,111,52.3,1577,1127,39.9,34.4,66.7,NA,2022-10-30,Property
+115,Misdemeanor Assault,17,22,-22.7,81,81,0,752,705,6.7,19.7,-4.6,NA,2022-10-30,Violent
+115,Rape (FBI/UCR Definition),2,3,-33.3,6,6,0,46,44,4.5,21.1,NA,NA,2022-10-30,Violent
+115,Other Sex Crimes,1,7,-85.7,7,12,-41.7,84,91,-7.7,18.3,NA,NA,2022-10-30,Other/Mixed Category
+115,Shooting Victims,0,0,NA,0,0,NA,8,14,-42.9,0,33.3,-85.2,2022-10-30,Other/Mixed Category
+115,Shooting Incidents,0,0,NA,0,0,NA,7,5,40,0,40,-86,2022-10-30,Other/Mixed Category
+115,Hate Crimes,0,0,NA,0,0,NA,4,5,-20,100,NA,NA,2022-10-30,Other/Mixed Category
+120,Murder,0,0,NA,0,2,-100,5,7,-28.6,-37.5,-54.5,-68.8,2022-10-30,Violent
+120,Rape,0,0,NA,1,0,NA,11,16,-31.2,-52.2,-62.1,-77.1,2022-10-30,Violent
+120,Robbery,1,2,-50,5,5,0,89,72,23.6,7.2,-63.2,-89.4,2022-10-30,Property
+120,Felony Assault,6,3,100,25,20,25,325,231,40.7,56.2,28,-51.2,2022-10-30,Violent
+120,Burglary,1,0,NA,6,5,20,91,51,78.4,1.1,-64.9,-93.7,2022-10-30,Property
+120,Grand Larceny,6,7,-14.3,23,32,-28.1,275,227,21.1,30.3,-19.4,-43.4,2022-10-30,Property
+120,Motor Vehicle Theft,4,2,100,12,8,50,98,63,55.6,60.7,-41.7,-91.2,2022-10-30,Property
+120,Total Major Felonies,18,14,28.6,72,72,0,894,667,34,30.7,-31.4,-80.6,2022-10-30,Combined Total
+120,Transit System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+120,Housing System Crimes,0,2,-100,2,6,-66.7,48,43,11.6,26.3,23.1,NA,2022-10-30,Other/Mixed Category
+120,Petty Theft,25,11,127.3,105,66,59.1,993,661,50.2,43.9,-22.3,NA,2022-10-30,Property
+120,Misdemeanor Assault,4,13,-69.2,33,41,-19.5,527,459,14.8,22,-50.7,NA,2022-10-30,Violent
+120,Rape (FBI/UCR Definition),0,0,NA,3,1,200,28,31,-9.7,-26.3,NA,NA,2022-10-30,Violent
+120,Other Sex Crimes,3,1,200,7,6,16.7,63,45,40,65.8,NA,NA,2022-10-30,Other/Mixed Category
+120,Shooting Victims,0,0,NA,0,2,-100,23,25,-8,21.1,-8,-75,2022-10-30,Other/Mixed Category
+120,Shooting Incidents,0,0,NA,0,2,-100,17,23,-26.1,-10.5,-26.1,-78.8,2022-10-30,Other/Mixed Category
+120,Hate Crimes,0,0,NA,0,0,NA,1,8,-87.5,-92.9,NA,NA,2022-10-30,Other/Mixed Category
+121,Murder,0,0,NA,0,0,NA,0,3,-100,-100,NA,NA,2022-10-30,Violent
+121,Rape,0,0,NA,2,1,100,10,15,-33.3,-33.3,NA,NA,2022-10-30,Violent
+121,Robbery,2,2,0,10,10,0,65,55,18.2,8.3,NA,NA,2022-10-30,Property
+121,Felony Assault,4,3,33.3,13,15,-13.3,181,133,36.1,15.3,NA,NA,2022-10-30,Violent
+121,Burglary,0,3,-100,8,6,33.3,73,71,2.8,0,NA,NA,2022-10-30,Property
+121,Grand Larceny,7,8,-12.5,29,32,-9.4,333,261,27.6,41.7,NA,NA,2022-10-30,Property
+121,Motor Vehicle Theft,5,1,400,12,5,140,88,43,104.7,100,NA,NA,2022-10-30,Property
+121,Total Major Felonies,18,17,5.9,74,69,7.2,750,581,29.1,26.9,NA,NA,2022-10-30,Combined Total
+121,Transit System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+121,Housing System Crimes,0,1,-100,1,1,0,17,12,41.7,112.5,NA,NA,2022-10-30,Other/Mixed Category
+121,Petty Theft,23,17,35.3,100,69,44.9,1165,762,52.9,68.6,NA,NA,2022-10-30,Property
+121,Misdemeanor Assault,7,11,-36.4,43,30,43.3,418,337,24,41.7,NA,NA,2022-10-30,Violent
+121,Rape (FBI/UCR Definition),0,2,-100,4,3,33.3,17,26,-34.6,-19,NA,NA,2022-10-30,Violent
+121,Other Sex Crimes,0,1,-100,2,6,-66.7,38,38,0,81,NA,NA,2022-10-30,Other/Mixed Category
+121,Shooting Victims,0,0,NA,0,1,-100,6,6,0,-60,NA,NA,2022-10-30,Other/Mixed Category
+121,Shooting Incidents,0,0,NA,0,1,-100,6,5,20,-45.5,NA,NA,2022-10-30,Other/Mixed Category
+121,Hate Crimes,0,0,NA,0,1,-100,8,2,300,700,NA,NA,2022-10-30,Other/Mixed Category
+122,Murder,0,0,NA,0,1,-100,1,2,-50,0,0,-66.7,2022-10-30,Violent
+122,Rape,1,0,NA,1,0,NA,8,6,33.3,60,-52.9,-52.9,2022-10-30,Violent
+122,Robbery,1,0,NA,5,1,400,51,32,59.4,18.6,-40.7,-79.2,2022-10-30,Property
+122,Felony Assault,1,0,NA,17,7,142.9,109,105,3.8,22.5,-6,-59.3,2022-10-30,Violent
+122,Burglary,0,1,-100,4,2,100,65,63,3.2,-13.3,-61.5,-94.3,2022-10-30,Property
+122,Grand Larceny,8,7,14.3,27,27,0,284,265,7.2,44.2,-17.7,-58.8,2022-10-30,Property
+122,Motor Vehicle Theft,5,2,150,12,11,9.1,108,60,80,89.5,9.1,-95.3,2022-10-30,Property
+122,Total Major Felonies,16,10,60,66,49,34.7,626,533,17.4,34,-24.8,-86.6,2022-10-30,Combined Total
+122,Transit System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+122,Housing System Crimes,1,1,0,1,2,-50,16,34,-52.9,-5.9,-15.8,NA,2022-10-30,Other/Mixed Category
+122,Petty Theft,23,10,130,101,51,98,711,404,76,39.1,-50.3,NA,2022-10-30,Property
+122,Misdemeanor Assault,7,3,133.3,15,22,-31.8,280,207,35.3,43.6,-38.5,NA,2022-10-30,Violent
+122,Rape (FBI/UCR Definition),1,0,NA,1,0,NA,17,13,30.8,30.8,NA,NA,2022-10-30,Violent
+122,Other Sex Crimes,0,1,-100,1,5,-80,26,27,-3.7,52.9,NA,NA,2022-10-30,Other/Mixed Category
+122,Shooting Victims,0,0,NA,0,1,-100,0,2,-100,-100,-100,-100,2022-10-30,Other/Mixed Category
+122,Shooting Incidents,0,0,NA,0,1,-100,0,2,-100,-100,-100,-100,2022-10-30,Other/Mixed Category
+122,Hate Crimes,0,0,NA,0,0,NA,7,4,75,250,NA,NA,2022-10-30,Other/Mixed Category
+123,Murder,0,0,NA,1,0,NA,2,0,NA,NA,0,100,2022-10-30,Violent
+123,Rape,0,0,NA,0,0,NA,1,2,-50,-66.7,-50,-66.7,2022-10-30,Violent
+123,Robbery,0,0,NA,1,0,NA,17,7,142.9,54.5,-22.7,-68.5,2022-10-30,Property
+123,Felony Assault,3,1,200,9,2,350,41,29,41.4,-24.1,5.1,-57.7,2022-10-30,Violent
+123,Burglary,0,0,NA,4,2,100,31,22,40.9,-24.4,-65.2,-89,2022-10-30,Property
+123,Grand Larceny,8,3,166.7,21,13,61.5,229,138,65.9,53.7,87.7,13.9,2022-10-30,Property
+123,Motor Vehicle Theft,5,0,NA,12,6,100,97,42,131,177.1,212.9,-83.9,2022-10-30,Property
+123,Total Major Felonies,16,4,300,48,23,108.7,418,240,74.2,42.7,36.2,-66.3,2022-10-30,Combined Total
+123,Transit System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+123,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+123,Petty Theft,10,4,150,43,22,95.5,391,222,76.1,58.9,-14.4,NA,2022-10-30,Property
+123,Misdemeanor Assault,9,1,800,21,8,162.5,153,116,31.9,29.7,-16.4,NA,2022-10-30,Violent
+123,Rape (FBI/UCR Definition),0,0,NA,0,1,-100,1,6,-83.3,-66.7,NA,NA,2022-10-30,Violent
+123,Other Sex Crimes,0,0,NA,2,1,100,17,10,70,13.3,NA,NA,2022-10-30,Other/Mixed Category
+123,Shooting Victims,1,0,NA,2,0,NA,3,0,NA,NA,NA,0,2022-10-30,Other/Mixed Category
+123,Shooting Incidents,1,0,NA,2,0,NA,3,0,NA,NA,NA,0,2022-10-30,Other/Mixed Category
+123,Hate Crimes,0,0,NA,0,0,NA,5,2,150,400,NA,NA,2022-10-30,Other/Mixed Category
+city,Murder,5,6,-16.7,26,35,-25.7,356,413,-13.8,-12.3,-21.9,-78.3,2022-10-30,Violent
+city,Rape,29,30,-3.3,130,111,17.1,1384,1248,10.9,14,22.8,-49.5,2022-10-30,Violent
+city,Robbery,363,345,5.2,1348,1321,2,14540,10979,32.4,34.8,-9.3,-79.5,2022-10-30,Property
+city,Felony Assault,485,459,5.7,1902,1995,-4.7,21767,19103,13.9,24.8,51.6,-37.9,2022-10-30,Violent
+city,Burglary,319,306,4.2,1275,1168,9.2,13122,10161,29.1,2.4,-15.3,-84.3,2022-10-30,Property
+city,Grand Larceny,1006,951,5.8,4162,3817,9,42871,30950,38.5,45,37.3,-39.9,2022-10-30,Property
+city,Motor Vehicle Theft,278,227,22.5,1138,943,20.7,11247,8363,34.5,54,29.9,-87.9,2022-10-30,Property
+city,Total Major Felonies,2485,2324,6.9,9981,9390,6.3,105287,81217,29.6,32.3,20.5,-70.6,2022-10-30,Combined Total
+city,Transit System Crimes,47,41,14.6,191,142,34.5,1910,1357,40.8,25.5,8.1,NA,2022-10-30,Other/Mixed Category
+city,Housing System Crimes,112,122,-8.2,415,462,-10.2,4955,4558,8.7,15.7,41.1,NA,2022-10-30,Other/Mixed Category
+city,Petty Theft,2209,1880,17.5,8978,7931,13.2,96035,69250,38.7,42.5,40.8,NA,2022-10-30,Property
+city,Misdemeanor Assault,793,719,10.3,3103,3157,-1.7,34562,29794,16,23.8,-10.9,NA,2022-10-30,Violent
+city,Rape (FBI/UCR Definition),42,53,-20.8,207,180,15,2208,2039,8.3,15.7,NA,NA,2022-10-30,Violent
+city,Other Sex Crimes,134,100,34,482,445,8.3,4373,4072,7.4,35.5,NA,NA,2022-10-30,Other/Mixed Category
+city,Shooting Victims,26,23,13,86,120,-28.3,1368,1576,-13.2,-13.9,-9.8,-73,2022-10-30,Other/Mixed Category
+city,Shooting Incidents,21,20,5,78,106,-26.4,1125,1314,-14.4,-12.9,-10,-75.2,2022-10-30,Other/Mixed Category
+city,Hate Crimes,1,9,-88.9,18,35,-48.6,508,451,12.6,119,NA,NA,2022-10-30,Other/Mixed Category
+pbbn,Murder,2,3,-33.3,7,7,0,66,83,-20.5,-32.7,-44.1,-83.7,2022-10-30,Violent
+pbbn,Rape,3,1,200,21,17,23.5,216,181,19.3,14.9,15.5,-57.4,2022-10-30,Violent
+pbbn,Robbery,34,51,-33.3,167,194,-13.9,2135,1704,25.3,19.2,-29.6,-84.6,2022-10-30,Property
+pbbn,Felony Assault,71,57,24.6,301,302,-0.3,3453,2971,16.2,19.9,23.4,-52.3,2022-10-30,Violent
+pbbn,Burglary,54,43,25.6,203,193,5.2,1990,1689,17.8,-11.4,-25.4,-80.3,2022-10-30,Property
+pbbn,Grand Larceny,127,114,11.4,511,449,13.8,4973,3842,29.4,30.5,39.5,-13.2,2022-10-30,Property
+pbbn,Motor Vehicle Theft,42,31,35.5,148,134,10.4,1543,1275,21,40.5,28.9,-80.4,2022-10-30,Property
+pbbn,Total Major Felonies,333,300,11,1358,1296,4.8,14376,11745,22.4,18.7,6,-68.6,2022-10-30,Combined Total
+pbbn,Transit System Crimes,4,12,-66.7,25,29,-13.8,285,219,30.1,4.4,-20.8,NA,2022-10-30,Other/Mixed Category
+pbbn,Housing System Crimes,33,28,17.9,109,117,-6.8,1265,1202,5.2,9.8,28.4,NA,2022-10-30,Other/Mixed Category
+pbbn,Petty Theft,293,216,35.6,1122,944,18.9,11231,8525,31.7,24.4,28.9,NA,2022-10-30,Property
+pbbn,Misdemeanor Assault,118,111,6.3,416,447,-6.9,4936,3937,25.4,28.4,-26.3,NA,2022-10-30,Violent
+pbbn,Rape (FBI/UCR Definition),8,8,0,34,31,9.7,326,317,2.8,10.9,NA,NA,2022-10-30,Violent
+pbbn,Other Sex Crimes,20,14,42.9,58,54,7.4,522,571,-8.6,4.6,NA,NA,2022-10-30,Other/Mixed Category
+pbbn,Shooting Victims,6,6,0,24,23,4.3,299,360,-16.9,-31.6,-33.1,-81.7,2022-10-30,Other/Mixed Category
+pbbn,Shooting Incidents,4,6,-33.3,22,22,0,250,291,-14.1,-30.9,-31.1,-83,2022-10-30,Other/Mixed Category
+pbbn,Hate Crimes,0,3,-100,4,5,-20,71,54,31.5,108.8,NA,NA,2022-10-30,Other/Mixed Category
+pbbs,Murder,1,0,NA,4,8,-50,54,47,14.9,-3.6,-22.9,-74.4,2022-10-30,Violent
+pbbs,Rape,3,5,-40,18,18,0,179,182,-1.6,-13.9,18.5,-62.6,2022-10-30,Violent
+pbbs,Robbery,31,36,-13.9,155,144,7.6,1627,1148,41.7,20.2,-32.9,-86,2022-10-30,Property
+pbbs,Felony Assault,61,64,-4.7,253,281,-10,2872,2595,10.7,21.5,39.6,-49.5,2022-10-30,Violent
+pbbs,Burglary,54,44,22.7,189,159,18.9,1773,1455,21.9,7.5,-39.4,-88.5,2022-10-30,Property
+pbbs,Grand Larceny,117,129,-9.3,507,493,2.8,5963,4186,42.5,52,29.8,-19.2,2022-10-30,Property
+pbbs,Motor Vehicle Theft,32,36,-11.1,149,125,19.2,1529,1081,41.4,27.3,-5.6,-92.1,2022-10-30,Property
+pbbs,Total Major Felonies,299,314,-4.8,1275,1228,3.8,13997,10694,30.9,30.1,1.1,-76.8,2022-10-30,Combined Total
+pbbs,Transit System Crimes,3,3,0,15,10,50,159,121,31.4,-0.6,-34.3,NA,2022-10-30,Other/Mixed Category
+pbbs,Housing System Crimes,9,8,12.5,49,36,36.1,464,403,15.1,41,60,NA,2022-10-30,Other/Mixed Category
+pbbs,Petty Theft,298,303,-1.7,1294,1165,11.1,13563,9837,37.9,35,30.9,NA,2022-10-30,Property
+pbbs,Misdemeanor Assault,99,94,5.3,417,418,-0.2,4648,4064,14.4,24.6,-18.4,NA,2022-10-30,Violent
+pbbs,Rape (FBI/UCR Definition),4,6,-33.3,32,22,45.5,285,282,1.1,-6.6,NA,NA,2022-10-30,Violent
+pbbs,Other Sex Crimes,22,9,144.4,74,70,5.7,599,531,12.8,37.7,NA,NA,2022-10-30,Other/Mixed Category
+pbbs,Shooting Victims,6,1,500,15,17,-11.8,188,173,8.7,-26.6,-18.6,-72.3,2022-10-30,Other/Mixed Category
+pbbs,Shooting Incidents,6,1,500,15,13,15.4,147,151,-2.6,-23.8,-23,-75.2,2022-10-30,Other/Mixed Category
+pbbs,Hate Crimes,1,1,0,4,9,-55.6,98,59,66.1,133.3,NA,NA,2022-10-30,Other/Mixed Category
+pbbx,Murder,0,2,-100,7,6,16.7,106,126,-15.9,11.6,-2.8,-75.1,2022-10-30,Violent
+pbbx,Rape,4,10,-60,28,33,-15.2,324,307,5.5,17.8,29.6,-47.1,2022-10-30,Violent
+pbbx,Robbery,119,94,26.6,395,372,6.2,4247,3162,34.3,50.1,12.4,-68.7,2022-10-30,Property
+pbbx,Felony Assault,124,134,-7.5,512,545,-6.1,6087,5219,16.6,23.8,62.1,-20.2,2022-10-30,Violent
+pbbx,Burglary,47,48,-2.1,230,190,21.1,2456,1811,35.6,9.7,-11,-84.3,2022-10-30,Property
+pbbx,Grand Larceny,150,157,-4.5,673,670,0.4,6708,5510,21.7,34.1,72.5,5.6,2022-10-30,Property
+pbbx,Motor Vehicle Theft,76,77,-1.3,316,303,4.3,3228,2421,33.3,96.9,83.2,-74.9,2022-10-30,Property
+pbbx,Total Major Felonies,520,522,-0.4,2161,2119,2,23156,18556,24.8,36.2,42,-59.4,2022-10-30,Combined Total
+pbbx,Transit System Crimes,5,5,0,24,24,0,301,214,40.7,3.1,14.4,NA,2022-10-30,Other/Mixed Category
+pbbx,Housing System Crimes,30,34,-11.8,106,120,-11.7,1323,1031,28.3,33.2,48.3,NA,2022-10-30,Other/Mixed Category
+pbbx,Petty Theft,301,293,2.7,1359,1187,14.5,15425,10859,42,32,43.4,NA,2022-10-30,Property
+pbbx,Misdemeanor Assault,180,174,3.4,718,771,-6.9,8337,7224,15.4,12.6,-10.9,NA,2022-10-30,Violent
+pbbx,Rape (FBI/UCR Definition),8,17,-52.9,46,51,-9.8,557,501,11.2,27.8,NA,NA,2022-10-30,Violent
+pbbx,Other Sex Crimes,23,23,0,80,84,-4.8,782,768,1.8,31.9,NA,NA,2022-10-30,Other/Mixed Category
+pbbx,Shooting Victims,2,8,-75,13,41,-68.3,411,507,-18.9,4.1,0.7,-65.9,2022-10-30,Other/Mixed Category
+pbbx,Shooting Incidents,2,7,-71.4,13,39,-66.7,348,429,-18.9,6.4,1.8,-67.9,2022-10-30,Other/Mixed Category
+pbbx,Hate Crimes,0,2,-100,1,4,-75,36,40,-10,100,NA,NA,2022-10-30,Other/Mixed Category
+pbmn,Murder,1,1,0,2,4,-50,36,56,-35.7,-37.9,-21.7,-86.8,2022-10-30,Violent
+pbmn,Rape,2,2,0,12,8,50,155,117,32.5,29.2,-11.9,-64,2022-10-30,Violent
+pbmn,Robbery,41,49,-16.3,159,195,-18.5,1762,1513,16.5,18,-11.3,-78,2022-10-30,Property
+pbmn,Felony Assault,58,54,7.4,206,258,-20.2,2518,2422,4,30.7,55.8,-49.1,2022-10-30,Violent
+pbmn,Burglary,35,46,-23.9,124,149,-16.8,1508,1175,28.3,-11,27.9,-84,2022-10-30,Property
+pbmn,Grand Larceny,132,133,-0.8,512,548,-6.6,5484,4444,23.4,36.8,40.9,-40.5,2022-10-30,Property
+pbmn,Motor Vehicle Theft,17,20,-15,85,89,-4.5,1054,825,27.8,58.3,112.9,-86.7,2022-10-30,Property
+pbmn,Total Major Felonies,286,305,-6.2,1100,1251,-12.1,12517,10552,18.6,25.6,33.3,-68.9,2022-10-30,Combined Total
+pbmn,Transit System Crimes,8,2,300,33,17,94.1,260,194,34,39,32.7,NA,2022-10-30,Other/Mixed Category
+pbmn,Housing System Crimes,25,30,-16.7,88,100,-12,1073,1040,3.2,7.3,50.5,NA,2022-10-30,Other/Mixed Category
+pbmn,Petty Theft,312,251,24.3,1220,1107,10.2,13277,10293,29,34.4,66.4,NA,2022-10-30,Property
+pbmn,Misdemeanor Assault,79,85,-7.1,320,386,-17.1,3749,3568,5.1,17.2,-17.4,NA,2022-10-30,Violent
+pbmn,Rape (FBI/UCR Definition),2,3,-33.3,21,16,31.2,245,207,18.4,34.6,NA,NA,2022-10-30,Violent
+pbmn,Other Sex Crimes,16,13,23.1,68,51,33.3,571,550,3.8,42.4,NA,NA,2022-10-30,Other/Mixed Category
+pbmn,Shooting Victims,4,2,100,13,16,-18.8,174,221,-21.3,-3.3,6.7,-74.1,2022-10-30,Other/Mixed Category
+pbmn,Shooting Incidents,4,2,100,11,13,-15.4,144,185,-22.2,-1.4,1.4,-76.5,2022-10-30,Other/Mixed Category
+pbmn,Hate Crimes,0,1,-100,2,2,0,78,62,25.8,160,NA,NA,2022-10-30,Other/Mixed Category
+pbms,Murder,1,0,NA,1,3,-66.7,24,21,14.3,41.2,60,-66.7,2022-10-30,Violent
+pbms,Rape,2,3,-33.3,14,9,55.6,148,133,11.3,31,59.1,-20,2022-10-30,Violent
+pbms,Robbery,46,52,-11.5,177,192,-7.8,1785,1356,31.6,78.9,62,-79.7,2022-10-30,Property
+pbms,Felony Assault,41,47,-12.8,176,163,8,1763,1594,10.6,47.2,70.7,-39,2022-10-30,Violent
+pbms,Burglary,60,65,-7.7,219,230,-4.8,2476,1710,44.8,14,66.7,-75.4,2022-10-30,Property
+pbms,Grand Larceny,220,204,7.8,982,839,17,9648,6295,53.3,65.6,10.3,-65,2022-10-30,Property
+pbms,Motor Vehicle Theft,10,13,-23.1,50,54,-7.4,573,510,12.4,33.9,70,-88.9,2022-10-30,Property
+pbms,Total Major Felonies,380,384,-1,1619,1490,8.7,16417,11619,41.3,52.7,28.1,-70,2022-10-30,Combined Total
+pbms,Transit System Crimes,19,13,46.2,56,42,33.3,557,399,39.6,31.7,25.7,NA,2022-10-30,Other/Mixed Category
+pbms,Housing System Crimes,5,12,-58.3,24,45,-46.7,367,419,-12.4,-0.5,20.7,NA,2022-10-30,Other/Mixed Category
+pbms,Petty Theft,413,367,12.5,1714,1532,11.9,18249,11953,52.7,76.7,29.3,NA,2022-10-30,Property
+pbms,Misdemeanor Assault,102,99,3,377,379,-0.5,3929,3302,19,50.1,30.1,NA,2022-10-30,Violent
+pbms,Rape (FBI/UCR Definition),3,5,-40,20,15,33.3,231,198,16.7,28.3,NA,NA,2022-10-30,Violent
+pbms,Other Sex Crimes,15,13,15.4,85,82,3.7,827,726,13.9,60,NA,NA,2022-10-30,Other/Mixed Category
+pbms,Shooting Victims,2,1,100,3,4,-25,44,36,22.2,41.9,29.4,-61.1,2022-10-30,Other/Mixed Category
+pbms,Shooting Incidents,1,1,0,2,3,-33.3,38,32,18.8,40.7,52,-62.4,2022-10-30,Other/Mixed Category
+pbms,Hate Crimes,0,0,NA,2,7,-71.4,121,126,-4,152.1,NA,NA,2022-10-30,Other/Mixed Category
+pbqn,Murder,0,0,NA,1,1,0,22,25,-12,-15.4,-8.3,-78.8,2022-10-30,Violent
+pbqn,Rape,10,4,150,20,14,42.9,174,137,27,41.5,52.6,4.2,2022-10-30,Violent
+pbqn,Robbery,61,35,74.3,170,104,63.5,1532,965,58.8,48.7,-3.4,-79,2022-10-30,Property
+pbqn,Felony Assault,50,31,61.3,198,176,12.5,2065,1666,23.9,29.9,61.8,-16,2022-10-30,Violent
+pbqn,Burglary,38,36,5.6,159,129,23.3,1628,1320,23.3,8,-25.8,-86.8,2022-10-30,Property
+pbqn,Grand Larceny,145,118,22.9,581,434,33.9,5882,3536,66.3,65,75.9,-14.8,2022-10-30,Property
+pbqn,Motor Vehicle Theft,43,26,65.4,196,117,67.5,1591,1143,39.2,56.4,8.2,-91.9,2022-10-30,Property
+pbqn,Total Major Felonies,347,250,38.8,1325,975,35.9,12894,8792,46.7,45.6,28.8,-73.7,2022-10-30,Combined Total
+pbqn,Transit System Crimes,6,3,100,31,12,158.3,254,127,100,149,58.8,NA,2022-10-30,Other/Mixed Category
+pbqn,Housing System Crimes,5,3,66.7,19,22,-13.6,196,188,4.3,7.7,38,NA,2022-10-30,Other/Mixed Category
+pbqn,Petty Theft,292,224,30.4,1159,1092,6.1,12692,9952,27.5,50.5,60.6,NA,2022-10-30,Property
+pbqn,Misdemeanor Assault,100,79,26.6,420,386,8.8,4146,3631,14.2,31.2,3.4,NA,2022-10-30,Violent
+pbqn,Rape (FBI/UCR Definition),12,7,71.4,24,24,0,248,226,9.7,18.1,NA,NA,2022-10-30,Violent
+pbqn,Other Sex Crimes,11,18,-38.9,53,46,15.2,529,464,14,23.9,NA,NA,2022-10-30,Other/Mixed Category
+pbqn,Shooting Victims,0,0,NA,2,4,-50,63,64,-1.6,-14.9,61.5,-71.5,2022-10-30,Other/Mixed Category
+pbqn,Shooting Incidents,0,0,NA,2,3,-33.3,53,46,15.2,-8.6,60.6,-73,2022-10-30,Other/Mixed Category
+pbqn,Hate Crimes,0,1,-100,4,2,100,54,65,-16.9,157.1,NA,NA,2022-10-30,Other/Mixed Category
+pbqs,Murder,0,0,NA,3,3,0,40,43,-7,0,-33.3,-68.8,2022-10-30,Violent
+pbqs,Rape,4,5,-20,13,11,18.2,158,151,4.6,12.9,46.3,-45.3,2022-10-30,Violent
+pbqs,Robbery,27,24,12.5,103,104,-1,1228,963,27.5,12.1,-30.5,-81.2,2022-10-30,Property
+pbqs,Felony Assault,64,62,3.2,181,216,-16.2,2237,2090,7,9.3,57.6,-29.8,2022-10-30,Violent
+pbqs,Burglary,30,20,50,129,103,25.2,1031,794,29.8,0,-41.6,-86.5,2022-10-30,Property
+pbqs,Grand Larceny,86,71,21.1,295,280,5.4,3090,2245,37.6,16.7,29.5,-54.6,2022-10-30,Property
+pbqs,Motor Vehicle Theft,39,19,105.3,146,91,60.4,1338,900,48.7,26.3,-9.3,-91.6,2022-10-30,Property
+pbqs,Total Major Felonies,250,201,24.4,870,808,7.7,9122,7186,26.9,13.2,1.6,-77.5,2022-10-30,Combined Total
+pbqs,Transit System Crimes,2,3,-33.3,7,8,-12.5,94,83,13.3,10.6,-8.7,NA,2022-10-30,Other/Mixed Category
+pbqs,Housing System Crimes,4,3,33.3,16,13,23.1,186,186,0,-4.6,46.5,NA,2022-10-30,Other/Mixed Category
+pbqs,Petty Theft,219,184,19,759,696,9.1,8334,5782,44.1,42.2,60.4,NA,2022-10-30,Property
+pbqs,Misdemeanor Assault,88,49,79.6,322,269,19.7,3436,2948,16.6,17.4,-9.2,NA,2022-10-30,Violent
+pbqs,Rape (FBI/UCR Definition),4,5,-20,22,14,57.1,251,225,11.6,13.1,NA,NA,2022-10-30,Violent
+pbqs,Other Sex Crimes,23,3,666.7,49,32,53.1,383,323,18.6,46.7,NA,NA,2022-10-30,Other/Mixed Category
+pbqs,Shooting Victims,5,5,0,14,11,27.3,157,182,-13.7,-11.8,-6.5,-64.6,2022-10-30,Other/Mixed Category
+pbqs,Shooting Incidents,3,3,0,11,9,22.2,119,150,-20.7,-17.9,-8.5,-70.4,2022-10-30,Other/Mixed Category
+pbqs,Hate Crimes,0,1,-100,1,5,-80,29,29,0,38.1,NA,NA,2022-10-30,Other/Mixed Category
+pbsi,Murder,0,0,NA,1,3,-66.7,8,12,-33.3,-50,-42.9,-60,2022-10-30,Violent
+pbsi,Rape,1,0,NA,4,1,300,30,39,-23.1,-34.8,-37.5,-55.9,2022-10-30,Violent
+pbsi,Robbery,4,4,0,21,16,31.2,222,166,33.7,12.7,-36.6,-80.5,2022-10-30,Property
+pbsi,Felony Assault,14,7,100,64,44,45.5,656,498,31.7,29.1,60.4,-36.4,2022-10-30,Violent
+pbsi,Burglary,1,4,-75,22,15,46.7,260,207,25.6,-6.8,-49.7,-90.9,2022-10-30,Property
+pbsi,Grand Larceny,29,25,16,100,104,-3.8,1121,891,25.8,41.5,38.7,-18.6,2022-10-30,Property
+pbsi,Motor Vehicle Theft,19,5,280,48,30,60,391,208,88,98.5,31.2,-90.3,2022-10-30,Property
+pbsi,Total Major Felonies,68,45,51.1,260,213,22.1,2688,2021,33,32.1,10,-74.5,2022-10-30,Combined Total
+pbsi,Transit System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,NA,NA,2022-10-30,Other/Mixed Category
+pbsi,Housing System Crimes,1,4,-75,4,9,-55.6,81,89,-9,28.6,39.7,NA,2022-10-30,Other/Mixed Category
+pbsi,Petty Theft,81,42,92.9,349,208,67.8,3260,2049,59.1,52.5,3,NA,2022-10-30,Property
+pbsi,Misdemeanor Assault,27,28,-3.6,112,101,10.9,1378,1119,23.1,32.5,-19.3,NA,2022-10-30,Violent
+pbsi,Rape (FBI/UCR Definition),1,2,-50,8,5,60,63,76,-17.1,-16,NA,NA,2022-10-30,Violent
+pbsi,Other Sex Crimes,3,3,0,12,18,-33.3,144,120,20,58.2,NA,NA,2022-10-30,Other/Mixed Category
+pbsi,Shooting Victims,1,0,NA,2,4,-50,32,33,-3,-13.5,23.1,-67,2022-10-30,Other/Mixed Category
+pbsi,Shooting Incidents,1,0,NA,2,4,-50,26,30,-13.3,-21.2,8.3,-69.4,2022-10-30,Other/Mixed Category
+pbsi,Hate Crimes,0,0,NA,0,1,-100,21,16,31.2,16.7,NA,NA,2022-10-30,Other/Mixed Category

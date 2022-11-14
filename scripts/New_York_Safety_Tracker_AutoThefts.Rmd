@@ -232,9 +232,7 @@ Per 100,000 people<br>2019 to 2021</p>
 <br>
 Motor vehicle thefts so far this year are trending <h8>`r ifelse(autothefts_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(autothefts_city$yeartodate_pct_change>=0,autothefts_city$yeartodate_pct_change,substring(autothefts_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2021.
 
-However, the auto theft rate over the last 12 months is <h8>`r case_when((autothefts_city$rate_last12-autothefts_city$rate_prior3years)>=0.25 ~ "up",
-          (autothefts_city$rate_last12-autothefts_city$rate_prior3years)<=-0.25 ~ "down",
-          TRUE ~ "about the same")`</h8> when compared to the annual average over the last three years, and the frequency of vehicles being reported stolen remains higher than it was before the pandemic.
+However, the auto theft rate over the last 12 months is <h8>`r case_when((autothefts_city$rate_last12-autothefts_city$rate_prior3years)>=0.25 ~ "up",(autothefts_city$rate_last12-autothefts_city$rate_prior3years)<=-0.25 ~ "down",TRUE ~ "about the same")`</h8> when compared to the annual average over the last three years, and the frequency of vehicles being reported stolen remains higher than it was before the pandemic.
 
 The city is averaging <h8>`r round(autothefts_city$last12mos/52,0)`</h8> stolen vehicles a week over the last 12 months. In 2019, that number was <h8>`r round(autothefts_city$total19/52,0)`</h8> a week.
 

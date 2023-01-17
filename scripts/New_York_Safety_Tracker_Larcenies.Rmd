@@ -217,7 +217,7 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="card" style="background-color:#99a0a5;">
 <p>Larcenies Last Year<br>
 <bignumber>`r prettyNum(larcenies_city$yeartodate2021, big.mark=",")`<br></bignumber>
-<p>Year To Date<br>Same Period in 2021</p>
+<p>Year To Date<br>Same Period in 2022</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Larceny Rate<br>

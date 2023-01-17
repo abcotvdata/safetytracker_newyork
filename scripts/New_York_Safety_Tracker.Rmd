@@ -217,7 +217,7 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="card" style="background-color:#99a0a5;">
 <p>Homicides Last Year<br>
 <bignumber>`r murders_city$yeartodate2021`<br></bignumber>
-<p>Year To Date<br>Same Period in 2021</p>
+<p>Year To Date<br>Same Period in 2022</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Homicide Rate<br>
@@ -239,7 +239,7 @@ However, the murder rate over the last 12 months is <h8>`r case_when((murders_ci
 
 The city is averaging <h8>`r round(murders_city$last12mos/52,0)`</h8> homicides a week over the last 12 months. In 2019, that number was <h8>`r round(murders_city$total19/52,0)`</h8> a week.
 
-One way to think about the danger: three years ago, the murder rate was <h8>`r murders_city$rate19`</h8> per 100,000 residents. It rose during the pandemic to 5.5 per 100,000 people, or nearly the same as your chance of being killed in a motor vehicle crash in New York. 
+One way to think about the danger: three years ago, the murder rate was <h8>`r murders_city$rate19`</h8> per 100,000 residents. It rose during the pandemic to 5.5 per 100,000 people, or less than your chance of being killed in a motor vehicle crash in New York. 
 
 However, homicide remains a very low risk in New York compared to other causes of death. New Yorkers are still twice as likely to die from high blood pressure, four times as likely to die from diabetes, five times as likely from a drug overdose or more than 20 times as likely from cancer.
 <br>

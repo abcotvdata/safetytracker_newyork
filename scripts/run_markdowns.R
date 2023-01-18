@@ -66,4 +66,3 @@ sexassaults_city <- readRDS("scripts/rds/sexassaults_city.rds")
 rmarkdown::render('scripts/New_York_Safety_Tracker_SexualAssaults.Rmd', 
                   output_dir = "docs",
                   output_file = 'New_York_Safety_Tracker_SexualAssaults.html')
-

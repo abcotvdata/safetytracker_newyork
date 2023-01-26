@@ -231,7 +231,7 @@ Per 100,000 people<br>2019 to 2021</p>
 </div>
 </div>
 <br>
-Homicides so far this year are trending <h8>`r ifelse(murders_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(murders_city$yeartodate_pct_change>=0,murders_city$yeartodate_pct_change,substring(murders_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2021.
+Homicides so far this year are trending <h8>`r ifelse(murders_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(murders_city$yeartodate_pct_change>=0,murders_city$yeartodate_pct_change,substring(murders_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2021, according to the latest data available from the New York Police Department.
 
 However, the murder rate over the last 12 months is <h8>`r case_when((murders_city$rate_last12-murders_city$rate_prior3years)>=0.25 ~ "up",
           (murders_city$rate_last12-murders_city$rate_prior3years)<=-0.25 ~ "down",
@@ -279,13 +279,13 @@ murderbins2 <- c(0,
                 5,
                 10,
                 50)
-murderpal1 <- colorBin(c("#99a0a5",
+murderpal1 <- colorBin(c("#aecfe6",
                              "#2787d6",
                              "#0058f6",
                              "#003ca6",
                              "#00215c"), murders_beat$rate_last12, bins = murderbins1,na.color = "#51585f")
 
-murderpal2 <- colorBin(c("#99a0a5",
+murderpal2 <- colorBin(c("#aecfe6",
                              "#2787d6",
                              "#0058f6",
                              "#003ca6",

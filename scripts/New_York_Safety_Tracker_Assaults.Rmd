@@ -230,7 +230,7 @@ Per 100,000 people<br>2019 to 2021</p>
 </div>
 </div>
 <br>
-Felony assaults so far this year are trending <h8>`r ifelse(assaults_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(assaults_city$yeartodate_pct_change>=0,assaults_city$yeartodate_pct_change,substring(assaults_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2021.
+Felony assaults so far this year are trending <h8>`r ifelse(assaults_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(assaults_city$yeartodate_pct_change>=0,assaults_city$yeartodate_pct_change,substring(assaults_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2021, according to the latest data available from the New York Police Department.
 
 However, the assault rate over the last 12 months is <h8>`r case_when((assaults_city$rate_last12-assaults_city$rate_prior3years)>=0.25 ~ "up",
           (assaults_city$rate_last12-assaults_city$rate_prior3years)<=-0.25 ~ "down",
@@ -265,13 +265,13 @@ assaultsbins2 <- c(0,
                 500,
                 750,
                 1200)
-assaultspal1 <- colorBin(c("#99a0a5",
+assaultspal1 <- colorBin(c("#aecfe6",
                              "#2787d6",
                              "#0058f6",
                              "#003ca6",
                              "#00215c"), assaults_beat$rate_last12, bins = assaultsbins1,na.color = "#51585f")
 
-assaultspal2 <- colorBin(c("#99a0a5",
+assaultspal2 <- colorBin(c("#aecfe6",
                              "#2787d6",
                              "#0058f6",
                              "#003ca6",

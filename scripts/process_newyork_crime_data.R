@@ -294,9 +294,9 @@ write_csv(precinct_yearly,"data/output/yearly/precinct_yearly.csv")
 precinct_crime <- precinct_crime %>% select(1,4,5,6,26:28,36:40,44:55,29,42)
 # for map/table making purposes, changing Inf and NaN in calc fields to NA
 precinct_crime <- precinct_crime %>%
-  mutate(across(where(is.numeric), ~na_if(., Inf)))
+  mutate_if(is.numeric, ~ifelse(. == Inf, NA, .))
 precinct_crime <- precinct_crime %>%
-  mutate(across(where(is.numeric), ~na_if(., "NaN")))
+  mutate_if(is.numeric, ~ifelse(. == "NaN", NA, .))
 
 # set value of nyc_population
 nyc_population <- 8804190

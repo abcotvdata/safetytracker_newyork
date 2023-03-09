@@ -145,13 +145,13 @@ precinct_bureaus$precinct_bureau <- case_when(precinct_bureaus$precinct_bureau =
 
 ### ADD ANNUAL ARCHIVE FILES
 # Save for backup the archived annual crime totals files from NYPD
-# download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/seven-major-felony-offenses-2000-2021.xls",
+# download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/seven-major-felony-offenses-2000-2022.xls",
 #              "data/source/annual/nyc_major_felonies.xls")
-#download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/non-seven-major-felony-offenses-2000-2021.xls",
+#download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/non-seven-major-felony-offenses-2000-2022.xls",
 #              "data/source/annual/nyc_other_felonies.xls")
-#download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/seven-major-felony-offenses-by-precinct-2000-2021.xls",
+#download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/seven-major-felony-offenses-by-precinct-2000-2022.xls",
 #              "data/source/annual/precinct_major_felonies.xls")
-#download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/non-seven-major-felony-offenses-by-precinct-2000-2021.xls",
+#download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/non-seven-major-felony-offenses-by-precinct-2000-2022.xls",
 #              "data/source/annual/precinct_other_felonies.xls")
 
 

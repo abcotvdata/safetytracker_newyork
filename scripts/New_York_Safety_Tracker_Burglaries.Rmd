@@ -210,12 +210,12 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="cardContainer">
 <div class="card" style="background-color:#99a0a5;">
 <p>Burglaries This Year<br>
-<bignumber>`r prettyNum(burglaries_city$yeartodate2022, big.mark=",")`<br></bignumber>
+<bignumber>`r prettyNum(burglaries_city$yeartodate2023, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Through `r format(burglaries_city$lastdate, "%B %d")`</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Burglaries Last Year<br>
-<bignumber>`r prettyNum(burglaries_city$yeartodate2021, big.mark=",")`<br></bignumber>
+<bignumber>`r prettyNum(burglaries_city$yeartodate2022, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Same Period in 2022</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
@@ -226,7 +226,7 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Burglary Rate<br>
 <bignumber>`r burglaries_city$rate_prior3years`<br></bignumber><p>
-Per 100,000 people<br>2019 to 2021</p>
+Per 100,000 people<br>2020 to 2022</p>
 </div>
 </div>
 <br>
@@ -281,8 +281,8 @@ burglariespal2 <- colorBin(c("#aecfe6",
 # Create labels for burglaries map
 burglarieslabel <- paste(sep="",
                      "<popuptitle>",
-                     burglaries_beat$yeartodate2022,
-                     ifelse(burglaries_beat$yeartodate2022==1,
+                     burglaries_beat$yeartodate2023,
+                     ifelse(burglaries_beat$yeartodate2023==1,
                             " burglary", " burglaries"),
                      "</popuptitle><br>so far this year in <b>Precinct ",
                      burglaries_beat$precinct,
@@ -291,12 +291,12 @@ burglarieslabel <- paste(sep="",
                      "</b>, home to about ",
                      prettyNum(burglaries_beat$population, big.mark=","),
                      " residents. That's ",
-                     case_when(burglaries_beat$yeartodate2022>
-                              burglaries_beat$yeartodate2021 ~ "up from ",
-                     burglaries_beat$yeartodate2022<
-                              burglaries_beat$yeartodate2021 ~ "down from ",
+                     case_when(burglaries_beat$yeartodate2023>
+                              burglaries_beat$yeartodate2022 ~ "up from ",
+                     burglaries_beat$yeartodate2023<
+                              burglaries_beat$yeartodate2022 ~ "down from ",
                      TRUE ~ "the same as the "),
-                     burglaries_beat$yeartodate2021,
+                     burglaries_beat$yeartodate2022,
                      " at this point in 2021. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
 <br>
 <table>      
@@ -330,6 +330,15 @@ burglaries_beat$total21,
 "</td>
 				<td>",
 burglaries_beat$rate21,
+"</td>
+			</tr>
+									<tr>
+				<td>2022</td>
+				<td>",
+burglaries_beat$total22,
+"</td>
+				<td>",
+burglaries_beat$rate22,
 "</td>
 			</tr>
 						<tr>

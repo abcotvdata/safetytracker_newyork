@@ -210,12 +210,12 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="cardContainer">
 <div class="card" style="background-color:#99a0a5;">
 <p>Auto Thefts This Year<br>
-<bignumber>`r prettyNum(autothefts_city$yeartodate2022, big.mark=",")`<br></bignumber>
+<bignumber>`r prettyNum(autothefts_city$yeartodate2023, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Through `r format(autothefts_city$lastdate, "%B %d")`</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Auto Thefts Last Year<br>
-<bignumber>`r prettyNum(autothefts_city$yeartodate2021, big.mark=",")`<br></bignumber>
+<bignumber>`r prettyNum(autothefts_city$yeartodate2022, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Same Period in 2022</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
@@ -226,7 +226,7 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Auto Theft Rate<br>
 <bignumber>`r autothefts_city$rate_prior3years`<br></bignumber><p>
-Per 100,000 people<br>2019 to 2021</p>
+Per 100,000 people<br>2020 to 2022</p>
 </div>
 </div>
 <br>
@@ -279,8 +279,8 @@ autotheftspal2 <- colorBin(c("#aecfe6",
 # Create labels for auto thefts map
 autotheftslabel <- paste(sep="",
                      "<popuptitle>",
-                     autothefts_beat$yeartodate2022,
-                     ifelse(autothefts_beat$yeartodate2022==1,
+                     autothefts_beat$yeartodate2023,
+                     ifelse(autothefts_beat$yeartodate2023==1,
                             " vehicle theft", " vehicle thefts"),
                      "</popuptitle><br>so far this year in <b>Precinct ",
                      autothefts_beat$precinct,
@@ -289,12 +289,12 @@ autotheftslabel <- paste(sep="",
                      "</b>, home to about ",
                      prettyNum(autothefts_beat$population, big.mark=","),
                      " residents. That's ",
-                     case_when(autothefts_beat$yeartodate2022>
-                              autothefts_beat$yeartodate2021 ~ "up from ",
-                     autothefts_beat$yeartodate2022<
-                              autothefts_beat$yeartodate2021 ~ "down from ",
+                     case_when(autothefts_beat$yeartodate2023>
+                              autothefts_beat$yeartodate2022 ~ "up from ",
+                     autothefts_beat$yeartodate2023<
+                              autothefts_beat$yeartodate2022 ~ "down from ",
                      TRUE ~ "the same as the "),
-                     autothefts_beat$yeartodate2021,
+                     autothefts_beat$yeartodate2022,
                      " at this point in 2021. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
 <br>
 <table>      
@@ -328,6 +328,15 @@ autothefts_beat$total21,
 "</td>
 				<td>",
 autothefts_beat$rate21,
+"</td>
+			</tr>
+									<tr>
+				<td>2022</td>
+				<td>",
+autothefts_beat$total22,
+"</td>
+				<td>",
+autothefts_beat$rate22,
 "</td>
 			</tr>
 						<tr>

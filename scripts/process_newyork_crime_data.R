@@ -69,10 +69,10 @@ precinct_fun <- function(filename) {
 
 precinct_process <- read_excel(filename, 
                               col_types = "text",
-                              col_names = c("crime","delete","lastweek2022", "lastweek2021",
-                                            "week_pct_change", "lastmonth2022","lastmonth2021","month_pct_change",
-                                            "yeartodate2022", "yeartodate2021","yeartodate_pct_change","ytd_2yr_pct_change",
-                                            "ytd_12yr_pct_change","ytd_29yr_pct_change"), skip = 13) %>% head(17)
+                              col_names = c("crime","delete","lastweek2023", "lastweek2022",
+                                            "week_pct_change", "lastmonth2023","lastmonth2022","month_pct_change",
+                                            "yeartodate2023", "yeartodate2022","yeartodate_pct_change","ytd_2yr_pct_change",
+                                            "ytd_13yr_pct_change","ytd_30yr_pct_change"), skip = 13) %>% head(17)
 }
 
 # Map a dataframe; function loops through the 'list' of imported Excel tables
@@ -193,7 +193,7 @@ citywide_major_felonies <- read_excel("data/source/annual/nyc_major_felonies.xls
                                       skip = 2) %>% janitor::clean_names() 
 # add a city row and re-order to match format of other files
 citywide_major_felonies$city <- "city"
-citywide_major_felonies <- citywide_major_felonies %>% select(24,1:23)
+citywide_major_felonies <- citywide_major_felonies %>% select(25,1:24)
 # only keep rows of data, dropping excess rows at bottom that are data footnotes
 citywide_major_felonies <- citywide_major_felonies[1:8,]
 # rename columns with year numbers to total00, total01, etc., format for consistent use in tracker
@@ -215,8 +215,6 @@ citywide_major_felonies$type <- case_when(citywide_major_felonies$crime == "Murd
                                           citywide_major_felonies$crime == "Felony Assault" ~ "Violent",
                                           citywide_major_felonies$crime == "Total Major Felonies" ~ "Combined Total",
                                           TRUE ~ "Property")
-
-
 
 # Read in the precinct other felonies file and format col names
 # We are not sure how much we'll use this data, but will process
@@ -267,34 +265,37 @@ precinct_crime <- full_join(precincts_geo, precinct_crime, by="precinct")
 
 # # # OPEN WORK IS PROCESSING SOME CHANGE FIELDS WE NEED FOR TRACKERS
 # add last 12 mos calculations to do comparable annualized rates
-precinct_crime$last12mos <- (precinct_crime$total21-precinct_crime$yeartodate2021)+precinct_crime$yeartodate2022
+precinct_crime$last12mos <- (precinct_crime$total22-precinct_crime$yeartodate2022)+precinct_crime$yeartodate2023
 
 # add 3-year totals and annualized averages
-precinct_crime$total_prior3years <- precinct_crime$total19+
-                                            precinct_crime$total20+
-                                            precinct_crime$total21
-precinct_crime$avg_prior3years <- round(((precinct_crime$total19+
-                                            precinct_crime$total20+
-                                            precinct_crime$total21)/3),1)
+precinct_crime$total_prior3years <- precinct_crime$total20+
+                                            precinct_crime$total21+
+                                            precinct_crime$total22
+precinct_crime$avg_prior3years <- round((precinct_crime$total_prior3years/3),1)
+
 # now add the increases or change percentages
-precinct_crime$inc_19to21 <- round(precinct_crime$total21/precinct_crime$total19*100-100,1)
+precinct_crime$inc_19to22 <- round(precinct_crime$total22/precinct_crime$total19*100-100,1)
 precinct_crime$inc_19tolast12 <- round(precinct_crime$last12mos/precinct_crime$total19*100-100,1)
-precinct_crime$inc_21tolast12 <- round(precinct_crime$last12mos/precinct_crime$total21*100-100,1)
+precinct_crime$inc_22tolast12 <- round(precinct_crime$last12mos/precinct_crime$total22*100-100,1)
 precinct_crime$inc_prior3yearavgtolast12 <- round((precinct_crime$last12mos/precinct_crime$avg_prior3years)*100-100,0)
 # add crime rates for each year
 precinct_crime$rate19 <- round((precinct_crime$total19/precinct_crime$population)*100000,1)
 precinct_crime$rate20 <- round((precinct_crime$total20/precinct_crime$population)*100000,1)
 precinct_crime$rate21 <- round((precinct_crime$total21/precinct_crime$population)*100000,1)
+precinct_crime$rate22 <- round((precinct_crime$total22/precinct_crime$population)*100000,1)
 precinct_crime$rate_last12 <- round((precinct_crime$last12mos/precinct_crime$population)*100000,1)
 precinct_crime$rate_prior3years <- 
   round((precinct_crime$avg_prior3years/precinct_crime$population)*100000,1)
 
+#### 
+#####
+
 # create a quick long-term annual table
-precinct_yearly <- precinct_crime %>% select(1,5:28,36) %>% st_drop_geometry()
+precinct_yearly <- precinct_crime %>% select(1,5:29,37) %>% st_drop_geometry()
 write_csv(precinct_yearly,"data/output/yearly/precinct_yearly.csv")
 
 # Now reduce the precinct down to just the columns we likely need for the tracker pages
-precinct_crime <- precinct_crime %>% select(1,4,5,6,26:28,36:40,44:55,29,42)
+precinct_crime <- precinct_crime %>% select(1,4,5,6,26:29,37:41,45:56,30,43)
 # for map/table making purposes, changing Inf and NaN in calc fields to NA
 precinct_crime <- precinct_crime %>%
   mutate_if(is.numeric, ~ifelse(. == Inf, NA, .))
@@ -304,40 +305,40 @@ precinct_crime <- precinct_crime %>%
 # set value of nyc_population
 nyc_population <- 8804190
 # add last 12 mos calculations to citywide data to do comparable annualized rates
-citywide_crime$last12mos <- (citywide_crime$total21-citywide_crime$yeartodate2021)+citywide_crime$yeartodate2022
+citywide_crime$last12mos <- (citywide_crime$total22-citywide_crime$yeartodate2022)+citywide_crime$yeartodate2023
 # add 3-year annualized averages
-citywide_crime$total_prior3years <- citywide_crime$total19+
-                                            citywide_crime$total20+
-                                            citywide_crime$total21
-citywide_crime$avg_prior3years <- round(((citywide_crime$total19+
-                                            citywide_crime$total20+
-                                            citywide_crime$total21)/3),1)
+citywide_crime$total_prior3years <- citywide_crime$total20+
+                                            citywide_crime$total21+
+                                            citywide_crime$total22
+citywide_crime$avg_prior3years <- round((citywide_crime$total_prior3years/3),1)
+
 # now add the increases or change percentages
-citywide_crime$inc_19to21 <- round(citywide_crime$total21/citywide_crime$total19*100-100,1)
+citywide_crime$inc_19to22 <- round(citywide_crime$total22/citywide_crime$total19*100-100,1)
 citywide_crime$inc_19tolast12 <- round(citywide_crime$last12mos/citywide_crime$total19*100-100,1)
-citywide_crime$inc_21tolast12 <- round(citywide_crime$last12mos/citywide_crime$total21*100-100,1)
+citywide_crime$inc_22tolast12 <- round(citywide_crime$last12mos/citywide_crime$total22*100-100,1)
 citywide_crime$inc_prior3yearavgtolast12 <- round((citywide_crime$last12mos/citywide_crime$avg_prior3years)*100-100,0)
 # add crime rates for each year
 citywide_crime$rate19 <- round((citywide_crime$total19/nyc_population)*100000,1)
 citywide_crime$rate20 <- round((citywide_crime$total20/nyc_population)*100000,1)
 citywide_crime$rate21 <- round((citywide_crime$total21/nyc_population)*100000,1)
+citywide_crime$rate22 <- round((citywide_crime$total22/nyc_population)*100000,1)
 citywide_crime$rate_last12 <- round((citywide_crime$last12mos/nyc_population)*100000,1)
 # 3 yr rate
 citywide_crime$rate_prior3years <- 
   round((citywide_crime$avg_prior3years/nyc_population)*100000,1)
 
 # create a quick long-term annual table
-citywide_yearly <- citywide_crime %>% select(2:24,39,32)
+citywide_yearly <- citywide_crime %>% select(2:25,40,33)
 write_csv(citywide_yearly,"data/output/yearly/citywide_yearly.csv")
 
 # add a series of csv tables for annual tracking of each crime with a tracker page
-citywide_yearly %>% filter(crime=="Murder") %>% select(-25) %>% write_csv("data/output/yearly/murder_yearly.csv")
-citywide_yearly %>% filter(crime=="Rape") %>% select(-25) %>% write_csv("data/output/yearly/rape_yearly.csv")
-citywide_yearly %>% filter(crime=="Robbery") %>% select(-25) %>% write_csv("data/output/yearly/robbery_yearly.csv")
-citywide_yearly %>% filter(crime=="Burglary") %>% select(-25) %>% write_csv("data/output/yearly/burglary_yearly.csv")
-citywide_yearly %>% filter(crime=="Felony Assault") %>% select(-25) %>% write_csv("data/output/yearly/assault_yearly.csv")
-citywide_yearly %>% filter(crime=="Grand Larceny") %>% select(-25) %>%write_csv("data/output/yearly/larceny_yearly.csv")
-citywide_yearly %>% filter(crime=="Motor Vehicle Theft") %>% select(-25) %>% write_csv("data/output/yearly/autotheft_yearly.csv")
+citywide_yearly %>% filter(crime=="Murder") %>% select(-26) %>% write_csv("data/output/yearly/murder_yearly.csv")
+citywide_yearly %>% filter(crime=="Rape") %>% select(-26) %>% write_csv("data/output/yearly/rape_yearly.csv")
+citywide_yearly %>% filter(crime=="Robbery") %>% select(-26) %>% write_csv("data/output/yearly/robbery_yearly.csv")
+citywide_yearly %>% filter(crime=="Burglary") %>% select(-26) %>% write_csv("data/output/yearly/burglary_yearly.csv")
+citywide_yearly %>% filter(crime=="Felony Assault") %>% select(-26) %>% write_csv("data/output/yearly/assault_yearly.csv")
+citywide_yearly %>% filter(crime=="Grand Larceny") %>% select(-26) %>%write_csv("data/output/yearly/larceny_yearly.csv")
+citywide_yearly %>% filter(crime=="Motor Vehicle Theft") %>% select(-26) %>% write_csv("data/output/yearly/autotheft_yearly.csv")
 
 # just for saving tallies of broad crime categories for charts
 citywide_type <- citywide_crime %>% group_by(type) %>%

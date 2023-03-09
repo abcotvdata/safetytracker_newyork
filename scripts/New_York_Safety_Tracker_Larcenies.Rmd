@@ -211,12 +211,12 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="cardContainer">
 <div class="card" style="background-color:#99a0a5;">
 <p>Larcenies This Year<br>
-<bignumber>`r prettyNum(larcenies_city$yeartodate2022, big.mark=",")`<br></bignumber>
+<bignumber>`r prettyNum(larcenies_city$yeartodate2023, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Through `r format(larcenies_city$lastdate, "%B %d")`</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Larcenies Last Year<br>
-<bignumber>`r prettyNum(larcenies_city$yeartodate2021, big.mark=",")`<br></bignumber>
+<bignumber>`r prettyNum(larcenies_city$yeartodate2022, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Same Period in 2022</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
@@ -227,7 +227,7 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Larceny Rate<br>
 <bignumber>`r larcenies_city$rate_prior3years`<br></bignumber><p>
-Per 100,000 people<br>2019 to 2021</p>
+Per 100,000 people<br>2020 to 2022</p>
 </div>
 </div>
 <br>
@@ -282,8 +282,8 @@ larceniespal2 <- colorBin(c("#aecfe6",
 # Create labels for larcenies map
 larcenieslabel <- paste(sep="",
                      "<popuptitle>",
-                     larcenies_beat$yeartodate2022,
-                     ifelse(larcenies_beat$yeartodate2022==1,
+                     larcenies_beat$yeartodate2023,
+                     ifelse(larcenies_beat$yeartodate2023==1,
                             " grand larceny", " grand larcenies"),
                      "</popuptitle><br>so far this year in <b>Precinct ",
                      larcenies_beat$precinct,
@@ -292,12 +292,12 @@ larcenieslabel <- paste(sep="",
                      "</b>, home to about ",
                      prettyNum(larcenies_beat$population, big.mark=","),
                      " residents. That's ",
-                     case_when(larcenies_beat$yeartodate2022>
-                              larcenies_beat$yeartodate2021 ~ "up from ",
-                     larcenies_beat$yeartodate2022<
-                              larcenies_beat$yeartodate2021 ~ "down from ",
+                     case_when(larcenies_beat$yeartodate2023>
+                              larcenies_beat$yeartodate2022 ~ "up from ",
+                     larcenies_beat$yeartodate2023<
+                              larcenies_beat$yeartodate2022 ~ "down from ",
                      TRUE ~ "the same as the "),
-                     larcenies_beat$yeartodate2021,
+                     larcenies_beat$yeartodate2022,
                      " at this point in 2021. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
 <br>
 <table>      
@@ -331,6 +331,15 @@ prettyNum(larcenies_beat$total21, big.mark=","),
 "</td>
 				<td>",
 prettyNum(larcenies_beat$rate21, big.mark=","),
+"</td>
+			</tr>
+									<tr>
+				<td>2022</td>
+				<td>",
+prettyNum(larcenies_beat$total22, big.mark=","),
+"</td>
+				<td>",
+prettyNum(larcenies_beat$rate22, big.mark=","),
 "</td>
 			</tr>
 						<tr>

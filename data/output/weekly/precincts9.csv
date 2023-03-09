@@ -1,4 +1,4 @@
-precinct,crime,lastweek2022,lastweek2021,week_pct_change,lastmonth2022,lastmonth2021,month_pct_change,yeartodate2022,yeartodate2021,yeartodate_pct_change,ytd_2yr_pct_change,ytd_12yr_pct_change,ytd_29yr_pct_change,lastdate,type
+precinct,crime,lastweek2023,lastweek2022,week_pct_change,lastmonth2023,lastmonth2022,month_pct_change,yeartodate2023,yeartodate2022,yeartodate_pct_change,ytd_2yr_pct_change,ytd_13yr_pct_change,ytd_30yr_pct_change,lastdate,type
 1,Murder,0,0,NA,0,0,NA,0,0,NA,NA,NA,-100,2023-03-05,Violent
 1,Rape,0,1,-100,0,3,-100,1,4,-75,0,NA,0,2023-03-05,Violent
 1,Robbery,2,2,0,9,9,0,25,24,4.2,31.6,177.8,-85.1,2023-03-05,Property
@@ -730,23 +730,6 @@ precinct,crime,lastweek2022,lastweek2021,week_pct_change,lastmonth2022,lastmonth
 70,Shooting Victims,0,0,NA,1,1,0,1,2,-50,0,-66.7,-94.7,2023-03-05,Other/Mixed Category
 70,Shooting Incidents,0,0,NA,1,1,0,1,2,-50,0,-66.7,-92.3,2023-03-05,Other/Mixed Category
 70,Hate Crimes,0,0,NA,0,0,NA,0,1,-100,-100,NA,NA,2023-03-05,Other/Mixed Category
-71,Murder,0,0,NA,0,1,-100,0,3,-100,-100,NA,-100,2023-03-05,Violent
-71,Rape,1,0,NA,3,0,NA,7,0,NA,133.3,250,-50,2023-03-05,Violent
-71,Robbery,1,5,-80,7,14,-50,21,32,-34.4,40,-50,-93.1,2023-03-05,Property
-71,Felony Assault,4,9,-55.6,21,32,-34.4,63,62,1.6,34,46.5,-51.9,2023-03-05,Violent
-71,Burglary,0,0,NA,4,9,-55.6,9,18,-50,-52.6,-85.9,-97.5,2023-03-05,Property
-71,Grand Larceny,12,4,200,33,30,10,81,64,26.6,88.4,6.6,8,2023-03-05,Property
-71,Motor Vehicle Theft,3,3,0,9,10,-10,19,22,-13.6,-29.6,-38.7,-92.5,2023-03-05,Property
-71,Total Major Felonies,21,21,0,77,96,-19.8,200,201,-0.5,29,-22.5,-82.5,2023-03-05,Combined Total
-71,Transit System Crimes,2,0,NA,3,1,200,4,3,33.3,NA,-42.9,NA,2023-03-05,Other/Mixed Category
-71,Housing System Crimes,0,0,NA,0,0,NA,0,0,NA,NA,-100,NA,2023-03-05,Other/Mixed Category
-71,Petty Theft,19,19,0,73,89,-18,210,177,18.6,-11.8,27.3,NA,2023-03-05,Property
-71,Misdemeanor Assault,10,12,-16.7,43,42,2.4,92,91,1.1,37.3,-23.3,NA,2023-03-05,Violent
-71,Rape (FBI/UCR Definition),2,0,NA,4,1,300,8,4,100,60,NA,NA,2023-03-05,Violent
-71,Other Sex Crimes,1,0,NA,4,2,100,10,10,0,42.9,NA,NA,2023-03-05,Other/Mixed Category
-71,Shooting Victims,1,0,NA,2,0,NA,2,6,-66.7,100,100,-89.5,2023-03-05,Other/Mixed Category
-71,Shooting Incidents,1,0,NA,2,0,NA,2,6,-66.7,100,100,-89.5,2023-03-05,Other/Mixed Category
-71,Hate Crimes,0,1,-100,0,1,-100,0,4,-100,NA,NA,NA,2023-03-05,Other/Mixed Category
 72,Murder,0,0,NA,0,0,NA,0,0,NA,-100,NA,-100,2023-03-05,Violent
 72,Rape,0,2,-100,1,4,-75,6,7,-14.3,500,50,20,2023-03-05,Violent
 72,Robbery,2,3,-33.3,9,10,-10,23,26,-11.5,15,-37.8,-90.2,2023-03-05,Property

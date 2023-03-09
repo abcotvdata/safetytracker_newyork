@@ -212,12 +212,12 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="cardContainer">
 <div class="card" style="background-color:#99a0a5;">
 <p>Sexual Assaults This Year<br>
-<bignumber>`r prettyNum(sexassaults_city$yeartodate2022, big.mark=",")`<br></bignumber>
+<bignumber>`r prettyNum(sexassaults_city$yeartodate2023, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Through `r format(sexassaults_city$lastdate, "%B %d")`</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Sexual Assaults Last Year<br>
-<bignumber>`r prettyNum(sexassaults_city$yeartodate2021, big.mark=",")`<br></bignumber>
+<bignumber>`r prettyNum(sexassaults_city$yeartodate2022, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Same Period in 2022</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
@@ -228,7 +228,7 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Sexual Assault Rate<br>
 <bignumber>`r sexassaults_city$rate_prior3years`<br></bignumber><p>
-Per 100,000 people<br>2019 to 2021</p>
+Per 100,000 people<br>2020 to 2022</p>
 </div>
 </div>
 <br>
@@ -283,8 +283,8 @@ sexassaultspal2 <- colorBin(c("#aecfe6",
 # Create labels for sexassaultss map
 sexassaultslabel <- paste(sep="",
                      "<popuptitle>",
-                     sexassaults_beat$yeartodate2022,
-                     ifelse(sexassaults_beat$yeartodate2022==1,
+                     sexassaults_beat$yeartodate2023,
+                     ifelse(sexassaults_beat$yeartodate2023==1,
                             " sexual assault", " sexual assaults"),
                      "</popuptitle><br>so far this year in <b>Precinct ",
                      sexassaults_beat$precinct,
@@ -293,12 +293,12 @@ sexassaultslabel <- paste(sep="",
                      "</b>, home to about ",
                      prettyNum(sexassaults_beat$population, big.mark=","),
                      " residents. That's ",
-                     case_when(sexassaults_beat$yeartodate2022>
-                              sexassaults_beat$yeartodate2021 ~ "up from ",
-                     sexassaults_beat$yeartodate2022<
-                              sexassaults_beat$yeartodate2021 ~ "down from ",
+                     case_when(sexassaults_beat$yeartodate2023>
+                              sexassaults_beat$yeartodate2022 ~ "up from ",
+                     sexassaults_beat$yeartodate2023<
+                              sexassaults_beat$yeartodate2022 ~ "down from ",
                      TRUE ~ "the same as the "),
-                     sexassaults_beat$yeartodate2021,
+                     sexassaults_beat$yeartodate2022,
                      " at this point in 2021. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
 <br>
 <table>      
@@ -332,6 +332,15 @@ sexassaults_beat$total21,
 "</td>
 				<td>",
 sexassaults_beat$rate21,
+"</td>
+			</tr>
+									<tr>
+				<td>2022</td>
+				<td>",
+sexassaults_beat$total22,
+"</td>
+				<td>",
+sexassaults_beat$rate22,
 "</td>
 			</tr>
 						<tr>

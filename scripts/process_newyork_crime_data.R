@@ -145,7 +145,7 @@ precinct_bureaus$precinct_bureau <- case_when(precinct_bureaus$precinct_bureau =
 
 ### ADD ANNUAL ARCHIVE FILES
 # Save for backup the archived annual crime totals files from NYPD
-# download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/seven-major-felony-offenses-2000-2022.xls",
+#download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/seven-major-felony-offenses-2000-2022.xls",
 #              "data/source/annual/nyc_major_felonies.xls")
 #download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/non-seven-major-felony-offenses-2000-2022.xls",
 #              "data/source/annual/nyc_other_felonies.xls")
@@ -170,7 +170,8 @@ names(precinct_major_felonies) <- c("precinct","crime","total00",
                                     "total10","total11","total12",
                                     "total13","total14","total15",
                                     "total16","total17","total18",
-                                    "total19","total20","total21")
+                                    "total19","total20","total21",
+                                    "total22")
 # calculate increases for periods existing in the raw data
 # precinct_major_felonies$increase2yr <- round(precinct_major_felonies$x2021/precinct_major_felonies$x2019*100-100,1)
 # precinct_major_felonies$increase5yr <- round(precinct_major_felonies$x2021/precinct_major_felonies$x2016*100-100,1)
@@ -203,7 +204,8 @@ names(citywide_major_felonies) <- c("city","crime","total00",
                                     "total10","total11","total12",
                                     "total13","total14","total15",
                                     "total16","total17","total18",
-                                    "total19","total20","total21")
+                                    "total19","total20","total21",
+                                    "total22")
 citywide_major_felonies$crime <- case_when(citywide_major_felonies$crime == "MURDER & NON-NEGL. MANSLAUGHTER" ~ "Murder",
                                            citywide_major_felonies$crime == "TOTAL SEVEN MAJOR FELONY OFFENSES" ~ "Total Major Felonies",
                                            citywide_major_felonies$crime == "GRAND LARCENY OF MOTOR VEHICLE" ~ "Motor Vehicle Theft",
@@ -233,7 +235,8 @@ names(precinct_other_felonies) <- c("precinct","crime","total00",
                                     "total10","total11","total12",
                                     "total13","total14","total15",
                                     "total16","total17","total18",
-                                    "total19","total20","total21")
+                                    "total19","total20","total21",
+                                    "total22")
 # calculate increases for periods existing in the raw data
 # precinct_other_felonies$increase2yr <- round(precinct_other_felonies$x2021/precinct_other_felonies$x2019*100-100,1)
 # precinct_other_felonies$increase5yr <- round(precinct_other_felonies$x2021/precinct_other_felonies$x2016*100-100,1)

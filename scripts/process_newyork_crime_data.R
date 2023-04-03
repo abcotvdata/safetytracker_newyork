@@ -35,9 +35,9 @@ links <- paste0("https://www1.nyc.gov",links,sep="")
 # append the one citywide file for consistent processing
 links <- append(links, citywide_weekly_url)
 
-# into new directory called precinctdata
+# into new directory
 for (link in links) {
-  download.file(link, destfile = paste0("data/source/weekly/",basename(link),sep="")) }
+  download.file(link, destfile = paste0("data/source/weekly/",basename(link),sep=""), method = "curl") }
 
 ### COLLECT AND RE-FORMAT THE WEEKLY FILES
 

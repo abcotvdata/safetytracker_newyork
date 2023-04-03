@@ -37,7 +37,10 @@ links <- append(links, citywide_weekly_url)
 
 # into new directory
 for (link in links) {
-  download.file(link, destfile = paste0("data/source/weekly/",basename(link),sep=""), method = "curl") }
+  download.file(link, destfile = paste0("data/source/weekly/",basename(link),sep="")) 
+  # Wait for 5 seconds before downloading the next file
+  Sys.sleep(5)
+  }
 
 ### COLLECT AND RE-FORMAT THE WEEKLY FILES
 

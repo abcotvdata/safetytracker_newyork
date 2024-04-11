@@ -70,10 +70,10 @@ precinct_fun <- function(filename) {
 
 precinct_process <- read_excel(filename, 
                               col_types = "text",
-                              col_names = c("crime","delete","lastweek2023", "lastweek2022",
-                                            "week_pct_change", "lastmonth2023","lastmonth2022","month_pct_change",
-                                            "yeartodate2023", "yeartodate2022","yeartodate_pct_change","ytd_2yr_pct_change",
-                                            "ytd_13yr_pct_change","ytd_30yr_pct_change"), skip = 13) %>% head(17)
+                              col_names = c("crime","delete","lastweek2024", "lastweek2023",
+                                            "week_pct_change", "lastmonth2024","lastmonth2023","month_pct_change",
+                                            "yeartodate2024", "yeartodate2023","yeartodate_pct_change","ytd_2yr_pct_change",
+                                            "ytd_14yr_pct_change","ytd_31yr_pct_change"), skip = 13) %>% head(17)
 }
 
 # Map a dataframe; function loops through the 'list' of imported Excel tables
@@ -146,13 +146,13 @@ precinct_bureaus$precinct_bureau <- case_when(precinct_bureaus$precinct_bureau =
 
 ### ADD ANNUAL ARCHIVE FILES
 # Save for backup the archived annual crime totals files from NYPD
-#download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/seven-major-felony-offenses-2000-2022.xls",
+#download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/seven-major-felony-offenses-2000-2023.xls",
 #              "data/source/annual/nyc_major_felonies.xls")
-#download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/non-seven-major-felony-offenses-2000-2022.xls",
+#download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/non-seven-major-felony-offenses-2000-2023.xls",
 #              "data/source/annual/nyc_other_felonies.xls")
-#download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/seven-major-felony-offenses-by-precinct-2000-2022.xls",
+#download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/seven-major-felony-offenses-by-precinct-2000-2023.xls",
 #              "data/source/annual/precinct_major_felonies.xls")
-#download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/non-seven-major-felony-offenses-by-precinct-2000-2022.xls",
+#download.file("https://www1.nyc.gov/assets/nypd/downloads/excel/analysis_and_planning/historical-crime-data/non-seven-major-felony-offenses-by-precinct-2000-2023.xls",
 #              "data/source/annual/precinct_other_felonies.xls")
 
 
@@ -172,7 +172,7 @@ names(precinct_major_felonies) <- c("precinct","crime","total00",
                                     "total13","total14","total15",
                                     "total16","total17","total18",
                                     "total19","total20","total21",
-                                    "total22")
+                                    "total22", "total23")
 # calculate increases for periods existing in the raw data
 # precinct_major_felonies$increase2yr <- round(precinct_major_felonies$x2021/precinct_major_felonies$x2019*100-100,1)
 # precinct_major_felonies$increase5yr <- round(precinct_major_felonies$x2021/precinct_major_felonies$x2016*100-100,1)
@@ -206,7 +206,7 @@ names(citywide_major_felonies) <- c("city","crime","total00",
                                     "total13","total14","total15",
                                     "total16","total17","total18",
                                     "total19","total20","total21",
-                                    "total22")
+                                    "total22", "total23")
 citywide_major_felonies$crime <- case_when(citywide_major_felonies$crime == "MURDER & NON-NEGL. MANSLAUGHTER" ~ "Murder",
                                            citywide_major_felonies$crime == "TOTAL SEVEN MAJOR FELONY OFFENSES" ~ "Total Major Felonies",
                                            citywide_major_felonies$crime == "GRAND LARCENY OF MOTOR VEHICLE" ~ "Motor Vehicle Theft",
@@ -235,7 +235,7 @@ names(precinct_other_felonies) <- c("precinct","crime","total00",
                                     "total13","total14","total15",
                                     "total16","total17","total18",
                                     "total19","total20","total21",
-                                    "total22")
+                                    "total22", "total23")
 # calculate increases for periods existing in the raw data
 # precinct_other_felonies$increase2yr <- round(precinct_other_felonies$x2021/precinct_other_felonies$x2019*100-100,1)
 # precinct_other_felonies$increase5yr <- round(precinct_other_felonies$x2021/precinct_other_felonies$x2016*100-100,1)
@@ -266,17 +266,17 @@ precinct_crime <- full_join(precincts_geo, precinct_crime, by="precinct")
 
 # # # OPEN WORK IS PROCESSING SOME CHANGE FIELDS WE NEED FOR TRACKERS
 # add last 12 mos calculations to do comparable annualized rates
-precinct_crime$last12mos <- (precinct_crime$total22-precinct_crime$yeartodate2022)+precinct_crime$yeartodate2023
+precinct_crime$last12mos <- (precinct_crime$total23-precinct_crime$yeartodate2023)+precinct_crime$yeartodate2024
 
 # add 3-year totals and annualized averages
-precinct_crime$total_prior3years <- precinct_crime$total20+
-                                            precinct_crime$total21+
-                                            precinct_crime$total22
+precinct_crime$total_prior3years <- precinct_crime$total21+
+                                            precinct_crime$total22+
+                                            precinct_crime$total23
 precinct_crime$avg_prior3years <- round((precinct_crime$total_prior3years/3),1)
 
 # now add the increases or change percentages
-precinct_crime$inc_19to22 <- round(precinct_crime$total22/precinct_crime$total19*100-100,1)
-precinct_crime$inc_19tolast12 <- round(precinct_crime$last12mos/precinct_crime$total19*100-100,1)
+precinct_crime$inc_20to23 <- round(precinct_crime$total23/precinct_crime$total20*100-100,1)
+precinct_crime$inc_20tolast12 <- round(precinct_crime$last12mos/precinct_crime$total20*100-100,1)
 precinct_crime$inc_22tolast12 <- round(precinct_crime$last12mos/precinct_crime$total22*100-100,1)
 precinct_crime$inc_prior3yearavgtolast12 <- round((precinct_crime$last12mos/precinct_crime$avg_prior3years)*100-100,0)
 # add crime rates for each year
@@ -284,6 +284,7 @@ precinct_crime$rate19 <- round((precinct_crime$total19/precinct_crime$population
 precinct_crime$rate20 <- round((precinct_crime$total20/precinct_crime$population)*100000,1)
 precinct_crime$rate21 <- round((precinct_crime$total21/precinct_crime$population)*100000,1)
 precinct_crime$rate22 <- round((precinct_crime$total22/precinct_crime$population)*100000,1)
+precinct_crime$rate23 <- round((precinct_crime$total23/precinct_crime$population)*100000,1)
 precinct_crime$rate_last12 <- round((precinct_crime$last12mos/precinct_crime$population)*100000,1)
 precinct_crime$rate_prior3years <- 
   round((precinct_crime$avg_prior3years/precinct_crime$population)*100000,1)
@@ -306,16 +307,16 @@ precinct_crime <- precinct_crime %>%
 # set value of nyc_population
 nyc_population <- 8804190
 # add last 12 mos calculations to citywide data to do comparable annualized rates
-citywide_crime$last12mos <- (citywide_crime$total22-citywide_crime$yeartodate2022)+citywide_crime$yeartodate2023
+citywide_crime$last12mos <- (citywide_crime$total23-citywide_crime$yeartodate2023)+citywide_crime$yeartodate2024
 # add 3-year annualized averages
-citywide_crime$total_prior3years <- citywide_crime$total20+
-                                            citywide_crime$total21+
-                                            citywide_crime$total22
+citywide_crime$total_prior3years <- citywide_crime$total21+
+                                            citywide_crime$total22+
+                                            citywide_crime$total23
 citywide_crime$avg_prior3years <- round((citywide_crime$total_prior3years/3),1)
 
 # now add the increases or change percentages
-citywide_crime$inc_19to22 <- round(citywide_crime$total22/citywide_crime$total19*100-100,1)
-citywide_crime$inc_19tolast12 <- round(citywide_crime$last12mos/citywide_crime$total19*100-100,1)
+citywide_crime$inc_20to23 <- round(citywide_crime$total23/citywide_crime$total20*100-100,1)
+citywide_crime$inc_20tolast12 <- round(citywide_crime$last12mos/citywide_crime$total20*100-100,1)
 citywide_crime$inc_22tolast12 <- round(citywide_crime$last12mos/citywide_crime$total22*100-100,1)
 citywide_crime$inc_prior3yearavgtolast12 <- round((citywide_crime$last12mos/citywide_crime$avg_prior3years)*100-100,0)
 # add crime rates for each year
@@ -323,6 +324,7 @@ citywide_crime$rate19 <- round((citywide_crime$total19/nyc_population)*100000,1)
 citywide_crime$rate20 <- round((citywide_crime$total20/nyc_population)*100000,1)
 citywide_crime$rate21 <- round((citywide_crime$total21/nyc_population)*100000,1)
 citywide_crime$rate22 <- round((citywide_crime$total22/nyc_population)*100000,1)
+citywide_crime$rate23 <- round((citywide_crime$total23/nyc_population)*100000,1)
 citywide_crime$rate_last12 <- round((citywide_crime$last12mos/nyc_population)*100000,1)
 # 3 yr rate
 citywide_crime$rate_prior3years <- 

@@ -210,13 +210,13 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="cardContainer">
 <div class="card" style="background-color:#99a0a5;">
 <p>Auto Thefts This Year<br>
-<bignumber>`r prettyNum(autothefts_city$yeartodate2023, big.mark=",")`<br></bignumber>
+<bignumber>`r prettyNum(autothefts_city$yeartodate2024, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Through `r format(autothefts_city$lastdate, "%B %d")`</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Auto Thefts Last Year<br>
-<bignumber>`r prettyNum(autothefts_city$yeartodate2022, big.mark=",")`<br></bignumber>
-<p>Year To Date<br>Same Period in 2022</p>
+<bignumber>`r prettyNum(autothefts_city$yeartodate2023, big.mark=",")`<br></bignumber>
+<p>Year To Date<br>Same Period in 2023</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Auto Theft Rate<br>
@@ -226,11 +226,11 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Auto Theft Rate<br>
 <bignumber>`r autothefts_city$rate_prior3years`<br></bignumber><p>
-Per 100,000 people<br>2020 to 2022</p>
+Per 100,000 people<br>2021 to 2023</p>
 </div>
 </div>
 <br>
-Motor vehicle thefts so far this year are trending <h8>`r ifelse(autothefts_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(autothefts_city$yeartodate_pct_change>=0,autothefts_city$yeartodate_pct_change,substring(autothefts_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2022, according to the latest data available from the New York Police Department.
+Motor vehicle thefts so far this year are trending <h8>`r ifelse(autothefts_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(autothefts_city$yeartodate_pct_change>=0,autothefts_city$yeartodate_pct_change,substring(autothefts_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2023, according to the latest data available from the New York Police Department.
 
 However, the auto theft rate over the last 12 months is <h8>`r case_when((autothefts_city$rate_last12-autothefts_city$rate_prior3years)>=0.25 ~ "up",(autothefts_city$rate_last12-autothefts_city$rate_prior3years)<=-0.25 ~ "down",TRUE ~ "about the same")`</h8> when compared to the annual average over the last three years, and the frequency of vehicles being reported stolen remains higher than it was before the pandemic.
 
@@ -238,7 +238,7 @@ The city is averaging <h8>`r round(autothefts_city$last12mos/52,0)`</h8> stolen 
 
 The risk is not the same neighborhood to neighborhood.
 
-ABC7's data team looked at the New York Police Department's data by neighborhood from 2019 through `r format(autothefts_city$lastdate, "%B %d")`.
+ABC7's data team looked at the New York Police Department's data by neighborhood from 2020 through `r format(autothefts_city$lastdate, "%B %d")`.
 
 <subhead>A closer look at vehicle thefts by neighborhood</subhead>
 
@@ -279,8 +279,8 @@ autotheftspal2 <- colorBin(c("#aecfe6",
 # Create labels for auto thefts map
 autotheftslabel <- paste(sep="",
                      "<popuptitle>",
-                     autothefts_beat$yeartodate2023,
-                     ifelse(autothefts_beat$yeartodate2023==1,
+                     autothefts_beat$yeartodate2024,
+                     ifelse(autothefts_beat$yeartodate2024==1,
                             " vehicle theft", " vehicle thefts"),
                      "</popuptitle><br>so far this year in <b>Precinct ",
                      autothefts_beat$precinct,
@@ -289,28 +289,19 @@ autotheftslabel <- paste(sep="",
                      "</b>, home to about ",
                      prettyNum(autothefts_beat$population, big.mark=","),
                      " residents. That's ",
-                     case_when(autothefts_beat$yeartodate2023>
-                              autothefts_beat$yeartodate2022 ~ "up from ",
-                     autothefts_beat$yeartodate2023<
-                              autothefts_beat$yeartodate2022 ~ "down from ",
+                     case_when(autothefts_beat$yeartodate2024>
+                              autothefts_beat$yeartodate2023 ~ "up from ",
+                     autothefts_beat$yeartodate2024<
+                              autothefts_beat$yeartodate2023 ~ "down from ",
                      TRUE ~ "the same as the "),
-                     autothefts_beat$yeartodate2022,
-                     " at this point in 2021. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
+                     autothefts_beat$yeartodate2023,
+                     " at this point in 2023. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
 <br>
 <table>      
       <tr>
 				<th></th>
 				<th>Total</th>
 				<th>Rate</th>
-			</tr>
-			<tr>
-				<td>2019</td>
-				<td>",
-autothefts_beat$total19,
-"</td>
-				<td>",
-autothefts_beat$rate19,
-"</td>
 			</tr>
 			<tr>
 				<td>2020</td>
@@ -321,7 +312,7 @@ autothefts_beat$total20,
 autothefts_beat$rate20,
 "</td>
 			</tr>
-						<tr>
+			<tr>
 				<td>2021</td>
 				<td>",
 autothefts_beat$total21,
@@ -330,13 +321,22 @@ autothefts_beat$total21,
 autothefts_beat$rate21,
 "</td>
 			</tr>
-									<tr>
+						<tr>
 				<td>2022</td>
 				<td>",
 autothefts_beat$total22,
 "</td>
 				<td>",
 autothefts_beat$rate22,
+"</td>
+			</tr>
+									<tr>
+				<td>2023</td>
+				<td>",
+autothefts_beat$total23,
+"</td>
+				<td>",
+autothefts_beat$rate23,
 "</td>
 			</tr>
 						<tr>

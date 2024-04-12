@@ -1,4 +1,4 @@
-precinct,crime,lastweek2023,lastweek2022,week_pct_change,lastmonth2023,lastmonth2022,month_pct_change,yeartodate2023,yeartodate2022,yeartodate_pct_change,ytd_2yr_pct_change,ytd_13yr_pct_change,ytd_30yr_pct_change,lastdate,type
+precinct,crime,lastweek2024,lastweek2023,week_pct_change,lastmonth2024,lastmonth2023,month_pct_change,yeartodate2024,yeartodate2023,yeartodate_pct_change,ytd_2yr_pct_change,ytd_14yr_pct_change,ytd_31yr_pct_change,lastdate,type
 1,Murder,0,0,NA,0,0,NA,1,0,NA,NA,NA,-85.7,2024-04-07,Violent
 1,Rape,0,2,-100,0,3,-100,4,5,-20,-20,NA,100,2024-04-07,Violent
 1,Robbery,0,0,NA,5,6,-16.7,30,31,-3.2,-16.7,114.3,-88.3,2024-04-07,Property

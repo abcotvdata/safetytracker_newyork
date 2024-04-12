@@ -211,13 +211,13 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="cardContainer">
 <div class="card" style="background-color:#99a0a5;">
 <p>Homicides This Year<br>
-<bignumber>`r prettyNum(murders_city$yeartodate2023, big.mark=",")`<br></bignumber>
+<bignumber>`r prettyNum(murders_city$yeartodate2024, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Through `r format(murders_city$lastdate, "%B %d")`</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Homicides Last Year<br>
-<bignumber>`r murders_city$yeartodate2022`<br></bignumber>
-<p>Year To Date<br>Same Period in 2022</p>
+<bignumber>`r murders_city$yeartodate2023`<br></bignumber>
+<p>Year To Date<br>Same Period in 2023</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Homicide Rate<br>
@@ -227,11 +227,11 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Homicide Rate<br>
 <bignumber>`r murders_city$rate_prior3years`<br></bignumber><p>
-Per 100,000 people<br>2020 to 2022</p>
+Per 100,000 people<br>2021 to 2023</p>
 </div>
 </div>
 <br>
-Homicides so far this year are trending <h8>`r ifelse(murders_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(murders_city$yeartodate_pct_change>=0,murders_city$yeartodate_pct_change,substring(murders_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2022, according to the latest data available from the New York Police Department.
+Homicides so far this year are trending <h8>`r ifelse(murders_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(murders_city$yeartodate_pct_change>=0,murders_city$yeartodate_pct_change,substring(murders_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2023, according to the latest data available from the New York Police Department.
 
 However, the murder rate over the last 12 months is <h8>`r case_when((murders_city$rate_last12-murders_city$rate_prior3years)>=0.25 ~ "up",
           (murders_city$rate_last12-murders_city$rate_prior3years)<=-0.25 ~ "down",
@@ -239,7 +239,7 @@ However, the murder rate over the last 12 months is <h8>`r case_when((murders_ci
 
 The city is averaging <h8>`r round(murders_city$last12mos/52,0)`</h8> homicides a week over the last 12 months. In 2019, that number was <h8>`r round(murders_city$total19/52,0)`</h8> a week.
 
-One way to think about the danger: three years ago, the murder rate was <h8>`r murders_city$rate19`</h8> per 100,000 residents. It rose during the pandemic to 5.5 per 100,000 people, or less than your chance of being killed in a motor vehicle crash in New York. 
+One way to think about the danger: five years ago, the murder rate was <h8>`r murders_city$rate19`</h8> per 100,000 residents. It rose during the pandemic to 5.5 per 100,000 people, or less than your chance of being killed in a motor vehicle crash in New York. 
 
 However, homicide remains a very low risk in New York compared to other causes of death. New Yorkers are still twice as likely to die from high blood pressure, four times as likely to die from diabetes, five times as likely from a drug overdose or more than 20 times as likely from cancer.
 <br>
@@ -295,8 +295,8 @@ murderpal2 <- colorBin(c("#aecfe6",
 # Create labels for murders map
 murderlabel <- paste(sep="",
                      "<popuptitle>",
-                     murders_beat$yeartodate2023,
-                     ifelse(murders_beat$yeartodate2023==1,
+                     murders_beat$yeartodate2024,
+                     ifelse(murders_beat$yeartodate2024==1,
                             " homicide", " homicides"),
                      "</popuptitle><br>so far this year in <b>Precinct ",
                      murders_beat$precinct,
@@ -305,28 +305,19 @@ murderlabel <- paste(sep="",
                      "</b>, home to about ",
                      prettyNum(murders_beat$population, big.mark=","),
                      " residents. That's ",
-                     case_when(murders_beat$yeartodate2023>
-                              murders_beat$yeartodate2022 ~ "up from ",
-                     murders_beat$yeartodate2023<
-                              murders_beat$yeartodate2022 ~ "down from ",
+                     case_when(murders_beat$yeartodate2024>
+                              murders_beat$yeartodate2023 ~ "up from ",
+                     murders_beat$yeartodate2024<
+                              murders_beat$yeartodate2023 ~ "down from ",
                      TRUE ~ "the same as the "),
-                     murders_beat$yeartodate2022,
-                     " at this point in 2021. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
+                     murders_beat$yeartodate2023,
+                     " at this point in 2023. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
 <br>
 <table>      
       <tr>
 				<th></th>
 				<th>Total</th>
 				<th>Rate</th>
-			</tr>
-			<tr>
-				<td>2019</td>
-				<td>",
-murders_beat$total19,
-"</td>
-				<td>",
-murders_beat$rate19,
-"</td>
 			</tr>
 			<tr>
 				<td>2020</td>
@@ -337,7 +328,7 @@ murders_beat$total20,
 murders_beat$rate20,
 "</td>
 			</tr>
-						<tr>
+			<tr>
 				<td>2021</td>
 				<td>",
 murders_beat$total21,
@@ -346,13 +337,22 @@ murders_beat$total21,
 murders_beat$rate21,
 "</td>
 			</tr>
-									<tr>
+						<tr>
 				<td>2022</td>
 				<td>",
 murders_beat$total22,
 "</td>
 				<td>",
 murders_beat$rate22,
+"</td>
+			</tr>
+									<tr>
+				<td>2023</td>
+				<td>",
+murders_beat$total23,
+"</td>
+				<td>",
+murders_beat$rate23,
 "</td>
 			</tr>
 						<tr>

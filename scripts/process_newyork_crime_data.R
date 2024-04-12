@@ -194,7 +194,7 @@ citywide_major_felonies <- read_excel("data/source/annual/nyc_major_felonies.xls
                                       skip = 2) %>% janitor::clean_names() 
 # add a city row and re-order to match format of other files
 citywide_major_felonies$city <- "city"
-citywide_major_felonies <- citywide_major_felonies %>% select(25,1:24)
+citywide_major_felonies <- citywide_major_felonies %>% select(26,1:25)
 # only keep rows of data, dropping excess rows at bottom that are data footnotes
 citywide_major_felonies <- citywide_major_felonies[1:8,]
 # rename columns with year numbers to total00, total01, etc., format for consistent use in tracker
@@ -293,7 +293,7 @@ precinct_crime$rate_prior3years <-
 #####
 
 # create a quick long-term annual table
-precinct_yearly <- precinct_crime %>% select(1,5:29,37) %>% st_drop_geometry()
+precinct_yearly <- precinct_crime %>% select(1,5:30,37) %>% st_drop_geometry()
 write_csv(precinct_yearly,"data/output/yearly/precinct_yearly.csv")
 
 # Now reduce the precinct down to just the columns we likely need for the tracker pages
@@ -331,7 +331,7 @@ citywide_crime$rate_prior3years <-
   round((citywide_crime$avg_prior3years/nyc_population)*100000,1)
 
 # create a quick long-term annual table
-citywide_yearly <- citywide_crime %>% select(2:25,40,33)
+citywide_yearly <- citywide_crime %>% select(2:26,40,33)
 write_csv(citywide_yearly,"data/output/yearly/citywide_yearly.csv")
 
 # add a series of csv tables for annual tracking of each crime with a tracker page

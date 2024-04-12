@@ -210,13 +210,13 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="cardContainer">
 <div class="card" style="background-color:#99a0a5;">
 <p>Assaults This Year<br>
-<bignumber>`r prettyNum(assaults_city$yeartodate2023, big.mark=",")`<br></bignumber>
+<bignumber>`r prettyNum(assaults_city$yeartodate2024, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Through `r format(assaults_city$lastdate, "%B %d")`</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Assaults Last Year<br>
-<bignumber>`r prettyNum(assaults_city$yeartodate2022, big.mark=",")`<br></bignumber>
-<p>Year To Date<br>Same Period in 2022</p>
+<bignumber>`r prettyNum(assaults_city$yeartodate2023, big.mark=",")`<br></bignumber>
+<p>Year To Date<br>Same Period in 2023</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Assault Rate<br>
@@ -226,7 +226,7 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Assault Rate<br>
 <bignumber>`r assaults_city$rate_prior3years`<br></bignumber><p>
-Per 100,000 people<br>2020 to 2022</p>
+Per 100,000 people<br>2021 to 2023</p>
 </div>
 </div>
 <br>
@@ -240,7 +240,7 @@ The city is averaging <h8>`r round(assaults_city$last12mos/52,0)`</h8> assaults 
 
 The risk is not the same neighborhood to neighborhood.
 
-ABC7's data team looked at the New York Police Department's data by neighborhood from 2019 through `r format(assaults_city$lastdate, "%B %d")`.
+ABC7's data team looked at the New York Police Department's data by neighborhood from 2020 through `r format(assaults_city$lastdate, "%B %d")`.
 
 <subhead>A closer look at felony assaults by neighborhood</subhead>
 
@@ -281,8 +281,8 @@ assaultspal2 <- colorBin(c("#aecfe6",
 # Create labels for assaults map
 assaultlabel <- paste(sep="",
                      "<popuptitle>",
-                     assaults_beat$yeartodate2023,
-                     ifelse(assaults_beat$yeartodate2023==1,
+                     assaults_beat$yeartodate2024,
+                     ifelse(assaults_beat$yeartodate2024==1,
                             " assault", " assaults"),
                      "</popuptitle><br>so far this year in <b>Precinct ",
                      assaults_beat$precinct,
@@ -291,28 +291,19 @@ assaultlabel <- paste(sep="",
                      "</b>, home to about ",
                      prettyNum(assaults_beat$population, big.mark=","),
                      " residents. That's ",
-                     case_when(assaults_beat$yeartodate2023>
-                              assaults_beat$yeartodate2022 ~ "up from ",
-                     assaults_beat$yeartodate2023<
-                              assaults_beat$yeartodate2022 ~ "down from ",
+                     case_when(assaults_beat$yeartodate2024>
+                              assaults_beat$yeartodate2023 ~ "up from ",
+                     assaults_beat$yeartodate2024<
+                              assaults_beat$yeartodate2023 ~ "down from ",
                      TRUE ~ "the same as the "),
-                     assaults_beat$yeartodate2022,
-                     " at this point in 2021. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
+                     assaults_beat$yeartodate2023,
+                     " at this point in 2023. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
 <br>
 <table>      
       <tr>
 				<th></th>
 				<th>Total</th>
 				<th>Rate</th>
-			</tr>
-			<tr>
-				<td>2019</td>
-				<td>",
-assaults_beat$total19,
-"</td>
-				<td>",
-assaults_beat$rate19,
-"</td>
 			</tr>
 			<tr>
 				<td>2020</td>
@@ -323,7 +314,7 @@ assaults_beat$total20,
 assaults_beat$rate20,
 "</td>
 			</tr>
-						<tr>
+			<tr>
 				<td>2021</td>
 				<td>",
 assaults_beat$total21,
@@ -332,13 +323,22 @@ assaults_beat$total21,
 assaults_beat$rate21,
 "</td>
 			</tr>
-									<tr>
+						<tr>
 				<td>2022</td>
 				<td>",
 assaults_beat$total22,
 "</td>
 				<td>",
 assaults_beat$rate22,
+"</td>
+			</tr>
+									<tr>
+				<td>2023</td>
+				<td>",
+assaults_beat$total23,
+"</td>
+				<td>",
+assaults_beat$rate23,
 "</td>
 			</tr>
 						<tr>

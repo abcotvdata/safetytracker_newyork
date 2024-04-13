@@ -211,13 +211,13 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="cardContainer">
 <div class="card" style="background-color:#99a0a5;">
 <p>Larcenies This Year<br>
-<bignumber>`r prettyNum(larcenies_city$yeartodate2023, big.mark=",")`<br></bignumber>
+<bignumber>`r prettyNum(larcenies_city$yeartodate2024, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Through `r format(larcenies_city$lastdate, "%B %d")`</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Larcenies Last Year<br>
-<bignumber>`r prettyNum(larcenies_city$yeartodate2022, big.mark=",")`<br></bignumber>
-<p>Year To Date<br>Same Period in 2022</p>
+<bignumber>`r prettyNum(larcenies_city$yeartodate2023, big.mark=",")`<br></bignumber>
+<p>Year To Date<br>Same Period in 2023</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Larceny Rate<br>
@@ -227,11 +227,11 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Larceny Rate<br>
 <bignumber>`r larcenies_city$rate_prior3years`<br></bignumber><p>
-Per 100,000 people<br>2020 to 2022</p>
+Per 100,000 people<br>2021 to 2023</p>
 </div>
 </div>
 <br>
-Grand larcenies so far this year are trending <h8>`r ifelse(larcenies_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(larcenies_city$yeartodate_pct_change>=0,larcenies_city$yeartodate_pct_change,substring(larcenies_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2022, according to the latest data available from the New York Police Department.
+Grand larcenies so far this year are trending <h8>`r ifelse(larcenies_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(larcenies_city$yeartodate_pct_change>=0,larcenies_city$yeartodate_pct_change,substring(larcenies_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2023, according to the latest data available from the New York Police Department.
 
 However, the larceny rate over the last 12 months is <h8>`r case_when((larcenies_city$rate_last12-larcenies_city$rate_prior3years)>=0.25 ~ "up",
           (larcenies_city$rate_last12-larcenies_city$rate_prior3years)<=-0.25 ~ "down",
@@ -241,7 +241,7 @@ The city is averaging <h8>`r round(larcenies_city$last12mos/52,0)`</h8> larcenie
 
 The risk is not the same neighborhood to neighborhood.
 
-ABC7's data team looked at the New York Police Department's data by neighborhood from 2019 through `r format(larcenies_city$lastdate, "%B %d")`.
+ABC7's data team looked at the New York Police Department's data by neighborhood from 2020 through `r format(larcenies_city$lastdate, "%B %d")`.
 
 <subhead>A closer look at grand larceny by neighborhood</subhead>
 
@@ -282,8 +282,8 @@ larceniespal2 <- colorBin(c("#aecfe6",
 # Create labels for larcenies map
 larcenieslabel <- paste(sep="",
                      "<popuptitle>",
-                     larcenies_beat$yeartodate2023,
-                     ifelse(larcenies_beat$yeartodate2023==1,
+                     larcenies_beat$yeartodate2024,
+                     ifelse(larcenies_beat$yeartodate2024==1,
                             " grand larceny", " grand larcenies"),
                      "</popuptitle><br>so far this year in <b>Precinct ",
                      larcenies_beat$precinct,
@@ -292,28 +292,19 @@ larcenieslabel <- paste(sep="",
                      "</b>, home to about ",
                      prettyNum(larcenies_beat$population, big.mark=","),
                      " residents. That's ",
-                     case_when(larcenies_beat$yeartodate2023>
-                              larcenies_beat$yeartodate2022 ~ "up from ",
-                     larcenies_beat$yeartodate2023<
-                              larcenies_beat$yeartodate2022 ~ "down from ",
+                     case_when(larcenies_beat$yeartodate2024>
+                              larcenies_beat$yeartodate2023 ~ "up from ",
+                     larcenies_beat$yeartodate2024<
+                              larcenies_beat$yeartodate2023 ~ "down from ",
                      TRUE ~ "the same as the "),
-                     larcenies_beat$yeartodate2022,
-                     " at this point in 2021. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
+                     larcenies_beat$yeartodate2023,
+                     " at this point in 2023. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
 <br>
 <table>      
       <tr>
 				<th></th>
 				<th>Total</th>
 				<th>Rate</th>
-			</tr>
-			<tr>
-				<td>2019</td>
-				<td>",
-prettyNum(larcenies_beat$total19, big.mark=","),
-"</td>
-				<td>",
-prettyNum(larcenies_beat$rate19, big.mark=","),
-"</td>
 			</tr>
 			<tr>
 				<td>2020</td>
@@ -324,7 +315,7 @@ prettyNum(larcenies_beat$total20, big.mark=","),
 prettyNum(larcenies_beat$rate20, big.mark=","),
 "</td>
 			</tr>
-						<tr>
+			<tr>
 				<td>2021</td>
 				<td>",
 prettyNum(larcenies_beat$total21, big.mark=","),
@@ -333,13 +324,22 @@ prettyNum(larcenies_beat$total21, big.mark=","),
 prettyNum(larcenies_beat$rate21, big.mark=","),
 "</td>
 			</tr>
-									<tr>
+						<tr>
 				<td>2022</td>
 				<td>",
 prettyNum(larcenies_beat$total22, big.mark=","),
 "</td>
 				<td>",
 prettyNum(larcenies_beat$rate22, big.mark=","),
+"</td>
+			</tr>
+									<tr>
+				<td>2023</td>
+				<td>",
+prettyNum(larcenies_beat$total23, big.mark=","),
+"</td>
+				<td>",
+prettyNum(larcenies_beat$rate23, big.mark=","),
 "</td>
 			</tr>
 						<tr>

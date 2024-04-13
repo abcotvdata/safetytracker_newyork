@@ -399,7 +399,7 @@ L.control.zoom({ position: 'topright' }).addTo(this)
             values = sexassaults_beat$rate_last12, 
             pal = sexassaultspal1,
             position = "bottomleft", 
-            title = paste(sep="","<popuptitle>sexassaults Rate<br><popupchatter>sexassaultss/100K people<br>Citywide: ",sexassaults_city$rate_last12),
+            title = paste(sep="","<popuptitle>Sexual Assault Rate<br><popupchatter>sexassaultss/100K people<br>Citywide: ",sexassaults_city$rate_last12),
             group = "Rate",
             className = "info legend Rate") %>%
   addLegend(opacity = 0.6,

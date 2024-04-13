@@ -297,7 +297,7 @@ precinct_yearly <- precinct_crime %>% select(1,5:30,37) %>% st_drop_geometry()
 write_csv(precinct_yearly,"data/output/yearly/precinct_yearly.csv")
 
 # Now reduce the precinct down to just the columns we likely need for the tracker pages
-precinct_crime <- precinct_crime %>% select(1,4,5,6,26:29,37:41,45:56,30,43)
+precinct_crime <- precinct_crime %>% select(1,4,5,6,26:30,37:41,45:59,30,43)
 # for map/table making purposes, changing Inf and NaN in calc fields to NA
 precinct_crime <- precinct_crime %>%
   mutate_if(is.numeric, ~ifelse(. == Inf, NA, .))

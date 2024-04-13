@@ -331,7 +331,7 @@ citywide_crime$rate_prior3years <-
   round((citywide_crime$avg_prior3years/nyc_population)*100000,1)
 
 # create a quick long-term annual table
-citywide_yearly <- citywide_crime %>% select(2:26,40,33)
+citywide_yearly <- citywide_crime %>% select(2:26,41,34)
 write_csv(citywide_yearly,"data/output/yearly/citywide_yearly.csv")
 
 # add a series of csv tables for annual tracking of each crime with a tracker page

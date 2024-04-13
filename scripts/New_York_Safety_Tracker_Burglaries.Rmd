@@ -210,13 +210,13 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="cardContainer">
 <div class="card" style="background-color:#99a0a5;">
 <p>Burglaries This Year<br>
-<bignumber>`r prettyNum(burglaries_city$yeartodate2023, big.mark=",")`<br></bignumber>
+<bignumber>`r prettyNum(burglaries_city$yeartodate2024, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Through `r format(burglaries_city$lastdate, "%B %d")`</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Burglaries Last Year<br>
-<bignumber>`r prettyNum(burglaries_city$yeartodate2022, big.mark=",")`<br></bignumber>
-<p>Year To Date<br>Same Period in 2022</p>
+<bignumber>`r prettyNum(burglaries_city$yeartodate2023, big.mark=",")`<br></bignumber>
+<p>Year To Date<br>Same Period in 2023</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Burglary Rate<br>
@@ -226,11 +226,11 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Burglary Rate<br>
 <bignumber>`r burglaries_city$rate_prior3years`<br></bignumber><p>
-Per 100,000 people<br>2020 to 2022</p>
+Per 100,000 people<br>2021 to 2023</p>
 </div>
 </div>
 <br>
-Burglaries so far this year are trending <h8>`r ifelse(burglaries_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(burglaries_city$yeartodate_pct_change>=0,burglaries_city$yeartodate_pct_change,substring(burglaries_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2022, according to the latest data available from the New York Police Department.
+Burglaries so far this year are trending <h8>`r ifelse(burglaries_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(burglaries_city$yeartodate_pct_change>=0,burglaries_city$yeartodate_pct_change,substring(burglaries_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2023, according to the latest data available from the New York Police Department.
 
 However, the burglary rate over the last 12 months is <h8>`r case_when((burglaries_city$rate_last12-burglaries_city$rate_prior3years)>=0.25 ~ "up",
           (burglaries_city$rate_last12-burglaries_city$rate_prior3years)<=-0.25 ~ "down",
@@ -240,7 +240,7 @@ The city is averaging <h8>`r round(burglaries_city$last12mos/52,0)`</h8> burglar
 
 The risk is not the same neighborhood to neighborhood.
 
-ABC7's data team looked at the New York Police Department's data by neighborhood from 2019 through `r format(burglaries_city$lastdate, "%B %d")`.
+ABC7's data team looked at the New York Police Department's data by neighborhood from 2020 through `r format(burglaries_city$lastdate, "%B %d")`.
 
 <subhead>A closer look at burglaries by neighborhood</subhead>
 
@@ -281,8 +281,8 @@ burglariespal2 <- colorBin(c("#aecfe6",
 # Create labels for burglaries map
 burglarieslabel <- paste(sep="",
                      "<popuptitle>",
-                     burglaries_beat$yeartodate2023,
-                     ifelse(burglaries_beat$yeartodate2023==1,
+                     burglaries_beat$yeartodate2024,
+                     ifelse(burglaries_beat$yeartodate2024==1,
                             " burglary", " burglaries"),
                      "</popuptitle><br>so far this year in <b>Precinct ",
                      burglaries_beat$precinct,
@@ -291,28 +291,19 @@ burglarieslabel <- paste(sep="",
                      "</b>, home to about ",
                      prettyNum(burglaries_beat$population, big.mark=","),
                      " residents. That's ",
-                     case_when(burglaries_beat$yeartodate2023>
-                              burglaries_beat$yeartodate2022 ~ "up from ",
-                     burglaries_beat$yeartodate2023<
-                              burglaries_beat$yeartodate2022 ~ "down from ",
+                     case_when(burglaries_beat$yeartodate2024>
+                              burglaries_beat$yeartodate2023 ~ "up from ",
+                     burglaries_beat$yeartodate2024<
+                              burglaries_beat$yeartodate2023 ~ "down from ",
                      TRUE ~ "the same as the "),
-                     burglaries_beat$yeartodate2022,
-                     " at this point in 2021. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
+                     burglaries_beat$yeartodate2023,
+                     " at this point in 2023. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
 <br>
 <table>      
       <tr>
 				<th></th>
 				<th>Total</th>
 				<th>Rate</th>
-			</tr>
-			<tr>
-				<td>2019</td>
-				<td>",
-burglaries_beat$total19,
-"</td>
-				<td>",
-burglaries_beat$rate19,
-"</td>
 			</tr>
 			<tr>
 				<td>2020</td>
@@ -323,7 +314,7 @@ burglaries_beat$total20,
 burglaries_beat$rate20,
 "</td>
 			</tr>
-						<tr>
+			<tr>
 				<td>2021</td>
 				<td>",
 burglaries_beat$total21,
@@ -332,13 +323,22 @@ burglaries_beat$total21,
 burglaries_beat$rate21,
 "</td>
 			</tr>
-									<tr>
+						<tr>
 				<td>2022</td>
 				<td>",
 burglaries_beat$total22,
 "</td>
 				<td>",
 burglaries_beat$rate22,
+"</td>
+			</tr>
+									<tr>
+				<td>2023</td>
+				<td>",
+burglaries_beat$total23,
+"</td>
+				<td>",
+burglaries_beat$rate23,
 "</td>
 			</tr>
 						<tr>

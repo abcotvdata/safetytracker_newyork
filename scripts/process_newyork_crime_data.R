@@ -335,13 +335,13 @@ citywide_yearly <- citywide_crime %>% select(2:26,41,34)
 write_csv(citywide_yearly,"data/output/yearly/citywide_yearly.csv")
 
 # add a series of csv tables for annual tracking of each crime with a tracker page
-citywide_yearly %>% filter(crime=="Murder") %>% select(-26) %>% write_csv("data/output/yearly/murder_yearly.csv")
-citywide_yearly %>% filter(crime=="Rape") %>% select(-26) %>% write_csv("data/output/yearly/rape_yearly.csv")
-citywide_yearly %>% filter(crime=="Robbery") %>% select(-26) %>% write_csv("data/output/yearly/robbery_yearly.csv")
-citywide_yearly %>% filter(crime=="Burglary") %>% select(-26) %>% write_csv("data/output/yearly/burglary_yearly.csv")
-citywide_yearly %>% filter(crime=="Felony Assault") %>% select(-26) %>% write_csv("data/output/yearly/assault_yearly.csv")
-citywide_yearly %>% filter(crime=="Grand Larceny") %>% select(-26) %>%write_csv("data/output/yearly/larceny_yearly.csv")
-citywide_yearly %>% filter(crime=="Motor Vehicle Theft") %>% select(-26) %>% write_csv("data/output/yearly/autotheft_yearly.csv")
+citywide_yearly %>% filter(crime=="Murder") %>% select(-27) %>% write_csv("data/output/yearly/murder_yearly.csv")
+citywide_yearly %>% filter(crime=="Rape") %>% select(-27) %>% write_csv("data/output/yearly/rape_yearly.csv")
+citywide_yearly %>% filter(crime=="Robbery") %>% select(-27) %>% write_csv("data/output/yearly/robbery_yearly.csv")
+citywide_yearly %>% filter(crime=="Burglary") %>% select(-27) %>% write_csv("data/output/yearly/burglary_yearly.csv")
+citywide_yearly %>% filter(crime=="Felony Assault") %>% select(-27) %>% write_csv("data/output/yearly/assault_yearly.csv")
+citywide_yearly %>% filter(crime=="Grand Larceny") %>% select(-27) %>%write_csv("data/output/yearly/larceny_yearly.csv")
+citywide_yearly %>% filter(crime=="Motor Vehicle Theft") %>% select(-27) %>% write_csv("data/output/yearly/autotheft_yearly.csv")
 
 # just for saving tallies of broad crime categories for charts
 citywide_type <- citywide_crime %>% group_by(type) %>%

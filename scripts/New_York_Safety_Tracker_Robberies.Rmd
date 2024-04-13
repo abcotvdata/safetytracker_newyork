@@ -211,13 +211,13 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="cardContainer">
 <div class="card" style="background-color:#99a0a5;">
 <p>Robberies This Year<br>
-<bignumber>`r prettyNum(robberies_city$yeartodate2023, big.mark=",")`<br></bignumber>
+<bignumber>`r prettyNum(robberies_city$yeartodate2024, big.mark=",")`<br></bignumber>
 <p>Year To Date<br>Through `r format(robberies_city$lastdate, "%B %d")`</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Robberies Last Year<br>
-<bignumber>`r prettyNum(robberies_city$yeartodate2022, big.mark=",")`<br></bignumber>
-<p>Year To Date<br>Same Period in 2022</p>
+<bignumber>`r prettyNum(robberies_city$yeartodate2023, big.mark=",")`<br></bignumber>
+<p>Year To Date<br>Same Period in 2023</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Robbery Rate<br>
@@ -227,11 +227,11 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Robberies Rate<br>
 <bignumber>`r robberies_city$rate_prior3years`<br></bignumber><p>
-Per 100,000 people<br>2020 to 2022</p>
+Per 100,000 people<br>2021 to 2023</p>
 </div>
 </div>
 <br>
-Robberies so far this year are trending <h8>`r ifelse(robberies_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(robberies_city$yeartodate_pct_change>=0,robberies_city$yeartodate_pct_change,substring(robberies_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2022, according to the latest data available from the New York Police Department.
+Robberies so far this year are trending <h8>`r ifelse(robberies_city$yeartodate_pct_change>=0," up"," down")` `r ifelse(robberies_city$yeartodate_pct_change>=0,robberies_city$yeartodate_pct_change,substring(robberies_city$yeartodate_pct_change,2))`%</h8> compared to the same time period in 2023, according to the latest data available from the New York Police Department.
 
 However, the robbery rate over the last 12 months is <h8>`r case_when((robberies_city$rate_last12-robberies_city$rate_prior3years)>=0.25 ~ "up",
           (robberies_city$rate_last12-robberies_city$rate_prior3years)<=-0.25 ~ "down",
@@ -241,7 +241,7 @@ The city is averaging <h8>`r round(robberies_city$last12mos/52,0)`</h8> robberie
 
 The risk is not the same neighborhood to neighborhood.
 
-ABC7's data team looked at the New York Police Department's data by neighborhood from 2019 through `r format(robberies_city$lastdate, "%B %d")`.
+ABC7's data team looked at the New York Police Department's data by neighborhood from 2020 through `r format(robberies_city$lastdate, "%B %d")`.
 
 <subhead>A closer look at robberies by neighborhood</subhead>
 
@@ -282,8 +282,8 @@ robberiespal2 <- colorBin(c("#aecfe6",
 # Create labels for robberies map
 robberieslabel <- paste(sep="",
                      "<popuptitle>",
-                     robberies_beat$yeartodate2023,
-                     ifelse(robberies_beat$yeartodate2023==1,
+                     robberies_beat$yeartodate2024,
+                     ifelse(robberies_beat$yeartodate2024==1,
                             " robbery", " robberies"),
                      "</popuptitle><br>so far this year in <b>Precinct ",
                      robberies_beat$precinct,
@@ -292,28 +292,19 @@ robberieslabel <- paste(sep="",
                      "</b>, home to about ",
                      prettyNum(robberies_beat$population, big.mark=","),
                      " residents. That's ",
-                     case_when(robberies_beat$yeartodate2023>
-                              robberies_beat$yeartodate2022 ~ "up from ",
-                     robberies_beat$yeartodate2023<
-                              robberies_beat$yeartodate2022 ~ "down from ",
+                     case_when(robberies_beat$yeartodate2024>
+                              robberies_beat$yeartodate2023 ~ "up from ",
+                     robberies_beat$yeartodate2024<
+                              robberies_beat$yeartodate2023 ~ "down from ",
                      TRUE ~ "the same as the "),
-                     robberies_beat$yeartodate2022,
-                     " at this point in 2021. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
+                     robberies_beat$yeartodate2023,
+                     " at this point in 2023. Here's are the numbers and rates per 100K residents for the last 12 months vs. three prior years.
 <br>
 <table>      
       <tr>
 				<th></th>
 				<th>Total</th>
 				<th>Rate</th>
-			</tr>
-			<tr>
-				<td>2019</td>
-				<td>",
-robberies_beat$total19,
-"</td>
-				<td>",
-robberies_beat$rate19,
-"</td>
 			</tr>
 			<tr>
 				<td>2020</td>
@@ -324,7 +315,7 @@ robberies_beat$total20,
 robberies_beat$rate20,
 "</td>
 			</tr>
-						<tr>
+			<tr>
 				<td>2021</td>
 				<td>",
 robberies_beat$total21,
@@ -332,13 +323,22 @@ robberies_beat$total21,
 				<td>",
 robberies_beat$rate21,
 "</td>
-			</tr>						<tr>
+			</tr>
+						<tr>
 				<td>2022</td>
 				<td>",
 robberies_beat$total22,
 "</td>
 				<td>",
 robberies_beat$rate22,
+"</td>
+			</tr>						<tr>
+				<td>2023</td>
+				<td>",
+robberies_beat$total23,
+"</td>
+				<td>",
+robberies_beat$rate23,
 "</td>
 			</tr>
 						<tr>

@@ -366,7 +366,7 @@ newyork_autothefts_map <- leaflet(autothefts_beat, options = leafletOptions(zoom
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
   setView(-73.9, 40.75, zoom = 11) %>% 
-  addProviderTiles(provider = "CartoDB.Positron") %>%
+  addTiles(urlTemplate = "https://pmtiles-raster.launch.studioshare.wds.io/styles/white-abc/{z}/{x}/{y}.png") %>%
   addPolygons(color = "white", 
               popup = autotheftslabel,
               popupOptions = popupOptions(maxWidth ="200", 

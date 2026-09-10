@@ -382,7 +382,7 @@ newyork_murder_map <- leaflet(murders_beat, options = leafletOptions(zoomControl
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
   setView(-73.9, 40.75, zoom = 11) %>% 
-  addProviderTiles(provider = "CartoDB.Positron") %>%
+  addTiles(urlTemplate = "https://pmtiles-raster.launch.studioshare.wds.io/styles/white-abc/{z}/{x}/{y}.png") %>%
   addPolygons(color = "white", 
               popup = murderlabel,
               popupOptions = popupOptions(maxWidth ="200", 

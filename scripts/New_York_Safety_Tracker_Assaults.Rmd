@@ -368,7 +368,7 @@ newyork_assaults_map <- leaflet(assaults_beat, options = leafletOptions(zoomCont
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
   setView(-73.9, 40.75, zoom = 11) %>% 
-  addProviderTiles(provider = "CartoDB.Positron") %>%
+  addTiles(urlTemplate = "https://pmtiles-raster.launch.studioshare.wds.io/styles/white-abc/{z}/{x}/{y}.png") %>%
   addPolygons(color = "white", 
               popup = assaultlabel,
               popupOptions = popupOptions(maxWidth ="200", 

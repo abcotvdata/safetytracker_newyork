@@ -370,7 +370,7 @@ newyork_sexassaults_map <- leaflet(sexassaults_beat, options = leafletOptions(zo
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
   setView(-73.9, 40.75, zoom = 11) %>% 
-  addProviderTiles(provider = "CartoDB.Positron") %>%
+  addTiles(urlTemplate = "https://pmtiles-raster.launch.studioshare.wds.io/styles/white-abc/{z}/{x}/{y}.png") %>%
   addPolygons(color = "white", 
               popup = sexassaultslabel,
               popupOptions = popupOptions(maxWidth ="200", 
